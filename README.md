@@ -2,8 +2,7 @@
 
 <img src="https://myreadme.vercel.app/api/embed/ewdlop?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=ewdlop&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi" />
-
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=ewdlop&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi" />[![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/api?username=ewdlop)](https://github.com/madushadhanushka/github-readme)
 <!--
 **ewdlop/ewdlop** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
