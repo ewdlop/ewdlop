@@ -73,6 +73,37 @@ footer p {
     color: #007bff; /* Icon hover color */
 }
 
+.social-media-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* This will center the icons horizontally in their container */
+    gap: 10px; /* Adjust the space between icons as needed */
+}
+
+.social-media-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; /* Removes underline from links */
+}
+
+.social-media-icons a.facebook .fab,
+.social-media-icons a.twitter .fab,
+.social-media-icons a.instagram .fab,
+.social-media-icons a.linkedin .fab,
+.social-media-icons a.github .fab {
+    width: 24px; /* Size of the icons */
+    height: 24px; /* Size of the icons */
+    font-size: 24px; /* Adjust font-size to change the icon size */
+}
+
+/* Since the WoW logo is an image and not a font icon, set its dimensions directly */
+.social-media-icons a.wow-logo img {
+    width: 24px; /* Match the icon sizes */
+    height: 24px; /* Match the icon sizes */
+}
+
+
 /* Portfolio Section */
 .portfolio {
     /* other styles... */
@@ -101,4 +132,17 @@ footer p {
 
 .button:hover {
     background-color: #0056b3; /* Or a darker shade of your existing button color */
+}
+
+.wow-logo img {
+    width: 24px; /* Adjust the size as needed */
+    height: 24px;;
+    height: auto; /* Keeps the aspect ratio intact */
+    display: block; /* To prevent inline default spacing */
+    margin: 0 auto; /* Centers the image in its container if the container has a set width */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.wow-logo:hover img {
+    transform: scale(1.1); /* Slightly enlarges the image on hover */
 }
