@@ -164,6 +164,10 @@ footer p {
     transform: scale(1.1); /* Slightly enlarges the image on hover */
 }
 
+.blog-section {
+    /* existing styles for your blog section... */
+}
+
 .love-yourself-message {
     margin: 30px auto; /* Centers the message and adds space around it */
     padding: 20px;
@@ -179,6 +183,15 @@ footer p {
     font-size: 1.2em;
     color: #4a235a;
     line-height: 1.6;
+    margin-bottom: 0; /* Removes bottom margin from the paragraph */
+}
+
+.love-yourself-message .author-signature {
+    font-family: 'Georgia', serif;
+    font-size: 1em;
+    font-style: italic;
+    color: #6c3483;
+    margin-top: 15px; /* Adds a little space above the author's signature */
 }
 
 @media (max-width: 767px) {
@@ -186,7 +199,8 @@ footer p {
         margin: 20px;
         padding: 15px;
     }
-    .love-yourself-message p {
+    .love-yourself-message p,
+    .love-yourself-message .author-signature {
         font-size: 1em;
     }
 }
