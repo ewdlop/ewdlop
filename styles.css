@@ -163,3 +163,30 @@ footer p {
 .diablo4-logo:hover img {
     transform: scale(1.1); /* Slightly enlarges the image on hover */
 }
+
+.love-yourself-message {
+    margin: 30px auto; /* Centers the message and adds space around it */
+    padding: 20px;
+    max-width: 600px; /* Sets a max width for the message */
+    background: linear-gradient(135deg, #f8cdda, #f1a7f1);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centers the text */
+}
+
+.love-yourself-message p {
+    font-family: 'Georgia', serif;
+    font-size: 1.2em;
+    color: #4a235a;
+    line-height: 1.6;
+}
+
+@media (max-width: 767px) {
+    .love-yourself-message {
+        margin: 20px;
+        padding: 15px;
+    }
+    .love-yourself-message p {
+        font-size: 1em;
+    }
+}
