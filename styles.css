@@ -20,6 +20,9 @@ header {
     color: white;
     padding: 1rem 0;
     text-align: center;
+    position: sticky;
+    top: 0; 
+    z-index: 100;
 }
 
 header a {
@@ -36,6 +39,8 @@ header a:hover {
 .main {
     text-align: center;
     padding: 2rem;
+    position: relative;
+    z-index: 1; /* Ensures content stays above the canvas */
 }
 
 .main .intro img {
@@ -56,6 +61,29 @@ footer p {
     margin: 0;
     font-size: 0.8rem;
 }
+
+
+#myCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensures it stays in the background */
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.5); /* white with 50% opacity */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the panel look */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.intro, #about, #portfolio, #blog, #contact {
+    background-color: rgb(219 219 219 / 93%); /* Slightly more opaque for text sections */
+}
+
 
 .social-media-icons {
     text-align: center;
