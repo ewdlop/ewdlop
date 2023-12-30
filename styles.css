@@ -103,6 +103,11 @@ footer p {
     height: 24px; /* Match the icon sizes */
 }
 
+.social-media-icons a.diablo4-logo img {
+    width: 24px; /* Match the icon sizes */
+    height: 24px; /* Match the icon sizes */
+}
+
 
 /* Portfolio Section */
 .portfolio {
@@ -144,5 +149,17 @@ footer p {
 }
 
 .wow-logo:hover img {
+    transform: scale(1.1); /* Slightly enlarges the image on hover */
+}
+.diablo4-logo img {
+    width: 24px; /* Adjust the size as needed */
+    height: 24px;;
+    height: auto; /* Keeps the aspect ratio intact */
+    display: block; /* To prevent inline default spacing */
+    margin: 0 auto; /* Centers the image in its container if the container has a set width */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.diablo4-logo:hover img {
     transform: scale(1.1); /* Slightly enlarges the image on hover */
 }
