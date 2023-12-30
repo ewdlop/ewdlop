@@ -72,3 +72,33 @@ footer p {
 .social-media-icons a:hover {
     color: #007bff; /* Icon hover color */
 }
+
+/* Portfolio Section */
+.portfolio {
+    /* other styles... */
+}
+
+/* Container for the CV link */
+.cv-link {
+    display: flex;
+    justify-content: center; /* This centers it horizontally */
+    align-items: center; /* This centers it vertically if needed */
+    height: 100px; /* Adjust the height as needed */
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px; /* Adjust or remove as needed */
+    background-color: #007bff; /* Or your existing button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Or a darker shade of your existing button color */
+}
