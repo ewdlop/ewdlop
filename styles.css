@@ -56,3 +56,19 @@ footer p {
     margin: 0;
     font-size: 0.8rem;
 }
+
+.social-media-icons {
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-media-icons a {
+    margin: 0 10px;
+    color: #333; /* Icon color */
+    font-size: 24px; /* Icon size */
+    transition: color 0.3s;
+}
+
+.social-media-icons a:hover {
+    color: #007bff; /* Icon hover color */
+}
