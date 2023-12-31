@@ -73,8 +73,10 @@
     
     // Function to resize the canvas to full screen
     function resizeCanvas() {
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
+        //canvas.width = window.innerWidth/3;
+        canvas.width = 640;
+        canvas.height = 360;
+        //canvas.height = window.innerHeight/3;
     }
     
     // Function to draw on the canvas (example content)
