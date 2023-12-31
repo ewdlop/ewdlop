@@ -213,39 +213,49 @@ section {
     /* existing styles for your blog section... */
 }
 
-.love-yourself-message {
-    margin: 30px auto; /* Centers the message and adds space around it */
+#blog {
     padding: 20px;
-    max-width: 600px; /* Sets a max width for the message */
-    background: linear-gradient(135deg, #f8cdda, #f1a7f1);
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Centers the text */
+    max-width: 800px; /* Adjust based on preference */
+    margin: auto;
+}
+
+#blog h2 {
+    text-align: center;
+    color: #333; /* Or any color that fits your design */
+    margin-bottom: 30px; /* Provides space between the title and messages */
+}
+
+.messages-container {
+    display: flex;
+    flex-direction: column; /* Stack the messages vertically */
+    gap: 20px; /* Adjust the gap between each message */
+}
+
+.love-yourself-message {
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+    border-radius: 15px; /* Rounded corners for a softer look */
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    display: flex; /* Enable flexbox for internal layout */
+    flex-direction: column; /* Stack p elements vertically */
 }
 
 .love-yourself-message p {
-    font-family: 'Georgia', serif;
-    font-size: 1.2em;
-    color: #4a235a;
-    line-height: 1.6;
-    margin-bottom: 0; /* Removes bottom margin from the paragraph */
-}
-
-.love-yourself-message .author-signature {
-    font-family: 'Georgia', serif;
     font-size: 1em;
-    font-style: italic;
-    color: #6c3483;
-    margin-top: 15px; /* Adds a little space above the author's signature */
+    line-height: 1.6; /* Improved readability */
+    color: #444; /* Slightly darker color for text */
 }
 
+.author-signature {
+    text-align: right;
+    font-style: italic;
+    margin-top: 10px;
+    color: #555; /* Subtle color difference for signature */
+}
+
+/* Responsive Design: Adjusting for smaller screens */
 @media (max-width: 767px) {
-    .love-yourself-message {
-        margin: 20px;
-        padding: 15px;
-    }
-    .love-yourself-message p,
-    .love-yourself-message .author-signature {
-        font-size: 1em;
+    .messages-container {
+        flex-direction: column;
     }
 }
