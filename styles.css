@@ -220,7 +220,7 @@ section {
 
 .messages-container {
     display: flex;
-    flex-direction: column; /* Stack the messages vertically */
+    flex-direction: row; /* Stack the messages vertically */
     gap: 20px; /* Adjust the gap between each message */
 }
 
