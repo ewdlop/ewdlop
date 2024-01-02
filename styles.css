@@ -73,7 +73,7 @@ section {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
-.intro, #about, #portfolio, #video, #blog, #games, #contact {
+.intro, #about, #portfolio, #video, #blog, #games, #esme, #contact {
     background-color: rgb(219 219 219 / 93%); /* Slightly more opaque for text sections */
 }
 
