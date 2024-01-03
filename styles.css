@@ -73,7 +73,7 @@ section {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
-.intro, #about, #portfolio, #video, #blog, #games, #esme, #contact {
+.intro, #about, #portfolio, #video, #blog, #games, #esme, #twitch, #contact {
     background-color: rgb(219 219 219 / 93%); /* Slightly more opaque for text sections */
 }
 
@@ -106,6 +106,12 @@ section {
     align-items: center;
     justify-content: center;
     text-decoration: none; /* Removes underline from links */
+}
+
+#twitch a.twitch .fab{
+    width: 256px; /* Size of the icons */
+    height: 256px; /* Size of the icons */
+    font-size: 256px; /* Adjust font-size to change the icon size */
 }
 
 .social-media-icons a.facebook .fab,
