@@ -258,3 +258,19 @@ section {
         flex-direction: column;
     }
 }
+.box {
+    height: 25px;
+    width: 25px;
+}
+
+.green {
+    background-color: green;
+}
+
+.purple {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
