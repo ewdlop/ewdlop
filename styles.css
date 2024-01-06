@@ -73,7 +73,7 @@ section {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
-.intro, #about, #portfolio, #video, #blog, #games, #esme, #twitch, #contact {
+.intro, #about, #portfolio, #video, #image, #blog, #games, #esme, #twitch, #contact {
     background-color: rgb(219 219 219 / 93%); /* Slightly more opaque for text sections */
 }
 
@@ -273,4 +273,23 @@ section {
 
 .blue {
     background-color: blue;
+}
+
+.masonry {
+    /* This will create the masonry effect with columns */
+    column-count: 4;
+    column-gap: 1em;
+    }
+
+.item {
+    /* This will break the inside items into separate points */
+    break-inside: avoid;
+    margin-bottom: 1em;
+}
+
+/* Adding responsiveness */
+@media (max-width: 768px) {
+.masonry {
+    column-count: 2;
+}
 }
