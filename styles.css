@@ -279,12 +279,11 @@ section {
     /* This will create the masonry effect with columns */
     column-count: 4;
     column-gap: 1em;
-    }
+}
 
 .item {
     /* This will break the inside items into separate points */
-    break-inside: avoid;
-    margin-bottom: 1em;
+    width: 350px;
 }
 
 /* Adding responsiveness */
