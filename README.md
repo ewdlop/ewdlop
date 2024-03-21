@@ -12,7 +12,7 @@ The information shared through this GitHub channel, including but not limited to
 
 I retain the absolute discretion to remove or terminate access to any of my repositories and digital files—regardless of their form or the time of their creation—if they are found to be inappropriate, offensive, misleading, or potentially harmful in any way. The utilization of any information obtained from this channel is entirely at your own risk. For matters requiring expert advice, I strongly recommend consulting with a qualified professional in the relevant field.
 
-# inquiry and Dialogue Before Legal Measures
+# Inquiry and Dialogue Before Legal Measures
 If you have any questions or wish to discuss the content, practices, or policies related to this GitHub channel, I invite you to contact me directly prior to pursuing legal action. This approach is encouraged to facilitate a clear understanding and, where possible, to address and resolve concerns through open dialogue.
 
 For inquiries, please email me at ray810815@gmail.com providing a clear description of your concern or question. I am committed to engaging with genuine inquiries in a timely manner, aiming for clarity and mutual respect in all interactions.
