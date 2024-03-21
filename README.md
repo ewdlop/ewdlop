@@ -8,6 +8,6 @@ I am currently cleaning up my repos :relaxed:
 
 Clean up/Delete bad repos and bad files, etc.
 
-The content provided by github channel and here, including but not limited to financial, legal, medical, or other types of advice, is for informational purposes only and should not be considered professional advice. The views expressed are my own and do not represent those of any entities I am affiliated with.
+The information shared through this GitHub channel, including but not limited to insights on finance, law, healthcare, and other professional fields, is provided solely for general informational purposes. It is not intended to serve as a substitute for professional advice. The opinions and views presented are strictly my own and do not reflect the positions or beliefs of any organizations or entities with which I may be associated.
 
-I reserve the right to delete any of my repos and files of any digital fom, past, present, and future, that are/were deem inappropriate, offensive, misleading, or otherwise harmful. Use of the information provided is at your own risk, and you should consult with a professional where appropriate.
+I retain the absolute discretion to remove or terminate access to any of my repositories and digital files—regardless of their form or the time of their creation—if they are found to be inappropriate, offensive, misleading, or potentially harmful in any way. The utilization of any information obtained from this channel is entirely at your own risk. For matters requiring expert advice, I strongly recommend consulting with a qualified professional in the relevant field.
