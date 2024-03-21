@@ -16,11 +16,11 @@ External software, libraries, or tools not developed by the owner are the proper
 
 Links to third-party sites are provided for convenience only. We are not responsible for the content, practices, or policies of these sites.
 
-#Intellectual Property
+# Intellectual Property
 
 Personal artworks, designs, and digital creations by the owner are for non-commercial, illustrative purposes only. Redistribution or commercial use without express permission is prohibited.
 
-#User Contributions
+# User Contributions
 
 Users are responsible for the content they post, including but not limited to comments, discussions, and shared media. The platform does not endorse or verify the accuracy of user-generated content.
 
