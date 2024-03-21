@@ -1,16 +1,16 @@
-#General Disclaimer
+# General Disclaimer
 
 Owner: Raymond Pu Yu Lei (雷菩宇) - Owner and maintainer of the Ewdlop repositories on GitHub.
 
 Notice: By accessing and using the Ewdlop repositories, you acknowledge and agree to the following terms and disclaimers:
 
-#Liability
+# Liability
 
 The owner disclaims any liability for the use, distribution, or reliance on any digital assets, materials, or content within these repositories. This includes, but is not limited to, third-party software, libraries, music, sound files, AI-generated content, personal artworks, videos, and documentation.
 
 Users are responsible for complying with all applicable laws and ensuring that their use of materials does not infringe upon the rights of any third party.
 
-#Third-Party Content
+# Third-Party Content
 
 External software, libraries, or tools not developed by the owner are the property of their respective owners. The owner bears no responsibility for their legality, functionality, or any risks they may pose.
 
@@ -24,7 +24,7 @@ Personal artworks, designs, and digital creations by the owner are for non-comme
 
 Users are responsible for the content they post, including but not limited to comments, discussions, and shared media. The platform does not endorse or verify the accuracy of user-generated content.
 
-#Compliance and Conduct
+# Compliance and Conduct
 
 The platform is not a venue for defamation, rumor-spreading, or engaging in illegal activities. Users are expected to adhere to legal standards and refrain from activities that could lead to criminal liability or civil lawsuits.
 
@@ -32,11 +32,11 @@ The platform is not a venue for defamation, rumor-spreading, or engaging in ille
 
 The platform and all contents are provided "as is" without any warranty, express or implied. The owner shall not be liable for any damages resulting from the use or inability to use the platform or its content.
 
-#Changes to Disclaimer
+# Changes to Disclaimer
 
 This disclaimer is subject to change at any time. Continued use of the repositories after changes implies acceptance of the new terms.
 
-#InTentStudio Disclaimer
+# InTentStudio Disclaimer
 
 Nature: Personal, non-commercial educational studio.
 
@@ -48,11 +48,11 @@ Intellectual Property: Content used for educational purposes must respect the ri
 
 No Warranty and Limitation of Liability: Content is provided "as is". InTentStudio and its affiliates will not be liable for any damages or losses arising from use.
 
-#Acknowledgment
+# Acknowledgment
 
 By engaging with Ewdlop repositories or InTentStudio, you acknowledge and agree to abide by these terms and disclaimers, understanding your responsibility in contributing to a respectful and legally compliant community.
 
-#Changes to Disclaimers and Privacy Terms
+# Changes to Disclaimers and Privacy Terms
 
 Adaptation and Evolution: The digital landscape and our understanding of privacy and liability are constantly evolving. As such, changes to our disclaimers, terms of use, and privacy policies may occur to reflect new legal standards, technological advancements, or changes in our operational practices.
 
