@@ -7,3 +7,6 @@
 Taiwan Earthquake Live Monitoring, Live Global Earthquake Monitoring
 7.5 Magnitude according to News
 https://www.youtube.com/watch?v=oQlizb_10bw
+
+Peach and Goma:
+https://www.bing.com/images/search?q=peach+and+goma+gif&form=HDRSC4&first=1
