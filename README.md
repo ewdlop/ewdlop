@@ -2,13 +2,11 @@
 
 ![peach-and-goma](https://github.com/ewdlop/ewdlop/assets/25368970/3afe1ba9-56b9-4efe-a48e-331f47c101c9)
 
-
-祝大家平安. I hope everyone is safe.
-Strong Earthquake in New Jersey 🚨 | Live Global Earthquake Monitoring
-https://www.youtube.com/watch?v=oQlizb_10bw
-
 Peach and Goma:
 https://www.bing.com/images/search?q=peach+and+goma+gif&form=HDRSC4&first=1
 
-Cute Baby Bunny Washing Her Face
-https://www.youtube.com/watch?v=_v94XqFW4Qw
+
+
+![b0687d585fd50b4841de0b4ba2493087](https://github.com/ewdlop/ewdlop/assets/25368970/5c25a932-5dbe-4e59-93d1-44d33c082aae)
+vs
+![images](https://github.com/ewdlop/ewdlop/assets/25368970/2accd32e-8cfa-4351-8e8d-257e4e3b2ec5)
