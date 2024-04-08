@@ -4,5 +4,3 @@ https://peachandgoma.com/pages/about
 
 Total Solar Eclipse LIVE: Solar Eclipse to be Visible in US, Canada, Mexico | Solar Eclipse | IN18L
 https://www.youtube.com/watch?v=IJYuVcZIObs
-
-:
