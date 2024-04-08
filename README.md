@@ -1,7 +1,3 @@
-該吃藥啦!
-
-![peach-and-goma](https://github.com/ewdlop/ewdlop/assets/25368970/3afe1ba9-56b9-4efe-a48e-331f47c101c9)
-
 Peach and Goma:
 https://www.bing.com/images/search?q=peach+and+goma+gif&form=HDRSC4&first=1
 https://peachandgoma.com/pages/about
@@ -13,3 +9,7 @@ VS
 
 
 ![dc84234498c34241b7e27e554f40ce28](https://github.com/ewdlop/ewdlop/assets/25368970/f0b988b2-96dd-45c2-beb9-82012a16ab22)
+
+該吃藥啦!
+
+![peach-and-goma](https://github.com/ewdlop/ewdlop/assets/25368970/3afe1ba9-56b9-4efe-a48e-331f47c101c9)
