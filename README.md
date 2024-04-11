@@ -6,4 +6,8 @@ https://peachandgoma.com/pages/about
 
 I drove both
 
-![320px-Broken-promises-db](https://github.com/ewdlop/ewdlop/assets/25368970/dcf26667-3167-4b88-b044-4cd073617101)
+I learned about this when I was in College
+
+<img width="425" alt="Time-evolution-of-the-scale-factor-in-arbitrary-units-for-different-cosmological-models (1)" src="https://github.com/ewdlop/ewdlop/assets/25368970/874969ce-80e7-4d37-a749-41538eedc052">
+
+The gravity of the situation is heavy, but I am light as a feather.
