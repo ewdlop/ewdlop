@@ -10,3 +10,6 @@ Be Happy Ray you get this..
 plus how do I get this stuff to you...?
 
 Ray: hmm depends....also why am i feel so dizzy right now ahh...need to laydown really quick...sigh
+
+
+Contingency Contingency Contingency!
