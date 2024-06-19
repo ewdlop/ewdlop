@@ -1,8 +1,9 @@
 ### Hi there 👋
 
-Peach and Goma:
 
 [Personal Web Page](https://ewdlop.github.io/personal-web-page/)
+
+Peach and Goma:
 
 https://www.bing.com/images/search?q=peach+and+goma+gif&form=HDRSC4&first=1
 
