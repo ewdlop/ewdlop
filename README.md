@@ -1,5 +1,6 @@
 ### Hi there 👋
 
+<img src="https://komarev.com/ghpvc/?username=ewdlop&style=flat-square&color=blue" alt="GitHub-Profile-Views" align="right"/>
 
 [Personal Web Page](https://ewdlop.github.io/personal-web-page/)
 
