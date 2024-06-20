@@ -1,5 +1,6 @@
 ### Hi there 👋
 
+[comment]: <> (did i setup this right)
 <img src="https://komarev.com/ghpvc/?username=randommysticalperson&style=flat-square&color=blue" alt="GitHub-Profile-Views" align="right"/>
 
 [Personal Web Page](https://ewdlop.github.io/personal-web-page/)
