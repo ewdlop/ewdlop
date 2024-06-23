@@ -16,7 +16,7 @@ resetted with https://github.com/antonkomarev/github-profile-views-counter?tab=r
 <img src="https://komarev.com/ghpvc/?username=ewdlop&style=flat-square&color=blue&label=page+hit" alt="GitHub-Profile-Views" align="right"/> 
 --->
 
-<img src="https://komarev.com/ghpvc/?username=ewdlop&style=flat-square&color=blue&label=funny+page+hit+totally&base=999999999999999999" alt="GitHub-Profile-Views" align="right"/>
+<img src="https://komarev.com/ghpvc/?username=ewdlop&style=flat-square&color=blue&label=funny+page+hit+totally&base=13787002024000" alt="GitHub-Profile-Views" align="right"/>
 
 [Personal Web Page](https://ewdlop.github.io/personal-web-page/)
 
