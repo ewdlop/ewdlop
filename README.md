@@ -16,12 +16,12 @@ resetted with https://github.com/antonkomarev/github-profile-views-counter?tab=r
 <img src="https://komarev.com/ghpvc/?username=ewdlop&style=flat-square&color=blue&label=page+hit" alt="GitHub-Profile-Views" align="right"/> 
 --->
 
-<img src="https://komarev.com/ghpvc/?username=ewdlop&style=flat-square&color=blue&label=page+hit" alt="GitHub-Profile-Views" align="right"/>
+<img src="https://komarev.com/ghpvc/?username=ewdlop&style=flat-square&color=blue&label=funny+page+hit+totally&base=999999999999999999" alt="GitHub-Profile-Views" align="right"/>
 
 [Personal Web Page](https://ewdlop.github.io/personal-web-page/)
 
 <!---it is not free --->
-> [The count might be not accurate(include my own hits)](https://github.com/antonkomarev/github-profile-views-counter?tab=readme-ov-file#why-does-the-counter-increase-every-time-the-page-is-reloaded)
+> [The count is not accurate(include my own hits)](https://github.com/antonkomarev/github-profile-views-counter?tab=readme-ov-file#why-does-the-counter-increase-every-time-the-page-is-reloaded)
 
 ## Peach and Goma:
 
