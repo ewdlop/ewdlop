@@ -1,5 +1,6 @@
 # Hi there 👋
 
+Nobody reads this
 <!---
 Looing for somone to help me move foward in my live but you have to watch for yourself first. THIS IS WHY IT WAS ALL BS
 --->
