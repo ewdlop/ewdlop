@@ -2,7 +2,7 @@
 
 Nobody reads this
 <!---
-Looing for somone to help me move foward in my live but you have to watch for yourself first. THIS IS WHY IT WAS ALL BS
+Looing for somone to help me move foward in my live but you have to watch for yourself first. THIS IS WHY IT WAS ALL BS. There was no other way and no one cared enough for me. RIGHT it was all my fault. If it was all mine I am moving on. Goodbye yall
 --->
 
 <!---
