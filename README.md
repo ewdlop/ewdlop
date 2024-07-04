@@ -1,6 +1,10 @@
 # Hi there 👋
 
 <!---
+Looing for somone to help me move foward in my live but you have to watch for yourself first. THIS IS WHY IT WAS ALL BS
+--->
+
+<!---
 [comment]: <> ( did i setup this profile visit counter wrong =====================================><img src="https://komarev.com/ghpvc/?username=randommysticalperson&style=flat-square&color=blue" alt="GitHub-Profile-Views" align="right"/> 
 
 [comment] <> (was this not intended? [image](https://github.com/ewdlop/ewdlop/assets/25368970/e39fa466-d00e-4b40-8c0b-53196abf1912) ) 
