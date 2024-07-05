@@ -51,6 +51,9 @@ https://www.youtube.com/@PeachLovesGoma
 ![IMG_3578](https://github.com/ewdlop/ewdlop/assets/25368970/2afe2cbb-a6e6-4b30-bc20-6dbcd8007072)
 
 ## I need money for real unless you want me to plan money tree. Does that even legal in America? Or just keep printing energy and see how that goes I guess. #UOLO
-(Mabye I am violating term of use from TD bank I dont know and I am not sure. Too much text to read)
-4261662146
-0312-01360
+
+(Maybe I am violating term of use from TD bank I dont know and I am not sure. Too much text to read)
+
+TD Banking Account: 4261662146
+
+Routing Number: 0312-01360
