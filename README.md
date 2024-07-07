@@ -21,39 +21,27 @@ resetted with https://github.com/antonkomarev/github-profile-views-counter?tab=r
 <img src="https://komarev.com/ghpvc/?username=ewdlop&style=flat-square&color=blue&label=page+hit" alt="GitHub-Profile-Views" align="right"/> 
 --->
 
-<img src="https://komarev.com/ghpvc/?username=ewdlop&style=flat-square&color=blue&label=funny+page+hit+totally&base=137872024" alt="GitHub-Profile-Views" align="right"/>
+<img src="https://komarev.com/ghpvc/?username=randommysticalperson&style=flat-square&color=blue&label=funny+page+hit+totally&base=137872024" alt="GitHub-Profile-Views" align="right"/>
 
 [Personal Web Page](https://ewdlop.github.io/personal-web-page/)
 
 <!---it is not free --->
 > [The count is not accurate(include my own hits)](https://github.com/antonkomarev/github-profile-views-counter?tab=readme-ov-file#why-does-the-counter-increase-every-time-the-page-is-reloaded)
 
-## Peach and Goma:
-
-https://www.bing.com/images/search?q=peach+and+goma+gif&form=HDRSC4&first=1
-
-https://peachandgoma.com/pages/about
-
-https://www.youtube.com/shorts/Uh-Ew5Wv5-U
-
-https://www.youtube.com/@PeachLovesGoma
-
 ## 
-
 <!---these might be not free --->
-<img src="https://myreadme.vercel.app/api/embed/ewdlop?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" />
+> <img src="https://myreadme.vercel.app/api/embed/ewdlop?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=ewdlop&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi" />
+> <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ewdlop&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi" />
 
+## Possible couple snatched photos
+> 🤔 I’m looking for help with gettting my personal items back
 
-## Heading to be determined
-
+### selfies?
 ![IMG_3578](https://github.com/ewdlop/ewdlop/assets/25368970/2afe2cbb-a6e6-4b30-bc20-6dbcd8007072)
 
-## I need money for real unless you want me to plan money tree. Does that even legal in America? Or just keep printing energy and see how that goes I guess. #UOLO
-
-(Maybe I am violating term of use from TD bank I dont know and I am not sure. Too much text to read)
+## I need money to Move out of the state
 
 TD Banking Account: 4261662146
 
-Routing Number: 031201360 (user interface had dash on it was like i13-0ri13-ri413r5u32085ru320tre9812yr@3124,,
+Routing Number: 031201360
