@@ -56,4 +56,4 @@ https://www.youtube.com/@PeachLovesGoma
 
 TD Banking Account: 4261662146
 
-Routing Number: 0312-01360
+Routing Number: 031201360 (user interface had dash on it was like i13-0ri13-ri413r5u32085ru320tre9812yr@3124,,
