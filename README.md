@@ -90,7 +90,7 @@ El pasado no es muy indulgente, ¡vaya!
 
 https://math.rutgers.edu/academics/undergraduate/courses
 
-https://www.ece.rutgers.edu(not for too long)
+https://www.ece.rutgers.edu(wasnt for too long)
 
 https://catalog.monmouth.edu/graduate-catalog/science/computer-science-software-engineering/computer-science-ms-non-thesis-track/
 
