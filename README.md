@@ -1,4 +1,16 @@
-##
+# GitHub About
+
+https://github.com/about
+https://github.com/about/developer-policy
+
+## Git/GitHub Manual
+https://git-scm.com/doc
+https://githubtraining.github.io/training-manual/#/
+https://www.freecodecamp.org/news/guide-to-git-github-for-beginners-and-experienced-devs/
+https://docs.github.com/en/copilot/quickstart
+
+## GitHub Universe 2024
+https://reg.githubuniverse.com/flow/github/universe24/attendee-portal/page/sessioncatalog?search.deliveryformat=1692799009854004CQlx&utm_source=github&utm_medium=banner&utm_campaign=24banner16li
 
 ### 修正後的句子
 "The past is not very forgiving, yay."
