@@ -81,3 +81,17 @@ El pasado no es muy indulgente, ¡vaya!
 ## Most Used Lanaugage
 
 [Fill in blank]
+
+## My Education Background
+
+[https://newbrunswick.rutgers.edu/academics/schools-colleges/school-of-arts-and-sciences](https://sasundergrad.rutgers.edu/major/major-minor-details/1729-mathematics)
+
+[https://www.physics.rutgers.edu/](https://physics.rutgers.edu/academics/undergraduate-program/why-physics-astrophysics)
+
+https://math.rutgers.edu/academics/undergraduate/courses
+
+https://www.ece.rutgers.edu(not for too long)
+
+https://catalog.monmouth.edu/graduate-catalog/science/computer-science-software-engineering/computer-science-ms-non-thesis-track/
+
+https://ai.engineering.columbia.edu/ (current)
