@@ -95,3 +95,7 @@ https://www.ece.rutgers.edu(wasnt for too long)
 https://catalog.monmouth.edu/graduate-catalog/science/computer-science-software-engineering/computer-science-ms-non-thesis-track/
 
 https://ai.engineering.columbia.edu/ (current)
+
+and Working in Industry/Companies....
+
+##
