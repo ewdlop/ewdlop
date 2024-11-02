@@ -5,8 +5,11 @@ https://github.com/about/developer-policy
 
 ## Git/GitHub Manual
 https://git-scm.com/doc
+
 https://githubtraining.github.io/training-manual/#/
+
 https://www.freecodecamp.org/news/guide-to-git-github-for-beginners-and-experienced-devs/
+
 https://docs.github.com/en/copilot/quickstart
 
 ## GitHub Universe 2024
