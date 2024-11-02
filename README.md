@@ -96,7 +96,7 @@ https://catalog.monmouth.edu/graduate-catalog/science/computer-science-software-
 
 https://ai.engineering.columbia.edu/ (current)
 
-and Working in Industry/Companies....
+and Working in Industry/Companies....of 
 
 ##
 https://github.com/ewdlop/ewdlop
