@@ -161,3 +161,5 @@ Es crucial para las organizaciones fomentar un ambiente de confianza e integrida
 **文言文：**
 
 所述行為合於**自致虛病**，常稱**孟喬森症**。人故意造病以求施憫。若此行於職場，如IT專員以假患增己職，乃**職場孟喬森症**，意在藉虛困獲益。
+
+paraonia and ?
