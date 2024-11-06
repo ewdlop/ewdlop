@@ -1,3 +1,7 @@
+# GitHub News
+
+https://github.com/github-copilot/workspace_waitlist_signup
+
 # GitHub About
 
 https://github.com/about
