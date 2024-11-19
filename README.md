@@ -37,3 +37,6 @@ Start a YouTube channel with short, family-friendly coding projects or mini-tuto
 
 Set Up a 'Digital Handyman' Service
 Market yourself as a digital handyman who can help families with small tech tasks like setting up a smart home, troubleshooting common tech issues, or teaching digital literacy basics to kids or adults
+
+
+https://opencollective.com/pnpm
