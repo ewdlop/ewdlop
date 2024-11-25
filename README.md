@@ -40,3 +40,6 @@ Market yourself as a digital handyman who can help families with small tech task
 
 
 https://opencollective.com/pnpm
+
+
+Ｍonday 2:26 PM 
