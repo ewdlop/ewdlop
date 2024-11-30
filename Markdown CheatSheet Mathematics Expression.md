@@ -1,3 +1,5 @@
+https://docs.mathjax.org/en/latest/
+
 Without losing the generality
 
 **The Cauchy-Schwarz Inequality**
