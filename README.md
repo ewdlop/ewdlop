@@ -1,5 +1,9 @@
 [Coffee Time Lofi 🌟 1 Hour Cafe Song ☕ Relaxing Day 🍯 cute & relaxing music 🍩 Make Your Day Better](https://www.youtube.com/watch?v=hq_aXywreX0)
 
+# Raymond Lei's Private Library Cache
+
+## Job Offering:
+
 ChatGPT: Here are some ideas for making quick income as a developer that can be family-oriented or help support family needs:
 
 Freelance Gigs on Upwork or Fiverr
@@ -41,7 +45,8 @@ Market yourself as a digital handyman who can help families with small tech task
 
 https://opencollective.com/pnpm
 
-
 Ｍonday 2:26 PM 
+
+## Jazz Music
 
 [池魚 - 黃昏 「黃昏的地平線 劃出一句離別」【動態歌詞】♪](https://www.youtube.com/watch?v=V90AJhsXIFQ&list=RDV90AJhsXIFQ&start_radio=1)
