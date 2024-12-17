@@ -1,5 +1,7 @@
 [Coffee Time Lofi 🌟 1 Hour Cafe Song ☕ Relaxing Day 🍯 cute & relaxing music 🍩 Make Your Day Better](https://www.youtube.com/watch?v=hq_aXywreX0)
 
+[Google AI Studio](https://aistudio.google.com/prompts/new_chat?utm_source=google-hpp&utm_medium=embedded_marketing_link&utm_campaign=dec&utm_content=dv2)
+
 # Raymond Lei's Private Library Cache
 
 ## Job Offering:
