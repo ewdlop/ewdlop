@@ -2,7 +2,7 @@
 
 [Google AI Studio](https://aistudio.google.com/prompts/new_chat?utm_source=google-hpp&utm_medium=embedded_marketing_link&utm_campaign=dec&utm_content=dv2)
 
-# Raymond Lei's Private Library Cache - Belongs to Peperomia
+# Raymond Lei's Private Library Cache - Belongs to Peperomia 
 
 ## Job Offering:
 
