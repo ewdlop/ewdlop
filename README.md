@@ -87,7 +87,7 @@ Legally speaking, **user agreements** or **terms of service** typically do not "
 The user agreement doesn't "care" if you read it or not because the act of agreeing typically binds you. But not reading could leave you vulnerable to agreeing to terms you might not want. Always skim critical sections like **liability, arbitration, cancellation, and data use clauses**.
 
 
-## If you need assists with:
+## If you need assistance with:
 
 Translating Chinese to English please let me know!
 
