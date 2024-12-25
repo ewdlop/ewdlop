@@ -92,8 +92,66 @@ Legally speaking, **user agreements** or **terms of service** typically do not "
 The user agreement doesn't "care" if you read it or not because the act of agreeing typically binds you. But not reading could leave you vulnerable to agreeing to terms you might not want. Always skim critical sections like **liability, arbitration, cancellation, and data use clauses**.
 
 
-## If you need assistance with:
+## Front Desk: If you need assistance with:
 
 Translating Chinese to English please let me know!
+
+
+## FAQ
+
+Sure! Here is a comprehensive rule of conduct for visitors or participants in a library study section:
+
+---
+
+### Library Study Section Rules of Conduct
+
+Welcome to our library's study section! To ensure a productive and respectful environment for everyone, please adhere to the following rules of conduct:
+
+1. **Respect for Others:**
+   - Maintain a quiet and respectful atmosphere. Keep noise levels to a minimum to avoid disturbing others.
+   - Use headphones when listening to audio, and ensure the volume is low enough that it does not disturb others.
+
+2. **Use of Space:**
+   - Choose a study space and remain seated as much as possible to minimize disruptions.
+   - Do not occupy more space than necessary. Be mindful of others who may need a place to study.
+   - Keep personal belongings within your designated area. Do not leave items unattended; the library is not responsible for lost or stolen items.
+
+3. **Cleanliness:**
+   - Keep your study area clean and tidy. Dispose of trash properly in designated bins.
+   - Avoid bringing food into the study section. Drinks are allowed only in spill-proof containers.
+
+4. **Use of Electronic Devices:**
+   - Set mobile phones and other electronic devices to silent mode.
+   - Limit phone conversations to designated areas outside the study section.
+   - Ensure laptops and other electronic devices are used quietly.
+
+5. **Library Materials:**
+   - Handle all library materials with care. Return books and other resources to their proper places after use.
+   - Do not mark, deface, or damage any library property.
+
+6. **Group Study:**
+   - Group study is permitted in designated areas only. Keep group discussions at a low volume.
+   - Reserve group study rooms in advance if needed and adhere to the reservation policies.
+
+7. **Respect Library Staff:**
+   - Follow instructions given by library staff. They are here to help maintain a conducive study environment.
+   - Report any issues or disturbances to library staff immediately.
+
+8. **Health and Safety:**
+   - Follow all health and safety guidelines, including any current public health protocols.
+   - In case of an emergency, follow the library's emergency procedures and evacuate the building promptly if instructed.
+
+9. **Prohibited Behavior:**
+   - Smoking, alcohol, and illegal substances are strictly prohibited in the library.
+   - Any form of harassment, discrimination, or disruptive behavior will not be tolerated and may result in removal from the library.
+
+10. **Hours of Operation:**
+    - Adhere to the library's hours of operation. Be prepared to leave the study section promptly at closing time.
+
+By following these rules of conduct, you help create a positive and productive study environment for all patrons. Thank you for your cooperation and enjoy your time in the library!
+
+---
+
+Feel free to customize these rules according to the specific needs and policies of your library.
 
 如果您需要將中文翻譯成英文，請告訴我！
