@@ -158,6 +158,8 @@ Feel free to customize these rules according to the specific needs and policies 
 
 ----
 
+![LeetCode Stats](https://leetcard.jacoblin.cool/ewdlop?theme=forest&font=Just%20Another%20Hand)
+
 # Hi there, I'm ewdlop! 👋
 
 Welcome to my GitHub profile! I'm a passionate developer with interests in various technologies and programming languages. Here's a little bit about me:
