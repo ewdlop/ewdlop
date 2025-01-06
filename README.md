@@ -4,6 +4,8 @@
 
 *Idealistic person responds to materialist: "We are holograms."*
 
+*Expertise is premature optimization.*
+
 ## It is how it is.
 
 [紫微星今日状态【如来坐耶稣挂紫薇躺！顺其自然，不急不慢】](https://www.bilibili.com/video/BV15M4y1W7mo/?vd_source=1063495a172853c2c3437f2ecc5b875b)
