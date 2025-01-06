@@ -1,4 +1,14 @@
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fewdlop&countColor=%23263759)
+# In my head:
+
+*Materialistic person says to idealist: "You are living in your own head!"*
+
+*Idealistic person responds to materialist: "We are holograms."*
+
+## It is how it is.
+
+[紫微星今日状态【如来坐耶稣挂紫薇躺！顺其自然，不急不慢】](https://www.bilibili.com/video/BV15M4y1W7mo/?vd_source=1063495a172853c2c3437f2ecc5b875b)
+
+## ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fewdlop&countColor=%23263759)
 
 [Merry Christmas](https://www.youtube.com/watch?v=3CWJNqyub3o)
 
@@ -9,7 +19,7 @@
 
 [Google AI Studio](https://aistudio.google.com/prompts/new_chat?utm_source=google-hpp&utm_medium=embedded_marketing_link&utm_campaign=dec&utm_content=dv2)
 
-# Raymond Lei's Private Library Cache - Belongs to Peperomia 
+## Raymond Lei's Private Library Cache - Belongs to Peperomia 
 
 ## Job Offering:
 
@@ -160,48 +170,48 @@ Feel free to customize these rules according to the specific needs and policies 
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/ewdlop?theme=forest&font=Just%20Another%20Hand)
 
-# Hi there, I'm ewdlop! 👋
+# #Hi there, I'm ewdlop! 👋
 
 Welcome to my GitHub profile! I'm a passionate developer with interests in various technologies and programming languages. Here's a little bit about me:
 
-## About Me
+### About Me
 
 - 💻 I love coding and building new projects.
 - 📚 Always eager to learn new things and improve my skills.
 - 🌱 Currently exploring new technologies and frameworks.
 
-## 🔧 Technologies & Tools
+### 🔧 Technologies & Tools
 
 - **Languages:** Python, JavaScript, Java, C++
 - **Frameworks:** React, Angular, Django, Spring Boot
 - **Tools:** Git, Docker, Kubernetes, Jenkins
 - **Databases:** MySQL, PostgreSQL, MongoDB
 
-## 📈 GitHub Stats
+### 📈 GitHub Stats
 
 ![ewdlop's GitHub stats](https://github-readme-stats.vercel.app/api?username=ewdlop&show_icons=true&theme=radical)
 
-## 📫 How to reach me
+### 📫 How to reach me
 
 - **Email:** [your-email@example.com](mailto:your-email@example.com)
 - **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)
 - **Twitter:** [@your-twitter-handle](https://twitter.com/your-twitter-handle)
 
-## 📝 Latest Blog Posts
+### 📝 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
-## 🏆 Achievements
+### 🏆 Achievements
 
 - **Open Source Contributions:** Contributed to various open-source projects.
 - **Certifications:** Certified in [Your Certification Details]
 
-## 📊 Top Languages
+### 📊 Top Languages
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ewdlop&layout=compact&theme=radical)
 
-## 🚀 Projects
+### 🚀 Projects
 
 Here are some of my notable projects:
 
@@ -209,7 +219,7 @@ Here are some of my notable projects:
 - [Project 2](https://github.com/ewdlop/project2) - Brief description of project 2.
 - [Project 3](https://github.com/ewdlop/project3) - Brief description of project 3.
 
-## 💬 Let's Connect!
+### 💬 Let's Connect!
 
 Feel free to reach out to me for collaboration, discussion, or just to say hi!
 
@@ -218,6 +228,6 @@ Feel free to reach out to me for collaboration, discussion, or just to say hi!
 *This README was generated with the help of [GitHub Copilot](https://github.com/features/copilot)*
 ****
 
-## Old Lost Github Account
+### Old Lost Github Account
 
 (Me)[https://github.com/RaymondILei]
