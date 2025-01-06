@@ -20,6 +20,71 @@
 
 解釋: 此句質疑「三分鐘的熱度」是否能夠「早熟」，進一步強調短暫熱情的不足之處，可能在表達對某人或某事缺乏深度或持久性的看法。
 
+### Corrected Sentence:
+
+
+**"People who act more like reporters than paparazzi."**
+
+---
+
+### Explanation of Corrections:
+
+### Corrected Sentence:
+**"People who act more like reporters than paparazzi."**
+
+---
+
+### Explanation of Corrections:
+
+1. **Pronoun Usage:**
+   - **Original:** *"people that act..."*
+   - **Corrected:** *"people who act..."*
+   - **Reason:** When referring to people, **"who"** is more appropriate than **"that."**
+
+2. **Article Usage and Pluralization:**
+   - **Original:** *"...like reporter than a parazzi"*
+   - **Corrected:** *"...like reporters than paparazzi."*
+   - **Reasons:**
+     - **"Reporter"** should be plural (**"reporters"**) to match **"paparazzi,"** which is already plural.
+     - **"Parazzi"** is a common misspelling. The correct plural form is **"paparazzi."**
+
+3. **Comparative Structure:**
+   - **Original:** *"...than a parazzi"*
+   - **Corrected:** *"...than paparazzi."*
+   - **Reason:** Removed the indefinite article **"a"** because **"paparazzi"** is plural and doesn't require an article in this context.
+
+4. **Enhancing Clarity:**
+   - Added **"more"** to clearly indicate the comparison between acting like reporters versus paparazzi.
+
+---
+
+### Final Corrected Sentence:
+**Did not I told you this is beyond your pay grade?"**
+
+---
+
+### Additional Notes:
+
+- **"Reporters" vs. "Paparazzi":**  
+  - **Reporters** are journalists who gather and report news, often adhering to ethical standards.
+  - **Paparazzi** are photographers who take candid pictures of celebrities, sometimes intrusively.
+
+- **Contextual Meaning:**   The corrected sentence suggests that certain individuals behave in a manner that's more aligned with professional journalism (**reporters**) rather than the often intrusive nature associated with **paparazzi.**
+
+---
+
+If you intended a different meaning or need further assistance with this phrase, feel free to provide more context!
+
+### Final Corrected Sentence:
+
+"People who act more like reporters than paparazzi."
+
+---
+
+I am reporting you to ChatGPT.
+
+You are not 16 years old.
+
 ## It is how it is.
 
 [紫微星今日状态【如来坐耶稣挂紫薇躺！顺其自然，不急不慢】](https://www.bilibili.com/video/BV15M4y1W7mo/?vd_source=1063495a172853c2c3437f2ecc5b875b)
@@ -30,10 +95,22 @@
 
 ![image](https://github.com/user-attachments/assets/0a6e38cb-1d43-43ca-a498-f150ff531846)
 
-
 [Coffee Time Lofi 🌟 1 Hour Cafe Song ☕ Relaxing Day 🍯 cute & relaxing music 🍩 Make Your Day Better](https://www.youtube.com/watch?v=hq_aXywreX0)
 
 [Google AI Studio](https://aistudio.google.com/prompts/new_chat?utm_source=google-hpp&utm_medium=embedded_marketing_link&utm_campaign=dec&utm_content=dv2)
+
+## Suport Google AI Studio
+
+[Google AI Studio](https://aistudio.google.com/prompts/new_chat?utm_source=google-hpp&utm_medium=embedded_marketing_link&utm_campaign=dec&utm_content=dv2)
+
+## Paparazzi
+
+[Lady Gaga - Paparazzi (Official Music Video)](https://www.youtube.com/watch?v=d2smz_1L2_0)
+
+[我不配 Not Good Enough For You](https://www.youtube.com/watch?v=s-VFpsrbWLk)
+
+[【FHD】雙J 周杰倫+蔡依林 - 給我一首歌的時間](https://www.youtube.com/watch?v=M-a8ennV7dg)
+
 
 ## Raymond Lei's Private Library Cache - Belongs to Peperomia 
 
@@ -68,8 +145,7 @@ Platforms like Medium Partner Program or sites like Dev.to and FreeCodeCamp ofte
 Automate and Sell Tools for Small Businesses
 Simple automation tools for small businesses, like automated report generators, data scrapers, or email responders, can be sold directly to small business owners who want to improve their operations but lack tech skills.
 
-Run a Coding Bootcamp for Kids or Adults in Your Community
-Set up weekend or weeknight coding boot camps for kids or adults in the neighborhood. Focus on practical skills (like building a simple website or app) that help them gain confidence with tech.
+Run a Coding Bootcamp for Kids or Adults in Your Community Set up weekend or weeknight coding boot camps for kids or adults in the neighborhood. Focus on practical skills (like building a simple website or app) that help them gain confidence with tech.
 
 Create Video Tutorials on YouTube
 Start a YouTube channel with short, family-friendly coding projects or mini-tutorials that focus on useful, everyday skills. With ad revenue and potential sponsorships, this can grow into a steady income stream.
@@ -241,9 +317,15 @@ Feel free to reach out to me for collaboration, discussion, or just to say hi!
 
 ---
 
-*This README was generated with the help of [GitHub Copilot](https://github.com/features/copilot)*
-****
+*This README was generated with the help of [GitHub Copilot](https://github.com/features/copilot)* ****
 
 ### Old Lost Github Account
 
-(Me)[https://github.com/RaymondILei]
+(Me)[https://github.com/RaymondILei
+
+
+### Cozy
+
+![Painting](DALL%C2%B7E%202025-01-06%2015.27.44%20-%20A%20cozy%20animated%20scene%20featuring%20a%20campfire%20(%E7%87%9F%E7%81%AB)%20and%20a%20fireplace%20(%E5%A3%81%E7%88%90)%2C%20surrounded%20by%20a%20serene%20outdoor%20setting%20with%20a%20starry%20night%20sky.%20The%20campfire%20is%20.jpg)
+
+> A cozy animated scene featuring a campfire (營火) and a fireplace (壁爐), surrounded by a serene outdoor setting with a starry night sky. The campfire is placed near a tent,    while the fireplace is set in a rustic cabin. Both emit warm, flickering flames, creating a harmonious and inviting atmosphere. Include subtle animated effects like moving     flames and glowing embers, with a warm color palette.
