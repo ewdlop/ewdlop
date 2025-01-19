@@ -89,7 +89,7 @@ You are not 16 years old.
 
 [紫微星今日状态【如来坐耶稣挂紫薇躺！顺其自然，不急不慢】](https://www.bilibili.com/video/BV15M4y1W7mo/?vd_source=1063495a172853c2c3437f2ecc5b875b)
 
-## ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fewdlop&countColor=%23263759)
+## ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fewdlop&countColor=%23263759) % max.
 
 [Merry Christmas](https://www.youtube.com/watch?v=3CWJNqyub3o)
 
