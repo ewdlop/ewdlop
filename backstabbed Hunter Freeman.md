@@ -10,4 +10,4 @@ I did took over his position and secure my place aggresively and selfishly.
 
 ## His drug addiciton
 
-Rolled eye.
+Rolled eye. A drug dealer.
