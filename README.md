@@ -6,7 +6,7 @@
 
 *Expertise is premature optimization.*
 
-# ChatGPT: 
+## ChatGPT: 
 
 ## 三分鐘的熱度；三分熟
 
@@ -432,3 +432,7 @@ I'll provide a comprehensive set of good advice covering various aspects of life
 - Build resilience
 
 Bonus Advice: Remember that good advice is contextual. What works for one person might not work for another. Always filter advice through your own experience, values, and circumstances.
+
+## Links
+
+<https://github.com/ewdlop?language=&page=16&q=&sort=&tab=repositories&type=source>
