@@ -6,6 +6,8 @@
 
 *Expertise is premature optimization.*
 
+*Middle finger is sexist*
+
 ## ChatGPT: 
 
 ## 三分鐘的熱度；三分熟
