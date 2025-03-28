@@ -116,7 +116,7 @@ You are not 16 years old.
 
 ## Raymond Lei's Protected Library Cache - Belongs to Peperomia 
 
-## Job Offering:
+## ^[Self\-]+Job? Offering:
 
 ChatGPT: Here are some ideas for making quick income as a developer that can be family-oriented or help support family needs:
 
