@@ -1,6 +1,6 @@
 # In my head:
 
-I am not a god damned supertask.
+I am a god damned supertask which a god is jealous of.
 
 *Materialistic person says to idealist: "You are living in your own head!"*
 
