@@ -1,7 +1,5 @@
 # In my head:
 
-I am a god damned supertask which a god is jealous of.
-
 *Materialistic person says to idealist: "You are living in your own head!"*
 
 *Idealistic person responds to materialist: "We are holograms."*
