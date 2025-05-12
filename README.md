@@ -122,7 +122,7 @@ https://opencollective.com/pnpm
 > A cozy animated scene featuring a campfire (營火) and a fireplace (壁爐), surrounded by a serene outdoor setting with a starry night sky. The campfire is placed near a tent,    while the fireplace is set in a rustic cabin. Both emit warm, flickering flames, creating a harmonious and inviting atmosphere. Include subtle animated effects like moving     flames and glowing embers, with a warm color palette.
 
 
-### The South is currently Summer Season
+### The [Southern Hemisphere] is currently [Winter] Season
 
 以下是一系列全面的生活建議，涵蓋各個方面 / I'll provide a comprehensive set of good advice covering various aspects of life:
 
