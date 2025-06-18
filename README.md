@@ -14,17 +14,6 @@
 
 [Coffee Time Lofi 🌟 1 Hour Cafe Song ☕ Relaxing Day 🍯 cute & relaxing music 🍩 Make Your Day Better](https://www.youtube.com/watch?v=hq_aXywreX0)
 
-[Google AI Studio](https://aistudio.google.com/prompts/new_chat?utm_source=google-hpp&utm_medium=embedded_marketing_link&utm_campaign=dec&utm_content=dv2)
-
-## Suport Google AI Studio
-
-[Google AI Studio](https://aistudio.google.com/prompts/new_chat?utm_source=google-hpp&utm_medium=embedded_marketing_link&utm_campaign=dec&utm_content=dv2)
-
-
-https://opencollective.com/pnpm
-
-Ｍonday 2:26 PM 
-
 ## Jazz Music
 
 [池魚 - 黃昏 「黃昏的地平線 劃出一句離別」【動態歌詞】♪](https://www.youtube.com/watch?v=V90AJhsXIFQ&list=RDV90AJhsXIFQ&start_radio=1)
