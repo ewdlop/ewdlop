@@ -4,7 +4,7 @@
 
 *理想主義者回應物質主義者：「我們都是全息影像。」* | *Idealistic person responds to materialist: "We are holograms."*
 
-*專業知識是過早的優化。* | *Expertise is premature optimization.*
+Are they(Materialistic person and Idealistic person) saying: *專業知識是過早的優化。* | *Expertise is premature optimization.*
 
 ## ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fewdlop&countColor=%23263759) % max.
 
