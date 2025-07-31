@@ -6,7 +6,9 @@
 
 Are they(Materialistic person and Idealistic person) saying: *專業知識是過早的優化。* | *Expertise is premature optimization.*
 
-## ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fewdlop&countColor=%23263759) % max.
+What if a human is a [supertask](https://es.wikipedia.org/wiki/Supertarea)?
+
+## ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fewdlop&countColor=%23263759) % max. <---- includes my own visits.
 
 [Merry Christmas](https://www.youtube.com/watch?v=3CWJNqyub3o)
 
