@@ -1,0 +1,947 @@
+DIGEST e5c0fdf82d173a7b67f71c30c1ed2899
+Fnlab.CategoryTheory.Categories
+R190:206 nlab.Foundations.Logic <> <> lib
+R224:239 nlab.Foundations.Sets <> <> lib
+R257:277 nlab.Foundations.Relations <> <> lib
+rec 411:418 <> Category
+proj 467:469 <> Obj
+proj 519:521 <> Hom
+proj 578:579 <> id
+proj 647:653 <> compose
+proj 742:748 <> left_id
+proj 841:848 <> right_id
+proj 940:944 <> assoc
+R528:531 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R525:527 nlab.CategoryTheory.Categories <> Obj:2 meth
+R535:538 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R532:534 nlab.CategoryTheory.Categories <> Obj:2 meth
+R594:596 nlab.CategoryTheory.Categories <> Obj:2 meth
+binder 590:590 <> A:4
+R599:601 nlab.CategoryTheory.Categories <> Hom:3 meth
+R605:605 nlab.CategoryTheory.Categories <> A:4 var
+R603:603 nlab.CategoryTheory.Categories <> A:4 var
+R673:675 nlab.CategoryTheory.Categories <> Obj:2 meth
+binder 665:665 <> A:6
+binder 667:667 <> B:7
+binder 669:669 <> C:8
+R686:689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R679:681 nlab.CategoryTheory.Categories <> Hom:3 meth
+R685:685 nlab.CategoryTheory.Categories <> C:8 var
+R683:683 nlab.CategoryTheory.Categories <> B:7 var
+R697:700 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R690:692 nlab.CategoryTheory.Categories <> Hom:3 meth
+R696:696 nlab.CategoryTheory.Categories <> B:7 var
+R694:694 nlab.CategoryTheory.Categories <> A:6 var
+R701:703 nlab.CategoryTheory.Categories <> Hom:3 meth
+R707:707 nlab.CategoryTheory.Categories <> C:8 var
+R705:705 nlab.CategoryTheory.Categories <> A:6 var
+R766:768 nlab.CategoryTheory.Categories <> Obj:2 meth
+binder 760:760 <> A:10
+binder 762:762 <> B:11
+R776:778 nlab.CategoryTheory.Categories <> Hom:3 meth
+R782:782 nlab.CategoryTheory.Categories <> B:11 var
+R780:780 nlab.CategoryTheory.Categories <> A:10 var
+binder 772:772 <> f:12
+R802:804 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R786:792 nlab.CategoryTheory.Categories <> compose:9 meth
+R801:801 nlab.CategoryTheory.Categories <> f:12 var
+R795:796 nlab.CategoryTheory.Categories <> id:5 meth
+R798:798 nlab.CategoryTheory.Categories <> B:11 var
+R805:805 nlab.CategoryTheory.Categories <> f:12 var
+R866:868 nlab.CategoryTheory.Categories <> Obj:2 meth
+binder 860:860 <> A:14
+binder 862:862 <> B:15
+R876:878 nlab.CategoryTheory.Categories <> Hom:3 meth
+R882:882 nlab.CategoryTheory.Categories <> B:15 var
+R880:880 nlab.CategoryTheory.Categories <> A:14 var
+binder 872:872 <> f:16
+R902:904 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R886:892 nlab.CategoryTheory.Categories <> compose:9 meth
+R897:898 nlab.CategoryTheory.Categories <> id:5 meth
+R900:900 nlab.CategoryTheory.Categories <> A:14 var
+R894:894 nlab.CategoryTheory.Categories <> f:16 var
+R905:905 nlab.CategoryTheory.Categories <> f:16 var
+R966:968 nlab.CategoryTheory.Categories <> Obj:2 meth
+binder 956:956 <> A:18
+binder 958:958 <> B:19
+binder 960:960 <> C:20
+binder 962:962 <> D:21
+R976:978 nlab.CategoryTheory.Categories <> Hom:3 meth
+R982:982 nlab.CategoryTheory.Categories <> B:19 var
+R980:980 nlab.CategoryTheory.Categories <> A:18 var
+binder 972:972 <> f:22
+R990:992 nlab.CategoryTheory.Categories <> Hom:3 meth
+R996:996 nlab.CategoryTheory.Categories <> C:20 var
+R994:994 nlab.CategoryTheory.Categories <> B:19 var
+binder 986:986 <> g:23
+R1004:1006 nlab.CategoryTheory.Categories <> Hom:3 meth
+R1010:1010 nlab.CategoryTheory.Categories <> D:21 var
+R1008:1008 nlab.CategoryTheory.Categories <> C:20 var
+binder 1000:1000 <> h:24
+R1041:1043 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1018:1024 nlab.CategoryTheory.Categories <> compose:9 meth
+R1029:1035 nlab.CategoryTheory.Categories <> compose:9 meth
+R1039:1039 nlab.CategoryTheory.Categories <> f:22 var
+R1037:1037 nlab.CategoryTheory.Categories <> g:23 var
+R1026:1026 nlab.CategoryTheory.Categories <> h:24 var
+R1044:1050 nlab.CategoryTheory.Categories <> compose:9 meth
+R1066:1066 nlab.CategoryTheory.Categories <> f:22 var
+R1053:1059 nlab.CategoryTheory.Categories <> compose:9 meth
+R1063:1063 nlab.CategoryTheory.Categories <> g:23 var
+R1061:1061 nlab.CategoryTheory.Categories <> h:24 var
+R1136:1142 nlab.CategoryTheory.Categories <> compose proj
+not 1122:1122 <> :::x_'∘'_x
+def 1259:1269 <> isomorphism
+R1276:1283 nlab.CategoryTheory.Categories <> Category rec
+binder 1272:1272 <> C:26
+R1293:1295 nlab.CategoryTheory.Categories <> Obj proj
+R1297:1297 nlab.CategoryTheory.Categories <> C:26 var
+binder 1287:1287 <> A:27
+binder 1289:1289 <> B:28
+R1305:1307 nlab.CategoryTheory.Categories <> Hom proj
+R1309:1309 nlab.CategoryTheory.Categories <> C:26 var
+R1311:1311 nlab.CategoryTheory.Categories <> A:27 var
+R1313:1313 nlab.CategoryTheory.Categories <> B:28 var
+binder 1301:1301 <> f:29
+R1328:1334 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1348:1349 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1339:1341 nlab.CategoryTheory.Categories <> Hom proj
+R1343:1343 nlab.CategoryTheory.Categories <> C:26 var
+R1345:1345 nlab.CategoryTheory.Categories <> B:28 var
+R1347:1347 nlab.CategoryTheory.Categories <> A:27 var
+binder 1335:1335 <> g:30
+R1366:1369 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1357:1359 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1351:1355 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R1350:1350 nlab.CategoryTheory.Categories <> f:29 var
+R1356:1356 nlab.CategoryTheory.Categories <> g:30 var
+R1360:1361 nlab.CategoryTheory.Categories <> id proj
+R1363:1363 nlab.CategoryTheory.Categories <> C:26 var
+R1365:1365 nlab.CategoryTheory.Categories <> B:28 var
+R1377:1379 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1371:1375 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R1370:1370 nlab.CategoryTheory.Categories <> g:30 var
+R1376:1376 nlab.CategoryTheory.Categories <> f:29 var
+R1380:1381 nlab.CategoryTheory.Categories <> id proj
+R1383:1383 nlab.CategoryTheory.Categories <> C:26 var
+R1385:1385 nlab.CategoryTheory.Categories <> A:27 var
+def 1430:1439 <> isomorphic
+R1446:1453 nlab.CategoryTheory.Categories <> Category rec
+binder 1442:1442 <> C:31
+R1463:1465 nlab.CategoryTheory.Categories <> Obj proj
+R1467:1467 nlab.CategoryTheory.Categories <> C:31 var
+binder 1457:1457 <> A:32
+binder 1459:1459 <> B:33
+R1482:1488 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1502:1503 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1493:1495 nlab.CategoryTheory.Categories <> Hom proj
+R1497:1497 nlab.CategoryTheory.Categories <> C:31 var
+R1499:1499 nlab.CategoryTheory.Categories <> A:32 var
+R1501:1501 nlab.CategoryTheory.Categories <> B:33 var
+binder 1489:1489 <> f:34
+R1504:1514 nlab.CategoryTheory.Categories <> isomorphism def
+R1516:1516 nlab.CategoryTheory.Categories <> C:31 var
+R1518:1518 nlab.CategoryTheory.Categories <> A:32 var
+R1520:1520 nlab.CategoryTheory.Categories <> B:33 var
+R1522:1522 nlab.CategoryTheory.Categories <> f:34 var
+R1549:1558 nlab.CategoryTheory.Categories <> isomorphic def
+not 1535:1535 <> :::x_'≅'_x
+def 1635:1646 <> monomorphism
+R1653:1660 nlab.CategoryTheory.Categories <> Category rec
+binder 1649:1649 <> C:35
+R1670:1672 nlab.CategoryTheory.Categories <> Obj proj
+R1674:1674 nlab.CategoryTheory.Categories <> C:35 var
+binder 1664:1664 <> A:36
+binder 1666:1666 <> B:37
+R1682:1684 nlab.CategoryTheory.Categories <> Hom proj
+R1686:1686 nlab.CategoryTheory.Categories <> C:35 var
+R1688:1688 nlab.CategoryTheory.Categories <> A:36 var
+R1690:1690 nlab.CategoryTheory.Categories <> B:37 var
+binder 1678:1678 <> f:38
+R1717:1719 nlab.CategoryTheory.Categories <> Obj proj
+R1721:1721 nlab.CategoryTheory.Categories <> C:35 var
+binder 1713:1713 <> X:39
+R1731:1733 nlab.CategoryTheory.Categories <> Hom proj
+R1735:1735 nlab.CategoryTheory.Categories <> C:35 var
+R1737:1737 nlab.CategoryTheory.Categories <> X:39 var
+R1739:1739 nlab.CategoryTheory.Categories <> A:36 var
+binder 1725:1725 <> g:40
+binder 1727:1727 <> h:41
+R1760:1763 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1750:1752 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1744:1748 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R1743:1743 nlab.CategoryTheory.Categories <> f:38 var
+R1749:1749 nlab.CategoryTheory.Categories <> g:40 var
+R1754:1758 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R1753:1753 nlab.CategoryTheory.Categories <> f:38 var
+R1759:1759 nlab.CategoryTheory.Categories <> h:41 var
+R1765:1767 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1764:1764 nlab.CategoryTheory.Categories <> g:40 var
+R1768:1768 nlab.CategoryTheory.Categories <> h:41 var
+def 1824:1834 <> epimorphism
+R1841:1848 nlab.CategoryTheory.Categories <> Category rec
+binder 1837:1837 <> C:42
+R1858:1860 nlab.CategoryTheory.Categories <> Obj proj
+R1862:1862 nlab.CategoryTheory.Categories <> C:42 var
+binder 1852:1852 <> A:43
+binder 1854:1854 <> B:44
+R1870:1872 nlab.CategoryTheory.Categories <> Hom proj
+R1874:1874 nlab.CategoryTheory.Categories <> C:42 var
+R1876:1876 nlab.CategoryTheory.Categories <> A:43 var
+R1878:1878 nlab.CategoryTheory.Categories <> B:44 var
+binder 1866:1866 <> f:45
+R1905:1907 nlab.CategoryTheory.Categories <> Obj proj
+R1909:1909 nlab.CategoryTheory.Categories <> C:42 var
+binder 1901:1901 <> X:46
+R1919:1921 nlab.CategoryTheory.Categories <> Hom proj
+R1923:1923 nlab.CategoryTheory.Categories <> C:42 var
+R1925:1925 nlab.CategoryTheory.Categories <> B:44 var
+R1927:1927 nlab.CategoryTheory.Categories <> X:46 var
+binder 1913:1913 <> g:47
+binder 1915:1915 <> h:48
+R1948:1951 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1938:1940 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1932:1936 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R1931:1931 nlab.CategoryTheory.Categories <> g:47 var
+R1937:1937 nlab.CategoryTheory.Categories <> f:45 var
+R1942:1946 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R1941:1941 nlab.CategoryTheory.Categories <> h:48 var
+R1947:1947 nlab.CategoryTheory.Categories <> f:45 var
+R1953:1955 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1952:1952 nlab.CategoryTheory.Categories <> g:47 var
+R1956:1956 nlab.CategoryTheory.Categories <> h:48 var
+def 1989:1998 <> bimorphism
+R2005:2012 nlab.CategoryTheory.Categories <> Category rec
+binder 2001:2001 <> C:49
+R2022:2024 nlab.CategoryTheory.Categories <> Obj proj
+R2026:2026 nlab.CategoryTheory.Categories <> C:49 var
+binder 2016:2016 <> A:50
+binder 2018:2018 <> B:51
+R2034:2036 nlab.CategoryTheory.Categories <> Hom proj
+R2038:2038 nlab.CategoryTheory.Categories <> C:49 var
+R2040:2040 nlab.CategoryTheory.Categories <> A:50 var
+R2042:2042 nlab.CategoryTheory.Categories <> B:51 var
+binder 2030:2030 <> f:52
+R2077:2080 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2057:2068 nlab.CategoryTheory.Categories <> monomorphism def
+R2070:2070 nlab.CategoryTheory.Categories <> C:49 var
+R2072:2072 nlab.CategoryTheory.Categories <> A:50 var
+R2074:2074 nlab.CategoryTheory.Categories <> B:51 var
+R2076:2076 nlab.CategoryTheory.Categories <> f:52 var
+R2081:2091 nlab.CategoryTheory.Categories <> epimorphism def
+R2093:2093 nlab.CategoryTheory.Categories <> C:49 var
+R2095:2095 nlab.CategoryTheory.Categories <> A:50 var
+R2097:2097 nlab.CategoryTheory.Categories <> B:51 var
+R2099:2099 nlab.CategoryTheory.Categories <> f:52 var
+def 2177:2191 <> terminal_object
+R2198:2205 nlab.CategoryTheory.Categories <> Category rec
+binder 2194:2194 <> C:53
+R2213:2215 nlab.CategoryTheory.Categories <> Obj proj
+R2217:2217 nlab.CategoryTheory.Categories <> C:53 var
+binder 2209:2209 <> T:54
+R2243:2245 nlab.CategoryTheory.Categories <> Obj proj
+R2247:2247 nlab.CategoryTheory.Categories <> C:53 var
+binder 2239:2239 <> A:55
+R2250:2257 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R2271:2272 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R2262:2264 nlab.CategoryTheory.Categories <> Hom proj
+R2266:2266 nlab.CategoryTheory.Categories <> C:53 var
+R2268:2268 nlab.CategoryTheory.Categories <> A:55 var
+R2270:2270 nlab.CategoryTheory.Categories <> T:54 var
+binder 2258:2258 <> f:56
+R2273:2276 Coq.Init.Logic <> True ind
+def 2313:2326 <> initial_object
+R2333:2340 nlab.CategoryTheory.Categories <> Category rec
+binder 2329:2329 <> C:57
+R2348:2350 nlab.CategoryTheory.Categories <> Obj proj
+R2352:2352 nlab.CategoryTheory.Categories <> C:57 var
+binder 2344:2344 <> I:58
+R2378:2380 nlab.CategoryTheory.Categories <> Obj proj
+R2382:2382 nlab.CategoryTheory.Categories <> C:57 var
+binder 2374:2374 <> A:59
+R2385:2392 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R2406:2407 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R2397:2399 nlab.CategoryTheory.Categories <> Hom proj
+R2401:2401 nlab.CategoryTheory.Categories <> C:57 var
+R2403:2403 nlab.CategoryTheory.Categories <> I:58 var
+R2405:2405 nlab.CategoryTheory.Categories <> A:59 var
+binder 2393:2393 <> f:60
+R2408:2411 Coq.Init.Logic <> True ind
+def 2473:2483 <> zero_object
+R2490:2497 nlab.CategoryTheory.Categories <> Category rec
+binder 2486:2486 <> C:61
+R2505:2507 nlab.CategoryTheory.Categories <> Obj proj
+R2509:2509 nlab.CategoryTheory.Categories <> C:61 var
+binder 2501:2501 <> Z:62
+R2542:2545 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2524:2537 nlab.CategoryTheory.Categories <> initial_object def
+R2539:2539 nlab.CategoryTheory.Categories <> C:61 var
+R2541:2541 nlab.CategoryTheory.Categories <> Z:62 var
+R2546:2560 nlab.CategoryTheory.Categories <> terminal_object def
+R2562:2562 nlab.CategoryTheory.Categories <> C:61 var
+R2564:2564 nlab.CategoryTheory.Categories <> Z:62 var
+def 2636:2642 <> product
+R2649:2656 nlab.CategoryTheory.Categories <> Category rec
+binder 2645:2645 <> C:63
+R2666:2668 nlab.CategoryTheory.Categories <> Obj proj
+R2670:2670 nlab.CategoryTheory.Categories <> C:63 var
+binder 2660:2660 <> A:64
+binder 2662:2662 <> B:65
+R2678:2680 nlab.CategoryTheory.Categories <> Obj proj
+R2682:2682 nlab.CategoryTheory.Categories <> C:63 var
+binder 2674:2674 <> P:66
+R2697:2699 nlab.CategoryTheory.Categories <> Hom proj
+R2701:2701 nlab.CategoryTheory.Categories <> C:63 var
+R2703:2703 nlab.CategoryTheory.Categories <> P:66 var
+R2705:2705 nlab.CategoryTheory.Categories <> A:64 var
+binder 2689:2693 <> π₁:67
+R2717:2719 nlab.CategoryTheory.Categories <> Hom proj
+R2721:2721 nlab.CategoryTheory.Categories <> C:63 var
+R2723:2723 nlab.CategoryTheory.Categories <> P:66 var
+R2725:2725 nlab.CategoryTheory.Categories <> B:65 var
+binder 2709:2713 <> π₂:68
+R2752:2754 nlab.CategoryTheory.Categories <> Obj proj
+R2756:2756 nlab.CategoryTheory.Categories <> C:63 var
+binder 2748:2748 <> X:69
+R2764:2766 nlab.CategoryTheory.Categories <> Hom proj
+R2768:2768 nlab.CategoryTheory.Categories <> C:63 var
+R2770:2770 nlab.CategoryTheory.Categories <> X:69 var
+R2772:2772 nlab.CategoryTheory.Categories <> A:64 var
+binder 2760:2760 <> f:70
+R2780:2782 nlab.CategoryTheory.Categories <> Hom proj
+R2784:2784 nlab.CategoryTheory.Categories <> C:63 var
+R2786:2786 nlab.CategoryTheory.Categories <> X:69 var
+R2788:2788 nlab.CategoryTheory.Categories <> B:65 var
+binder 2776:2776 <> g:71
+R2796:2803 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R2817:2818 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R2808:2810 nlab.CategoryTheory.Categories <> Hom proj
+R2812:2812 nlab.CategoryTheory.Categories <> C:63 var
+R2814:2814 nlab.CategoryTheory.Categories <> X:69 var
+R2816:2816 nlab.CategoryTheory.Categories <> P:66 var
+binder 2804:2804 <> h:72
+R2834:2837 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2830:2832 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2824:2828 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R2819:2823 nlab.CategoryTheory.Categories <> π₁:67 var
+R2829:2829 nlab.CategoryTheory.Categories <> h:72 var
+R2833:2833 nlab.CategoryTheory.Categories <> f:70 var
+R2849:2851 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2843:2847 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R2838:2842 nlab.CategoryTheory.Categories <> π₂:68 var
+R2848:2848 nlab.CategoryTheory.Categories <> h:72 var
+R2852:2852 nlab.CategoryTheory.Categories <> g:71 var
+def 2891:2899 <> coproduct
+R2906:2913 nlab.CategoryTheory.Categories <> Category rec
+binder 2902:2902 <> C:73
+R2923:2925 nlab.CategoryTheory.Categories <> Obj proj
+R2927:2927 nlab.CategoryTheory.Categories <> C:73 var
+binder 2917:2917 <> A:74
+binder 2919:2919 <> B:75
+R2935:2937 nlab.CategoryTheory.Categories <> Obj proj
+R2939:2939 nlab.CategoryTheory.Categories <> C:73 var
+binder 2931:2931 <> S:76
+R2953:2955 nlab.CategoryTheory.Categories <> Hom proj
+R2957:2957 nlab.CategoryTheory.Categories <> C:73 var
+R2959:2959 nlab.CategoryTheory.Categories <> A:74 var
+R2961:2961 nlab.CategoryTheory.Categories <> S:76 var
+binder 2945:2949 <> ι₁:77
+R2973:2975 nlab.CategoryTheory.Categories <> Hom proj
+R2977:2977 nlab.CategoryTheory.Categories <> C:73 var
+R2979:2979 nlab.CategoryTheory.Categories <> B:75 var
+R2981:2981 nlab.CategoryTheory.Categories <> S:76 var
+binder 2965:2969 <> ι₂:78
+R3008:3010 nlab.CategoryTheory.Categories <> Obj proj
+R3012:3012 nlab.CategoryTheory.Categories <> C:73 var
+binder 3004:3004 <> X:79
+R3020:3022 nlab.CategoryTheory.Categories <> Hom proj
+R3024:3024 nlab.CategoryTheory.Categories <> C:73 var
+R3026:3026 nlab.CategoryTheory.Categories <> A:74 var
+R3028:3028 nlab.CategoryTheory.Categories <> X:79 var
+binder 3016:3016 <> f:80
+R3036:3038 nlab.CategoryTheory.Categories <> Hom proj
+R3040:3040 nlab.CategoryTheory.Categories <> C:73 var
+R3042:3042 nlab.CategoryTheory.Categories <> B:75 var
+R3044:3044 nlab.CategoryTheory.Categories <> X:79 var
+binder 3032:3032 <> g:81
+R3052:3059 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R3073:3074 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R3064:3066 nlab.CategoryTheory.Categories <> Hom proj
+R3068:3068 nlab.CategoryTheory.Categories <> C:73 var
+R3070:3070 nlab.CategoryTheory.Categories <> S:76 var
+R3072:3072 nlab.CategoryTheory.Categories <> X:79 var
+binder 3060:3060 <> h:82
+R3090:3093 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3086:3088 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3076:3080 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R3075:3075 nlab.CategoryTheory.Categories <> h:82 var
+R3081:3085 nlab.CategoryTheory.Categories <> ι₁:77 var
+R3089:3089 nlab.CategoryTheory.Categories <> f:80 var
+R3105:3107 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3095:3099 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R3094:3094 nlab.CategoryTheory.Categories <> h:82 var
+R3100:3104 nlab.CategoryTheory.Categories <> ι₂:78 var
+R3108:3108 nlab.CategoryTheory.Categories <> g:81 var
+def 3173:3180 <> pullback
+R3187:3194 nlab.CategoryTheory.Categories <> Category rec
+binder 3183:3183 <> C:83
+R3206:3208 nlab.CategoryTheory.Categories <> Obj proj
+R3210:3210 nlab.CategoryTheory.Categories <> C:83 var
+binder 3198:3198 <> A:84
+binder 3200:3200 <> B:85
+binder 3202:3202 <> X:86
+R3218:3220 nlab.CategoryTheory.Categories <> Hom proj
+R3222:3222 nlab.CategoryTheory.Categories <> C:83 var
+R3224:3224 nlab.CategoryTheory.Categories <> A:84 var
+R3226:3226 nlab.CategoryTheory.Categories <> X:86 var
+binder 3214:3214 <> f:87
+R3234:3236 nlab.CategoryTheory.Categories <> Hom proj
+R3238:3238 nlab.CategoryTheory.Categories <> C:83 var
+R3240:3240 nlab.CategoryTheory.Categories <> B:85 var
+R3242:3242 nlab.CategoryTheory.Categories <> X:86 var
+binder 3230:3230 <> g:88
+R3252:3254 nlab.CategoryTheory.Categories <> Obj proj
+R3256:3256 nlab.CategoryTheory.Categories <> C:83 var
+binder 3248:3248 <> P:89
+R3267:3269 nlab.CategoryTheory.Categories <> Hom proj
+R3271:3271 nlab.CategoryTheory.Categories <> C:83 var
+R3273:3273 nlab.CategoryTheory.Categories <> P:89 var
+R3275:3275 nlab.CategoryTheory.Categories <> A:84 var
+binder 3260:3263 <> p₁:90
+R3286:3288 nlab.CategoryTheory.Categories <> Hom proj
+R3290:3290 nlab.CategoryTheory.Categories <> C:83 var
+R3292:3292 nlab.CategoryTheory.Categories <> P:89 var
+R3294:3294 nlab.CategoryTheory.Categories <> B:85 var
+binder 3279:3282 <> p₂:91
+R3332:3337 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3319:3321 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3310:3314 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R3309:3309 nlab.CategoryTheory.Categories <> f:87 var
+R3315:3318 nlab.CategoryTheory.Categories <> p₁:90 var
+R3323:3327 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R3322:3322 nlab.CategoryTheory.Categories <> g:88 var
+R3328:3331 nlab.CategoryTheory.Categories <> p₂:91 var
+R3350:3352 nlab.CategoryTheory.Categories <> Obj proj
+R3354:3354 nlab.CategoryTheory.Categories <> C:83 var
+binder 3346:3346 <> Y:92
+R3365:3367 nlab.CategoryTheory.Categories <> Hom proj
+R3369:3369 nlab.CategoryTheory.Categories <> C:83 var
+R3371:3371 nlab.CategoryTheory.Categories <> Y:92 var
+R3373:3373 nlab.CategoryTheory.Categories <> A:84 var
+binder 3358:3361 <> q₁:93
+R3384:3386 nlab.CategoryTheory.Categories <> Hom proj
+R3388:3388 nlab.CategoryTheory.Categories <> C:83 var
+R3390:3390 nlab.CategoryTheory.Categories <> Y:92 var
+R3392:3392 nlab.CategoryTheory.Categories <> B:85 var
+binder 3377:3380 <> q₂:94
+R3423:3430 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3410:3412 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3401:3405 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R3400:3400 nlab.CategoryTheory.Categories <> f:87 var
+R3406:3409 nlab.CategoryTheory.Categories <> q₁:93 var
+R3414:3418 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R3413:3413 nlab.CategoryTheory.Categories <> g:88 var
+R3419:3422 nlab.CategoryTheory.Categories <> q₂:94 var
+R3431:3438 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R3452:3453 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R3443:3445 nlab.CategoryTheory.Categories <> Hom proj
+R3447:3447 nlab.CategoryTheory.Categories <> C:83 var
+R3449:3449 nlab.CategoryTheory.Categories <> Y:92 var
+R3451:3451 nlab.CategoryTheory.Categories <> P:89 var
+binder 3439:3439 <> h:95
+R3471:3474 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3464:3466 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3458:3462 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R3454:3457 nlab.CategoryTheory.Categories <> p₁:90 var
+R3463:3463 nlab.CategoryTheory.Categories <> h:95 var
+R3467:3470 nlab.CategoryTheory.Categories <> q₁:93 var
+R3485:3487 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3479:3483 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R3475:3478 nlab.CategoryTheory.Categories <> p₂:91 var
+R3484:3484 nlab.CategoryTheory.Categories <> h:95 var
+R3488:3491 nlab.CategoryTheory.Categories <> q₂:94 var
+def 3521:3527 <> pushout
+R3534:3541 nlab.CategoryTheory.Categories <> Category rec
+binder 3530:3530 <> C:96
+R3553:3555 nlab.CategoryTheory.Categories <> Obj proj
+R3557:3557 nlab.CategoryTheory.Categories <> C:96 var
+binder 3545:3545 <> A:97
+binder 3547:3547 <> B:98
+binder 3549:3549 <> X:99
+R3565:3567 nlab.CategoryTheory.Categories <> Hom proj
+R3569:3569 nlab.CategoryTheory.Categories <> C:96 var
+R3571:3571 nlab.CategoryTheory.Categories <> X:99 var
+R3573:3573 nlab.CategoryTheory.Categories <> A:97 var
+binder 3561:3561 <> f:100
+R3581:3583 nlab.CategoryTheory.Categories <> Hom proj
+R3585:3585 nlab.CategoryTheory.Categories <> C:96 var
+R3587:3587 nlab.CategoryTheory.Categories <> X:99 var
+R3589:3589 nlab.CategoryTheory.Categories <> B:98 var
+binder 3577:3577 <> g:101
+R3599:3601 nlab.CategoryTheory.Categories <> Obj proj
+R3603:3603 nlab.CategoryTheory.Categories <> C:96 var
+binder 3595:3595 <> P:102
+R3614:3616 nlab.CategoryTheory.Categories <> Hom proj
+R3618:3618 nlab.CategoryTheory.Categories <> C:96 var
+R3620:3620 nlab.CategoryTheory.Categories <> A:97 var
+R3622:3622 nlab.CategoryTheory.Categories <> P:102 var
+binder 3607:3610 <> p₁:103
+R3633:3635 nlab.CategoryTheory.Categories <> Hom proj
+R3637:3637 nlab.CategoryTheory.Categories <> C:96 var
+R3639:3639 nlab.CategoryTheory.Categories <> B:98 var
+R3641:3641 nlab.CategoryTheory.Categories <> P:102 var
+binder 3626:3629 <> p₂:104
+R3679:3684 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3666:3668 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3660:3664 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R3656:3659 nlab.CategoryTheory.Categories <> p₁:103 var
+R3665:3665 nlab.CategoryTheory.Categories <> f:100 var
+R3673:3677 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R3669:3672 nlab.CategoryTheory.Categories <> p₂:104 var
+R3678:3678 nlab.CategoryTheory.Categories <> g:101 var
+R3697:3699 nlab.CategoryTheory.Categories <> Obj proj
+R3701:3701 nlab.CategoryTheory.Categories <> C:96 var
+binder 3693:3693 <> Y:105
+R3712:3714 nlab.CategoryTheory.Categories <> Hom proj
+R3716:3716 nlab.CategoryTheory.Categories <> C:96 var
+R3718:3718 nlab.CategoryTheory.Categories <> A:97 var
+R3720:3720 nlab.CategoryTheory.Categories <> Y:105 var
+binder 3705:3708 <> q₁:106
+R3731:3733 nlab.CategoryTheory.Categories <> Hom proj
+R3735:3735 nlab.CategoryTheory.Categories <> C:96 var
+R3737:3737 nlab.CategoryTheory.Categories <> B:98 var
+R3739:3739 nlab.CategoryTheory.Categories <> Y:105 var
+binder 3724:3727 <> q₂:107
+R3770:3777 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3757:3759 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3751:3755 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R3747:3750 nlab.CategoryTheory.Categories <> q₁:106 var
+R3756:3756 nlab.CategoryTheory.Categories <> f:100 var
+R3764:3768 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R3760:3763 nlab.CategoryTheory.Categories <> q₂:107 var
+R3769:3769 nlab.CategoryTheory.Categories <> g:101 var
+R3778:3785 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R3799:3800 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R3790:3792 nlab.CategoryTheory.Categories <> Hom proj
+R3794:3794 nlab.CategoryTheory.Categories <> C:96 var
+R3796:3796 nlab.CategoryTheory.Categories <> P:102 var
+R3798:3798 nlab.CategoryTheory.Categories <> Y:105 var
+binder 3786:3786 <> h:108
+R3818:3821 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3811:3813 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3802:3806 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R3801:3801 nlab.CategoryTheory.Categories <> h:108 var
+R3807:3810 nlab.CategoryTheory.Categories <> p₁:103 var
+R3814:3817 nlab.CategoryTheory.Categories <> q₁:106 var
+R3832:3834 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3823:3827 nlab.CategoryTheory.Categories <> :::x_'∘'_x not
+R3822:3822 nlab.CategoryTheory.Categories <> h:108 var
+R3828:3831 nlab.CategoryTheory.Categories <> p₂:104 var
+R3835:3838 nlab.CategoryTheory.Categories <> q₂:107 var
+def 3943:3954 <> Set_Category
+R3958:3965 nlab.CategoryTheory.Categories <> Category rec
+R3975:3977 nlab.CategoryTheory.Categories <> Obj proj
+R3975:3977 nlab.CategoryTheory.Categories <> Obj proj
+R3975:3977 nlab.CategoryTheory.Categories <> Obj proj
+R3990:3992 nlab.CategoryTheory.Categories <> Hom proj
+R3990:3992 nlab.CategoryTheory.Categories <> Hom proj
+R4018:4019 nlab.CategoryTheory.Categories <> id proj
+R4018:4019 nlab.CategoryTheory.Categories <> id proj
+R4045:4051 nlab.CategoryTheory.Categories <> compose proj
+R4045:4051 nlab.CategoryTheory.Categories <> compose proj
+R4093:4099 nlab.CategoryTheory.Categories <> left_id proj
+R4093:4099 nlab.CategoryTheory.Categories <> left_id proj
+R4128:4135 nlab.CategoryTheory.Categories <> right_id proj
+R4128:4135 nlab.CategoryTheory.Categories <> right_id proj
+R4164:4168 nlab.CategoryTheory.Categories <> assoc proj
+R4164:4168 nlab.CategoryTheory.Categories <> assoc proj
+binder 4001:4001 <> A:109
+binder 4003:4003 <> B:110
+R4009:4012 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4008:4008 nlab.CategoryTheory.Categories <> A:109 var
+R4013:4013 nlab.CategoryTheory.Categories <> B:110 var
+binder 4028:4028 <> A:111
+R4033:4038 nlab.Foundations.Sets <> id_fun def
+R4040:4040 nlab.CategoryTheory.Categories <> A:111 var
+binder 4060:4060 <> A:112
+binder 4062:4062 <> B:113
+binder 4064:4064 <> C:114
+binder 4066:4066 <> g:115
+binder 4068:4068 <> f:116
+binder 4077:4077 <> x:117
+R4082:4082 nlab.CategoryTheory.Categories <> g:115 var
+R4085:4085 nlab.CategoryTheory.Categories <> f:116 var
+R4087:4087 nlab.CategoryTheory.Categories <> x:117 var
+binder 4108:4108 <> A:118
+binder 4110:4110 <> B:119
+binder 4112:4112 <> f:120
+R4117:4123 Coq.Init.Logic <> eq_refl constr
+binder 4144:4144 <> A:121
+binder 4146:4146 <> B:122
+binder 4148:4148 <> f:123
+R4153:4159 Coq.Init.Logic <> eq_refl constr
+binder 4177:4177 <> A:124
+binder 4179:4179 <> B:125
+binder 4181:4181 <> C:126
+binder 4183:4183 <> D:127
+binder 4185:4185 <> f:128
+binder 4187:4187 <> g:129
+binder 4189:4189 <> h:130
+R4194:4200 Coq.Init.Logic <> eq_refl constr
+def 4253:4269 <> discrete_category
+binder 4272:4272 <> A:131
+R4284:4291 nlab.CategoryTheory.Categories <> Category rec
+R4317:4319 nlab.CategoryTheory.Categories <> Obj proj
+R4317:4319 nlab.CategoryTheory.Categories <> Obj proj
+R4317:4319 nlab.CategoryTheory.Categories <> Obj proj
+R4331:4333 nlab.CategoryTheory.Categories <> Hom proj
+R4331:4333 nlab.CategoryTheory.Categories <> Hom proj
+R4360:4361 nlab.CategoryTheory.Categories <> id proj
+R4360:4361 nlab.CategoryTheory.Categories <> id proj
+R4388:4394 nlab.CategoryTheory.Categories <> compose proj
+R4388:4394 nlab.CategoryTheory.Categories <> compose proj
+R4434:4440 nlab.CategoryTheory.Categories <> left_id proj
+R4434:4440 nlab.CategoryTheory.Categories <> left_id proj
+R4452:4459 nlab.CategoryTheory.Categories <> right_id proj
+R4452:4459 nlab.CategoryTheory.Categories <> right_id proj
+R4471:4475 nlab.CategoryTheory.Categories <> assoc proj
+R4471:4475 nlab.CategoryTheory.Categories <> assoc proj
+binder 4342:4342 <> x:132
+binder 4344:4344 <> y:133
+R4350:4352 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4349:4349 nlab.CategoryTheory.Categories <> x:132 var
+R4353:4353 nlab.CategoryTheory.Categories <> y:133 var
+binder 4370:4370 <> x:134
+R4375:4381 Coq.Init.Logic <> eq_refl constr
+binder 4403:4403 <> x:135
+binder 4405:4405 <> y:136
+binder 4407:4407 <> z:137
+binder 4409:4409 <> g:138
+binder 4411:4411 <> f:139
+R4416:4423 Coq.Init.Logic <> eq_trans thm
+R4427:4427 nlab.CategoryTheory.Categories <> g:138 var
+R4425:4425 nlab.CategoryTheory.Categories <> f:139 var
+R4317:4319 nlab.CategoryTheory.Categories <> Obj proj
+R4317:4319 nlab.CategoryTheory.Categories <> Obj proj
+R4317:4319 nlab.CategoryTheory.Categories <> Obj proj
+R4331:4333 nlab.CategoryTheory.Categories <> Hom proj
+R4331:4333 nlab.CategoryTheory.Categories <> Hom proj
+R4360:4361 nlab.CategoryTheory.Categories <> id proj
+R4360:4361 nlab.CategoryTheory.Categories <> id proj
+R4388:4394 nlab.CategoryTheory.Categories <> compose proj
+R4388:4394 nlab.CategoryTheory.Categories <> compose proj
+R4434:4440 nlab.CategoryTheory.Categories <> left_id proj
+R4434:4440 nlab.CategoryTheory.Categories <> left_id proj
+R4452:4459 nlab.CategoryTheory.Categories <> right_id proj
+R4452:4459 nlab.CategoryTheory.Categories <> right_id proj
+R4471:4475 nlab.CategoryTheory.Categories <> assoc proj
+R4471:4475 nlab.CategoryTheory.Categories <> assoc proj
+binder 4342:4342 <> x:140
+binder 4344:4344 <> y:141
+R4350:4352 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4349:4349 nlab.CategoryTheory.Categories <> x:140 var
+R4353:4353 nlab.CategoryTheory.Categories <> y:141 var
+binder 4370:4370 <> x:142
+R4375:4381 Coq.Init.Logic <> eq_refl constr
+binder 4403:4403 <> x:143
+binder 4405:4405 <> y:144
+binder 4407:4407 <> z:145
+binder 4409:4409 <> g:146
+binder 4411:4411 <> f:147
+R4416:4423 Coq.Init.Logic <> eq_trans thm
+R4427:4427 nlab.CategoryTheory.Categories <> g:146 var
+R4425:4425 nlab.CategoryTheory.Categories <> f:147 var
+def 4701:4713 <> Prop_Category
+R4717:4724 nlab.CategoryTheory.Categories <> Category rec
+R4734:4736 nlab.CategoryTheory.Categories <> Obj proj
+R4734:4736 nlab.CategoryTheory.Categories <> Obj proj
+R4734:4736 nlab.CategoryTheory.Categories <> Obj proj
+R4749:4751 nlab.CategoryTheory.Categories <> Hom proj
+R4749:4751 nlab.CategoryTheory.Categories <> Hom proj
+R4777:4778 nlab.CategoryTheory.Categories <> id proj
+R4777:4778 nlab.CategoryTheory.Categories <> id proj
+R4804:4810 nlab.CategoryTheory.Categories <> compose proj
+R4804:4810 nlab.CategoryTheory.Categories <> compose proj
+R4852:4858 nlab.CategoryTheory.Categories <> left_id proj
+R4852:4858 nlab.CategoryTheory.Categories <> left_id proj
+R4887:4894 nlab.CategoryTheory.Categories <> right_id proj
+R4887:4894 nlab.CategoryTheory.Categories <> right_id proj
+R4923:4927 nlab.CategoryTheory.Categories <> assoc proj
+R4923:4927 nlab.CategoryTheory.Categories <> assoc proj
+binder 4760:4760 <> P:148
+binder 4762:4762 <> Q:149
+R4768:4771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4767:4767 nlab.CategoryTheory.Categories <> P:148 var
+R4772:4772 nlab.CategoryTheory.Categories <> Q:149 var
+binder 4787:4787 <> P:150
+R4792:4797 nlab.Foundations.Sets <> id_fun def
+R4799:4799 nlab.CategoryTheory.Categories <> P:150 var
+binder 4819:4819 <> P:151
+binder 4821:4821 <> Q:152
+binder 4823:4823 <> R:153
+binder 4825:4825 <> g:154
+binder 4827:4827 <> f:155
+binder 4836:4836 <> x:156
+R4841:4841 nlab.CategoryTheory.Categories <> g:154 var
+R4844:4844 nlab.CategoryTheory.Categories <> f:155 var
+R4846:4846 nlab.CategoryTheory.Categories <> x:156 var
+binder 4867:4867 <> P:157
+binder 4869:4869 <> Q:158
+binder 4871:4871 <> f:159
+R4876:4882 Coq.Init.Logic <> eq_refl constr
+binder 4903:4903 <> P:160
+binder 4905:4905 <> Q:161
+binder 4907:4907 <> f:162
+R4912:4918 Coq.Init.Logic <> eq_refl constr
+binder 4936:4936 <> P:163
+binder 4938:4938 <> Q:164
+binder 4940:4940 <> R:165
+binder 4942:4942 <> S:166
+binder 4944:4944 <> f:167
+binder 4946:4946 <> g:168
+binder 4948:4948 <> h:169
+R4953:4959 Coq.Init.Logic <> eq_refl constr
+def 5026:5041 <> full_subcategory
+R5048:5055 nlab.CategoryTheory.Categories <> Category rec
+binder 5044:5044 <> C:170
+R5068:5071 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5063:5065 nlab.CategoryTheory.Categories <> Obj proj
+R5067:5067 nlab.CategoryTheory.Categories <> C:170 var
+binder 5059:5059 <> P:171
+R5080:5087 nlab.CategoryTheory.Categories <> Category rec
+R5097:5099 nlab.CategoryTheory.Categories <> Obj proj
+R5097:5099 nlab.CategoryTheory.Categories <> Obj proj
+R5097:5099 nlab.CategoryTheory.Categories <> Obj proj
+R5125:5127 nlab.CategoryTheory.Categories <> Hom proj
+R5125:5127 nlab.CategoryTheory.Categories <> Hom proj
+R5180:5181 nlab.CategoryTheory.Categories <> id proj
+R5180:5181 nlab.CategoryTheory.Categories <> id proj
+R5217:5223 nlab.CategoryTheory.Categories <> compose proj
+R5217:5223 nlab.CategoryTheory.Categories <> compose proj
+R5262:5268 nlab.CategoryTheory.Categories <> left_id proj
+R5262:5268 nlab.CategoryTheory.Categories <> left_id proj
+R5329:5336 nlab.CategoryTheory.Categories <> right_id proj
+R5329:5336 nlab.CategoryTheory.Categories <> right_id proj
+R5398:5402 nlab.CategoryTheory.Categories <> assoc proj
+R5398:5402 nlab.CategoryTheory.Categories <> assoc proj
+R5104:5104 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5106:5108 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5114:5116 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5120:5120 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5109:5111 nlab.CategoryTheory.Categories <> Obj proj
+R5113:5113 nlab.CategoryTheory.Categories <> C:170 var
+binder 5105:5105 <> A:172
+R5117:5117 nlab.CategoryTheory.Categories <> P:171 var
+R5119:5119 nlab.CategoryTheory.Categories <> A:172 var
+binder 5136:5136 <> A:173
+binder 5138:5138 <> B:174
+R5143:5145 nlab.CategoryTheory.Categories <> Hom proj
+R5147:5147 nlab.CategoryTheory.Categories <> C:170 var
+R5150:5158 Coq.Init.Specif <> proj1_sig def
+R5160:5160 nlab.CategoryTheory.Categories <> A:173 var
+R5164:5172 Coq.Init.Specif <> proj1_sig def
+R5174:5174 nlab.CategoryTheory.Categories <> B:174 var
+binder 5190:5190 <> A:175
+R5195:5196 nlab.CategoryTheory.Categories <> id proj
+R5198:5198 nlab.CategoryTheory.Categories <> C:170 var
+R5201:5209 Coq.Init.Specif <> proj1_sig def
+R5211:5211 nlab.CategoryTheory.Categories <> A:175 var
+binder 5232:5232 <> A:176
+binder 5234:5234 <> B:177
+binder 5236:5236 <> D:178
+binder 5238:5238 <> g:179
+binder 5240:5240 <> f:180
+R5245:5251 nlab.CategoryTheory.Categories <> compose proj
+R5257:5257 nlab.CategoryTheory.Categories <> f:180 var
+R5255:5255 nlab.CategoryTheory.Categories <> g:179 var
+R5253:5253 nlab.CategoryTheory.Categories <> C:170 var
+binder 5277:5277 <> A:181
+binder 5279:5279 <> B:182
+binder 5281:5281 <> f:183
+R5286:5292 nlab.CategoryTheory.Categories <> left_id proj
+R5294:5294 nlab.CategoryTheory.Categories <> C:170 var
+R5297:5305 Coq.Init.Specif <> proj1_sig def
+R5307:5307 nlab.CategoryTheory.Categories <> A:181 var
+R5311:5319 Coq.Init.Specif <> proj1_sig def
+R5321:5321 nlab.CategoryTheory.Categories <> B:182 var
+R5324:5324 nlab.CategoryTheory.Categories <> f:183 var
+binder 5345:5345 <> A:184
+binder 5347:5347 <> B:185
+binder 5349:5349 <> f:186
+R5354:5361 nlab.CategoryTheory.Categories <> right_id proj
+R5363:5363 nlab.CategoryTheory.Categories <> C:170 var
+R5366:5374 Coq.Init.Specif <> proj1_sig def
+R5376:5376 nlab.CategoryTheory.Categories <> A:184 var
+R5380:5388 Coq.Init.Specif <> proj1_sig def
+R5390:5390 nlab.CategoryTheory.Categories <> B:185 var
+R5393:5393 nlab.CategoryTheory.Categories <> f:186 var
+binder 5411:5411 <> A:187
+binder 5413:5413 <> B:188
+binder 5415:5415 <> D:189
+binder 5417:5417 <> E:190
+binder 5419:5419 <> f:191
+binder 5421:5421 <> g:192
+binder 5423:5423 <> h:193
+R5428:5432 nlab.CategoryTheory.Categories <> assoc proj
+R5434:5434 nlab.CategoryTheory.Categories <> C:170 var
+R5437:5445 Coq.Init.Specif <> proj1_sig def
+R5447:5447 nlab.CategoryTheory.Categories <> A:187 var
+R5451:5459 Coq.Init.Specif <> proj1_sig def
+R5461:5461 nlab.CategoryTheory.Categories <> B:188 var
+R5505:5513 Coq.Init.Specif <> proj1_sig def
+R5515:5515 nlab.CategoryTheory.Categories <> D:189 var
+R5519:5527 Coq.Init.Specif <> proj1_sig def
+R5529:5529 nlab.CategoryTheory.Categories <> E:190 var
+R5532:5532 nlab.CategoryTheory.Categories <> f:191 var
+R5534:5534 nlab.CategoryTheory.Categories <> g:192 var
+R5536:5536 nlab.CategoryTheory.Categories <> h:193 var
+def 5619:5635 <> opposite_category
+R5642:5649 nlab.CategoryTheory.Categories <> Category rec
+binder 5638:5638 <> C:194
+R5654:5661 nlab.CategoryTheory.Categories <> Category rec
+R5671:5673 nlab.CategoryTheory.Categories <> Obj proj
+R5671:5673 nlab.CategoryTheory.Categories <> Obj proj
+R5671:5673 nlab.CategoryTheory.Categories <> Obj proj
+R5687:5689 nlab.CategoryTheory.Categories <> Hom proj
+R5687:5689 nlab.CategoryTheory.Categories <> Hom proj
+R5718:5719 nlab.CategoryTheory.Categories <> id proj
+R5718:5719 nlab.CategoryTheory.Categories <> id proj
+R5732:5738 nlab.CategoryTheory.Categories <> compose proj
+R5732:5738 nlab.CategoryTheory.Categories <> compose proj
+R5777:5783 nlab.CategoryTheory.Categories <> left_id proj
+R5777:5783 nlab.CategoryTheory.Categories <> left_id proj
+R5821:5828 nlab.CategoryTheory.Categories <> right_id proj
+R5821:5828 nlab.CategoryTheory.Categories <> right_id proj
+R5865:5869 nlab.CategoryTheory.Categories <> assoc proj
+R5865:5869 nlab.CategoryTheory.Categories <> assoc proj
+R5678:5680 nlab.CategoryTheory.Categories <> Obj proj
+R5682:5682 nlab.CategoryTheory.Categories <> C:194 var
+binder 5698:5698 <> A:195
+binder 5700:5700 <> B:196
+R5705:5707 nlab.CategoryTheory.Categories <> Hom proj
+R5709:5709 nlab.CategoryTheory.Categories <> C:194 var
+R5711:5711 nlab.CategoryTheory.Categories <> B:196 var
+R5713:5713 nlab.CategoryTheory.Categories <> A:195 var
+R5724:5725 nlab.CategoryTheory.Categories <> id proj
+R5727:5727 nlab.CategoryTheory.Categories <> C:194 var
+binder 5747:5747 <> A:197
+binder 5749:5749 <> B:198
+binder 5751:5751 <> D:199
+binder 5753:5753 <> g:200
+binder 5755:5755 <> f:201
+R5760:5766 nlab.CategoryTheory.Categories <> compose proj
+R5772:5772 nlab.CategoryTheory.Categories <> g:200 var
+R5770:5770 nlab.CategoryTheory.Categories <> f:201 var
+R5768:5768 nlab.CategoryTheory.Categories <> C:194 var
+binder 5792:5792 <> A:202
+binder 5794:5794 <> B:203
+binder 5796:5796 <> f:204
+R5801:5808 nlab.CategoryTheory.Categories <> right_id proj
+R5810:5810 nlab.CategoryTheory.Categories <> C:194 var
+R5812:5812 nlab.CategoryTheory.Categories <> B:203 var
+R5814:5814 nlab.CategoryTheory.Categories <> A:202 var
+R5816:5816 nlab.CategoryTheory.Categories <> f:204 var
+binder 5837:5837 <> A:205
+binder 5839:5839 <> B:206
+binder 5841:5841 <> f:207
+R5846:5852 nlab.CategoryTheory.Categories <> left_id proj
+R5854:5854 nlab.CategoryTheory.Categories <> C:194 var
+R5856:5856 nlab.CategoryTheory.Categories <> B:206 var
+R5858:5858 nlab.CategoryTheory.Categories <> A:205 var
+R5860:5860 nlab.CategoryTheory.Categories <> f:207 var
+binder 5878:5878 <> A:208
+binder 5880:5880 <> B:209
+binder 5882:5882 <> D:210
+binder 5884:5884 <> E:211
+binder 5886:5886 <> f:212
+binder 5888:5888 <> g:213
+binder 5890:5890 <> h:214
+R5895:5900 Coq.Init.Logic <> eq_sym thm
+R5903:5907 nlab.CategoryTheory.Categories <> assoc proj
+R5909:5909 nlab.CategoryTheory.Categories <> C:194 var
+R5911:5911 nlab.CategoryTheory.Categories <> E:211 var
+R5913:5913 nlab.CategoryTheory.Categories <> D:210 var
+R5915:5915 nlab.CategoryTheory.Categories <> B:209 var
+R5917:5917 nlab.CategoryTheory.Categories <> A:208 var
+R5919:5919 nlab.CategoryTheory.Categories <> h:214 var
+R5921:5921 nlab.CategoryTheory.Categories <> g:213 var
+R5923:5923 nlab.CategoryTheory.Categories <> f:212 var
+R5952:5968 nlab.CategoryTheory.Categories <> opposite_category def
+not 5940:5940 <> :::x_'^op'
+def 6103:6116 <> small_category
+R6123:6130 nlab.CategoryTheory.Categories <> Category rec
+binder 6119:6119 <> C:215
+R6211:6214 Coq.Init.Logic <> True ind
+def 6259:6271 <> locally_small
+R6278:6285 nlab.CategoryTheory.Categories <> Category rec
+binder 6274:6274 <> C:216
+R6313:6315 nlab.CategoryTheory.Categories <> Obj proj
+R6317:6317 nlab.CategoryTheory.Categories <> C:216 var
+binder 6307:6307 <> A:217
+binder 6309:6309 <> B:218
+R6320:6323 Coq.Init.Logic <> True ind
+def 6452:6459 <> groupoid
+R6466:6473 nlab.CategoryTheory.Categories <> Category rec
+binder 6462:6462 <> C:219
+R6502:6504 nlab.CategoryTheory.Categories <> Obj proj
+R6506:6506 nlab.CategoryTheory.Categories <> C:219 var
+binder 6496:6496 <> A:220
+binder 6498:6498 <> B:221
+R6514:6516 nlab.CategoryTheory.Categories <> Hom proj
+R6518:6518 nlab.CategoryTheory.Categories <> C:219 var
+R6520:6520 nlab.CategoryTheory.Categories <> A:220 var
+R6522:6522 nlab.CategoryTheory.Categories <> B:221 var
+binder 6510:6510 <> f:222
+R6526:6536 nlab.CategoryTheory.Categories <> isomorphism def
+R6538:6538 nlab.CategoryTheory.Categories <> C:219 var
+R6540:6540 nlab.CategoryTheory.Categories <> A:220 var
+R6542:6542 nlab.CategoryTheory.Categories <> B:221 var
+R6544:6544 nlab.CategoryTheory.Categories <> f:222 var
+def 6615:6622 <> skeletal
+R6629:6636 nlab.CategoryTheory.Categories <> Category rec
+binder 6625:6625 <> C:223
+R6664:6666 nlab.CategoryTheory.Categories <> Obj proj
+R6668:6668 nlab.CategoryTheory.Categories <> C:223 var
+binder 6658:6658 <> A:224
+binder 6660:6660 <> B:225
+R6678:6681 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6672:6676 nlab.CategoryTheory.Categories <> :::x_'≅'_x not
+R6671:6671 nlab.CategoryTheory.Categories <> A:224 var
+R6677:6677 nlab.CategoryTheory.Categories <> B:225 var
+R6683:6685 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6682:6682 nlab.CategoryTheory.Categories <> A:224 var
+R6686:6686 nlab.CategoryTheory.Categories <> B:225 var
+def 6727:6735 <> connected
+R6742:6749 nlab.CategoryTheory.Categories <> Category rec
+binder 6738:6738 <> C:226
+R6777:6779 nlab.CategoryTheory.Categories <> Obj proj
+R6781:6781 nlab.CategoryTheory.Categories <> C:226 var
+binder 6771:6771 <> A:227
+binder 6773:6773 <> B:228
+R6784:6791 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6799:6805 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6796:6798 Coq.Init.Datatypes <> nat ind
+binder 6792:6792 <> n:229
+R6806:6813 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6833:6896 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6821:6824 Coq.Init.Datatypes <> list ind
+R6827:6829 nlab.CategoryTheory.Categories <> Obj proj
+R6831:6831 nlab.CategoryTheory.Categories <> C:226 var
+binder 6814:6817 <> path:230
+R6897:6900 Coq.Init.Logic <> True ind
+def 7011:7014 <> thin
+R7021:7028 nlab.CategoryTheory.Categories <> Category rec
+binder 7017:7017 <> C:231
+R7057:7059 nlab.CategoryTheory.Categories <> Obj proj
+R7061:7061 nlab.CategoryTheory.Categories <> C:231 var
+binder 7051:7051 <> A:232
+binder 7053:7053 <> B:233
+R7071:7073 nlab.CategoryTheory.Categories <> Hom proj
+R7075:7075 nlab.CategoryTheory.Categories <> C:231 var
+R7077:7077 nlab.CategoryTheory.Categories <> A:232 var
+R7079:7079 nlab.CategoryTheory.Categories <> B:233 var
+binder 7065:7065 <> f:234
+binder 7067:7067 <> g:235
+R7084:7086 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7083:7083 nlab.CategoryTheory.Categories <> f:234 var
+R7087:7087 nlab.CategoryTheory.Categories <> g:235 var
