@@ -1,0 +1,166 @@
+@@Include: ../Foundations/Sets.v@@
+
+@Fundamental Laws of Set Theory@
+
+/*
+This Catala specification formalizes fundamental set theory laws
+that correspond to the Coq formalization in Foundations/Sets.v
+*/
+
+declaration scope SetTheoryLaws:
+  context element type content
+  context set_a type content  
+  context set_b type content
+  context set_c type content
+  context universal_set type content
+  context empty_set type content
+  context subset type boolean
+  context membership type boolean
+  context union type content
+  context intersection type content
+  context complement type content
+  context power_set type content
+
+scope SetTheoryLaws:
+
+  # Empty Set Laws
+  rule empty_set_subset under condition
+    set_a
+  consequence
+    empty_set subset set_a
+
+  rule union_with_empty under condition
+    set_a and empty_set
+  consequence  
+    union equals set_a
+
+  rule intersection_with_empty under condition
+    set_a and empty_set
+  consequence
+    intersection equals empty_set
+
+  # Universal Set Laws
+  rule universal_superset under condition
+    set_a
+  consequence
+    set_a subset universal_set
+
+  rule union_with_universal under condition
+    set_a and universal_set
+  consequence
+    union equals universal_set
+
+  rule intersection_with_universal under condition
+    set_a and universal_set
+  consequence
+    intersection equals set_a
+
+  # Idempotent Laws
+  rule idempotent_union under condition
+    set_a
+  consequence
+    union of set_a with set_a equals set_a
+
+  rule idempotent_intersection under condition
+    set_a
+  consequence
+    intersection of set_a with set_a equals set_a
+
+  # Commutative Laws
+  rule commutative_union under condition
+    set_a and set_b
+  consequence
+    union of set_a with set_b equals union of set_b with set_a
+
+  rule commutative_intersection under condition
+    set_a and set_b
+  consequence
+    intersection of set_a with set_b equals intersection of set_b with set_a
+
+  # Associative Laws
+  rule associative_union under condition
+    set_a and set_b and set_c
+  consequence
+    union of (union of set_a with set_b) with set_c equals
+    union of set_a with (union of set_b with set_c)
+
+  rule associative_intersection under condition
+    set_a and set_b and set_c
+  consequence
+    intersection of (intersection of set_a with set_b) with set_c equals
+    intersection of set_a with (intersection of set_b with set_c)
+
+  # Distributive Laws
+  rule distributive_union_over_intersection under condition
+    set_a and set_b and set_c
+  consequence
+    union of set_a with (intersection of set_b with set_c) equals
+    intersection of (union of set_a with set_b) with (union of set_a with set_c)
+
+  rule distributive_intersection_over_union under condition
+    set_a and set_b and set_c
+  consequence
+    intersection of set_a with (union of set_b with set_c) equals
+    union of (intersection of set_a with set_b) with (intersection of set_a with set_c)
+
+  # De Morgan's Laws for Sets
+  rule de_morgan_complement_union under condition
+    set_a and set_b
+  consequence
+    complement of (union of set_a with set_b) equals
+    intersection of (complement of set_a) with (complement of set_b)
+
+  rule de_morgan_complement_intersection under condition
+    set_a and set_b
+  consequence
+    complement of (intersection of set_a with set_b) equals
+    union of (complement of set_a) with (complement of set_b)
+
+  # Complement Laws
+  rule complement_union under condition
+    set_a
+  consequence
+    union of set_a with (complement of set_a) equals universal_set
+
+  rule complement_intersection under condition
+    set_a
+  consequence
+    intersection of set_a with (complement of set_a) equals empty_set
+
+  rule double_complement under condition
+    set_a
+  consequence
+    complement of (complement of set_a) equals set_a
+
+  # Subset Laws  
+  rule subset_reflexive under condition
+    set_a
+  consequence
+    set_a subset set_a
+
+  rule subset_transitive under condition
+    (set_a subset set_b) and (set_b subset set_c)
+  consequence
+    set_a subset set_c
+
+  rule subset_antisymmetric under condition
+    (set_a subset set_b) and (set_b subset set_a)
+  consequence
+    set_a equals set_b
+
+  # Power Set Laws
+  rule power_set_membership under condition
+    set_a and power_set
+  consequence
+    (subset belongs_to power_set) if and only if (subset subset set_a)
+
+  rule power_set_empty under condition
+    empty_set
+  consequence
+    power_set of empty_set contains only empty_set
+
+/*
+These set theory laws establish the fundamental algebraic structure
+of sets and provide the foundation for mathematical analysis and
+discrete mathematics.
+*/

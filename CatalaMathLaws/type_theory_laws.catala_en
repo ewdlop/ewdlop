@@ -1,0 +1,159 @@
+@@Include: ../TypeTheory/DependentTypes.v@@
+@@Include: ../TypeTheory/IdentityTypes.v@@
+
+@Fundamental Laws of Type Theory@
+
+/*
+This Catala specification formalizes fundamental type theory laws
+that correspond to the Coq formalization in TypeTheory/
+*/
+
+declaration scope TypeTheoryLaws:
+  context type_universe type content
+  context dependent_type type content
+  context pi_type type content
+  context sigma_type type content
+  context identity_type type content
+  context function_type type content
+  context term type content
+  context proof type content
+  context context type content
+
+scope TypeTheoryLaws:
+
+  # Function Type Laws (Simple Types)
+  rule function_application under condition
+    function with type (a_type arrow b_type) and
+    argument with type a_type
+  consequence
+    application of function to argument has type b_type
+
+  rule function_abstraction under condition
+    variable with type a_type and
+    body with type b_type in context extended with variable
+  consequence
+    lambda abstraction has type (a_type arrow b_type)
+
+  # Dependent Function Types (Pi Types)
+  rule pi_type_formation under condition
+    type_a type in universe and
+    dependent_type_b depending on variable of type_a
+  consequence
+    pi_type over type_a with dependent_type_b is type in universe
+
+  rule pi_type_introduction under condition
+    term of dependent_type_b for each value of variable with type_a
+  consequence
+    lambda abstraction has pi_type over type_a with dependent_type_b
+
+  rule pi_type_elimination under condition
+    function with pi_type over type_a with dependent_type_b and
+    argument with type_a
+  consequence
+    application has type (dependent_type_b substituted with argument)
+
+  # Dependent Pair Types (Sigma Types)  
+  rule sigma_type_formation under condition
+    type_a type in universe and
+    dependent_type_b depending on variable of type_a
+  consequence
+    sigma_type over type_a with dependent_type_b is type in universe
+
+  rule sigma_type_introduction under condition
+    first_component with type_a and
+    second_component with type (dependent_type_b substituted with first_component)
+  consequence
+    pair has sigma_type over type_a with dependent_type_b
+
+  rule sigma_type_elimination_first under condition
+    pair with sigma_type over type_a with dependent_type_b
+  consequence
+    first_projection has type_a
+
+  rule sigma_type_elimination_second under condition
+    pair with sigma_type over type_a with dependent_type_b
+  consequence
+    second_projection has type (dependent_type_b substituted with first_projection of pair)
+
+  # Identity Types (Equality)
+  rule identity_type_formation under condition
+    type_a and elements x and y of type_a
+  consequence
+    identity_type of x and y in type_a is type
+
+  rule identity_type_introduction under condition
+    element x of type_a
+  consequence
+    reflexivity_proof has identity_type of x and x in type_a
+
+  rule identity_type_elimination under condition
+    proof of identity_type of x and y in type_a and
+    property depending on element of type_a and
+    proof_at_x of property at x
+  consequence
+    transport gives proof of property at y
+
+  # Substitution Laws
+  rule substitution_preserves_typing under condition
+    term with type_b in context extended with variable of type_a and
+    substitute with type_a
+  consequence
+    substituted_term has type (type_b with variable substituted)
+
+  rule substitution_composition under condition
+    term and substitution_1 and substitution_2
+  consequence
+    applying substitution_1 then substitution_2 equals
+    applying composition of substitution_2 with substitution_1
+
+  # Universe Laws
+  rule universe_hierarchy under condition
+    type in universe_i
+  consequence
+    universe_i in universe_(i+1)
+
+  rule cumulativity under condition
+    term with type_a and
+    type_a in universe_i and
+    universe_i subtype_of universe_j
+  consequence
+    term has type_a in universe_j
+
+  # Conversion Laws
+  rule definitional_equality under condition
+    type_a definitionally_equal_to type_b and
+    term with type_a
+  consequence
+    term has type_b
+
+  rule beta_reduction under condition
+    lambda abstraction with body and
+    argument
+  consequence
+    application reduces to body with variable substituted by argument
+
+  rule eta_expansion under condition
+    function with function_type
+  consequence
+    function equals lambda abstraction of application to fresh variable
+
+  # Induction Principles
+  rule structural_induction under condition
+    inductive_type with constructors and
+    motive depending on element of inductive_type and
+    methods for each constructor
+  consequence
+    induction_principle provides proof of motive for all elements
+
+  rule dependent_pattern_matching under condition
+    element of inductive_type and
+    dependent_motive and
+    cases for each constructor
+  consequence
+    match_expression has type (motive applied to element)
+
+/*
+These type theory laws establish the computational and logical
+foundation for modern proof assistants and functional programming
+languages with dependent types.
+*/

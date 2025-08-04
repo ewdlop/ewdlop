@@ -38,10 +38,18 @@ This library implements "lots of code in Coq for nLab" by providing formalized d
 │   ├── Elementary.v        # Elementary topoi
 │   ├── Sheaves.v           # Sheaves, presheaves
 │   └── Sites.v             # Grothendieck topologies
-└── Examples/                # Concrete examples
-    ├── FiniteCategories.v  # Finite and discrete categories
-    ├── Groups.v            # Groups as categories
-    └── Topology.v          # Topological categories
+├── Examples/                # Concrete examples
+│   ├── FiniteCategories.v  # Finite and discrete categories
+│   ├── Groups.v            # Groups as categories
+│   └── Topology.v          # Topological categories
+└── CatalaMathLaws/          # Mathematical laws in Catala
+    ├── logical_laws.catala_en        # Fundamental logical laws
+    ├── set_theory_laws.catala_en     # Set theory operations
+    ├── category_laws.catala_en       # Category theory principles  
+    ├── type_theory_laws.catala_en    # Type theory foundations
+    ├── additional_math_laws.catala_en # Relations, algebra, topology
+    ├── Makefile                      # Build configuration
+    └── README.md                     # Documentation for Catala laws
 ```
 
 ## Key Features
@@ -75,6 +83,13 @@ This library implements "lots of code in Coq for nLab" by providing formalized d
 - **Sheaves**: Sheaf conditions and locality
 - **Sites**: Grothendieck topologies and coverage relations
 
+### 📐 Mathematical Laws in Catala
+- **Logical Laws**: Fundamental principles of propositional and predicate logic
+- **Set Theory Laws**: Basic operations, Boolean algebra, and power sets
+- **Category Theory Laws**: Functors, natural transformations, limits, and adjunctions
+- **Type Theory Laws**: Dependent types, identity types, and universe hierarchies
+- **Additional Laws**: Relations, group theory, topology, and continuity
+
 ## Mathematical Significance
 
 This library formalizes over **50 fundamental mathematical concepts** including:
@@ -85,6 +100,8 @@ This library formalizes over **50 fundamental mathematical concepts** including:
 - Dependent types, identity types, univalence
 - Topoi, sheaves, sites
 - Classical and constructive logic principles
+
+Additionally, the **CatalaMathLaws** directory provides an alternative formalization using Catala syntax, expressing the same mathematical principles in a rule-based format that complements the Coq proofs.
 
 ## Building the Library
 

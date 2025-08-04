@@ -1,0 +1,127 @@
+@@Include: ../Foundations/Logic.v@@
+
+@Fundamental Laws of Logic@
+
+/*
+This Catala specification formalizes fundamental logical laws
+that correspond to the Coq formalization in Foundations/Logic.v
+*/
+
+declaration scope LogicalLaws:
+  context proposition type boolean
+  context negation type boolean
+  context conjunction type boolean
+  context disjunction type boolean
+  context implication type boolean
+  context biconditional type boolean
+
+scope LogicalLaws:
+
+  # Law of Non-Contradiction
+  rule law_of_non_contradiction under condition
+    proposition
+  consequence
+    not (proposition and (not proposition))
+
+  # Law of Excluded Middle  
+  rule law_of_excluded_middle under condition
+    proposition
+  consequence
+    proposition or (not proposition)
+
+  # Double Negation Elimination (Classical Logic)
+  rule double_negation_elimination under condition
+    not (not proposition)
+  consequence
+    proposition
+
+  # Modus Ponens
+  rule modus_ponens under condition
+    proposition and 
+    (proposition implies other_proposition)
+  consequence
+    other_proposition
+
+  # Modus Tollens
+  rule modus_tollens under condition
+    (proposition implies other_proposition) and
+    (not other_proposition)
+  consequence
+    not proposition
+
+  # Hypothetical Syllogism
+  rule hypothetical_syllogism under condition
+    (p implies q) and (q implies r)
+  consequence
+    (p implies r)
+
+  # De Morgan's Laws
+  rule de_morgan_not_and under condition
+    not (p and q)
+  consequence
+    (not p) or (not q)
+
+  rule de_morgan_not_or under condition
+    not (p or q)
+  consequence
+    (not p) and (not q)
+
+  # Distributive Laws
+  rule distributive_and_over_or under condition
+    p and (q or r)
+  consequence
+    (p and q) or (p and r)
+
+  rule distributive_or_over_and under condition
+    p or (q and r)
+  consequence
+    (p or q) and (p or r)
+
+  # Absorption Laws
+  rule absorption_and under condition
+    p and (p or q)
+  consequence
+    p
+
+  rule absorption_or under condition  
+    p or (p and q)
+  consequence
+    p
+
+  # Idempotent Laws
+  rule idempotent_and under condition
+    p and p
+  consequence
+    p
+
+  rule idempotent_or under condition
+    p or p
+  consequence
+    p
+
+  # Commutative Laws
+  rule commutative_and under condition
+    p and q
+  consequence
+    q and p
+
+  rule commutative_or under condition
+    p or q
+  consequence
+    q or p
+
+  # Associative Laws
+  rule associative_and under condition
+    (p and q) and r
+  consequence
+    p and (q and r)
+
+  rule associative_or under condition
+    (p or q) or r
+  consequence
+    p or (q or r)
+
+/*
+These logical laws form the foundation for mathematical reasoning
+and are essential for formal verification and proof systems.
+*/
