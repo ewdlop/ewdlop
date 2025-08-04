@@ -1,0 +1,65 @@
+@Field Theory Laws Example@
+
+/*
+A concise example showing how field theory laws could be
+expressed in Catala syntax for mathematical formalization
+*/
+
+declaration scope FieldTheoryLaws:
+  context field type content
+  context zero type content  
+  context one type content
+  context addition type content
+  context multiplication type content
+  context additive_inverse type content
+  context multiplicative_inverse type content
+
+scope FieldTheoryLaws:
+
+  # Additive Group Laws
+  rule additive_associativity under condition
+    elements a, b, c in field
+  consequence
+    addition of (addition of a with b) with c equals
+    addition of a with (addition of b with c)
+
+  rule additive_identity under condition
+    element a in field and zero in field
+  consequence
+    addition of a with zero equals a
+
+  rule additive_inverse_law under condition
+    element a in field with additive_inverse neg_a
+  consequence
+    addition of a with neg_a equals zero
+
+  # Multiplicative Group Laws (excluding zero)
+  rule multiplicative_associativity under condition
+    elements a, b, c in field and
+    a not_equal zero and b not_equal zero and c not_equal zero
+  consequence
+    multiplication of (multiplication of a with b) with c equals
+    multiplication of a with (multiplication of b with c)
+
+  rule multiplicative_identity under condition
+    element a in field and one in field and a not_equal zero
+  consequence
+    multiplication of a with one equals a
+
+  rule multiplicative_inverse_law under condition
+    element a in field with multiplicative_inverse inv_a and
+    a not_equal zero
+  consequence
+    multiplication of a with inv_a equals one
+
+  # Distributive Law
+  rule distributivity under condition
+    elements a, b, c in field
+  consequence
+    multiplication of a with (addition of b with c) equals
+    addition of (multiplication of a with b) with (multiplication of a with c)
+
+/*
+This demonstrates how algebraic structures can be formalized
+using Catala's rule-based syntax for mathematical precision.
+*/

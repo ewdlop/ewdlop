@@ -1,0 +1,166 @@
+@@Include: ../Foundations/Relations.v@@
+@@Include: ../Examples/Groups.v@@
+
+@Additional Mathematical Laws@
+
+/*
+This Catala specification formalizes additional mathematical laws
+covering relations, algebraic structures, and topological concepts
+*/
+
+declaration scope AdditionalMathLaws:
+  context relation type content
+  context equivalence_relation type boolean
+  context partial_order type boolean
+  context total_order type boolean
+  context group type content
+  context operation type content
+  context identity_element type content
+  context inverse type content
+  context topological_space type content
+  context open_set type content
+  context closed_set type content
+  context continuous_function type content
+
+scope AdditionalMathLaws:
+
+  # Equivalence Relations
+  rule equivalence_reflexive under condition
+    equivalence_relation on set_a
+  consequence
+    for_all element in set_a, element relates_to element
+
+  rule equivalence_symmetric under condition
+    equivalence_relation on set_a and
+    element_x relates_to element_y
+  consequence
+    element_y relates_to element_x
+
+  rule equivalence_transitive under condition
+    equivalence_relation on set_a and
+    element_x relates_to element_y and
+    element_y relates_to element_z
+  consequence
+    element_x relates_to element_z
+
+  # Partial Orders
+  rule partial_order_reflexive under condition
+    partial_order on set_a
+  consequence
+    for_all element in set_a, element less_than_or_equal element
+
+  rule partial_order_antisymmetric under condition
+    partial_order on set_a and
+    element_x less_than_or_equal element_y and
+    element_y less_than_or_equal element_x
+  consequence
+    element_x equals element_y
+
+  rule partial_order_transitive under condition
+    partial_order on set_a and
+    element_x less_than_or_equal element_y and
+    element_y less_than_or_equal element_z
+  consequence
+    element_x less_than_or_equal element_z
+
+  # Group Theory Laws
+  rule group_associativity under condition
+    group with operation and
+    elements a, b, c in group
+  consequence
+    operation of (operation of a with b) with c equals
+    operation of a with (operation of b with c)
+
+  rule group_identity under condition
+    group with operation and identity_element
+  consequence
+    for_all element in group,
+    (operation of identity_element with element equals element) and
+    (operation of element with identity_element equals element)
+
+  rule group_inverse under condition
+    group with operation and identity_element and
+    element in group with inverse_element
+  consequence
+    (operation of element with inverse_element equals identity_element) and
+    (operation of inverse_element with element equals identity_element)
+
+  # Subgroup Laws
+  rule subgroup_closure under condition
+    subgroup of group and
+    elements a, b in subgroup
+  consequence
+    operation of a with b belongs_to subgroup
+
+  rule subgroup_identity under condition
+    subgroup of group with identity_element
+  consequence
+    identity_element belongs_to subgroup
+
+  rule subgroup_inverse under condition
+    subgroup of group and
+    element in subgroup with inverse_element
+  consequence
+    inverse_element belongs_to subgroup
+
+  # Homomorphism Laws
+  rule homomorphism_preserves_operation under condition
+    homomorphism from group_g to group_h and
+    elements a, b in group_g
+  consequence
+    homomorphism applied to (operation_g of a with b) equals
+    operation_h of (homomorphism applied to a) with (homomorphism applied to b)
+
+  rule homomorphism_preserves_identity under condition
+    homomorphism from group_g to group_h with identity_g and identity_h
+  consequence
+    homomorphism applied to identity_g equals identity_h
+
+  # Topology Laws
+  rule topology_empty_and_total under condition
+    topological_space with collection of open_sets
+  consequence
+    empty_set belongs_to open_sets and
+    total_space belongs_to open_sets
+
+  rule topology_arbitrary_unions under condition
+    topological_space with collection of open_sets and
+    arbitrary_collection of sets from open_sets
+  consequence
+    union of arbitrary_collection belongs_to open_sets
+
+  rule topology_finite_intersections under condition
+    topological_space with collection of open_sets and
+    finite_collection of sets from open_sets
+  consequence
+    intersection of finite_collection belongs_to open_sets
+
+  # Continuity Laws
+  rule continuous_preimage under condition
+    continuous_function from space_x to space_y and
+    open_set in space_y
+  consequence
+    preimage of open_set under function is open_set in space_x
+
+  rule continuous_composition under condition
+    continuous_function_f from space_x to space_y and
+    continuous_function_g from space_y to space_z
+  consequence
+    composition of function_g with function_f is continuous from space_x to space_z
+
+  # Compactness Laws
+  rule compact_closed_bounded under condition
+    compact_subset of metric_space
+  consequence
+    compact_subset is closed and compact_subset is bounded
+
+  rule compact_continuous_image under condition
+    continuous_function from compact_space to topological_space
+  consequence
+    image of compact_space under function is compact
+
+/*
+These additional mathematical laws cover fundamental concepts
+in algebra, topology, and order theory that complement the
+core logical and categorical foundations.
+*/

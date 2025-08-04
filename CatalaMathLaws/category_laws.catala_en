@@ -1,0 +1,128 @@
+@@Include: ../CategoryTheory/Categories.v@@
+@@Include: ../CategoryTheory/Functors.v@@
+
+@Fundamental Laws of Category Theory@
+
+/*
+This Catala specification formalizes fundamental category theory laws
+that correspond to the Coq formalization in CategoryTheory/
+*/
+
+declaration scope CategoryLaws:
+  context category type content
+  context object type content
+  context morphism type content
+  context identity_morphism type content
+  context composition type content
+  context functor type content
+  context natural_transformation type content
+  context domain type content
+  context codomain type content
+
+scope CategoryLaws:
+
+  # Identity Laws
+  rule left_identity under condition
+    morphism with domain object_a and codomain object_b and
+    identity_morphism of object_a
+  consequence
+    composition of identity_morphism with morphism equals morphism
+
+  rule right_identity under condition
+    morphism with domain object_a and codomain object_b and
+    identity_morphism of object_b  
+  consequence
+    composition of morphism with identity_morphism equals morphism
+
+  # Associativity Law
+  rule composition_associativity under condition
+    morphism_f with domain object_a and codomain object_b and
+    morphism_g with domain object_b and codomain object_c and  
+    morphism_h with domain object_c and codomain object_d
+  consequence
+    composition of (composition of morphism_h with morphism_g) with morphism_f equals
+    composition of morphism_h with (composition of morphism_g with morphism_f)
+
+  # Functor Laws
+  rule functor_preserves_identity under condition
+    functor from category_c to category_d and
+    identity_morphism of object_a in category_c
+  consequence
+    functor applied to identity_morphism equals identity_morphism of (functor applied to object_a)
+
+  rule functor_preserves_composition under condition
+    functor from category_c to category_d and
+    morphism_f with domain object_a and codomain object_b and
+    morphism_g with domain object_b and codomain object_c
+  consequence
+    functor applied to (composition of morphism_g with morphism_f) equals
+    composition of (functor applied to morphism_g) with (functor applied to morphism_f)
+
+  # Isomorphism Laws
+  rule isomorphism_inverse under condition
+    morphism_f with domain object_a and codomain object_b and
+    morphism_g with domain object_b and codomain object_a and
+    (composition of morphism_g with morphism_f equals identity_morphism of object_a) and
+    (composition of morphism_f with morphism_g equals identity_morphism of object_b)
+  consequence
+    morphism_f is_isomorphism and morphism_g is_inverse_of morphism_f
+
+  rule isomorphism_symmetric under condition
+    morphism_f is_isomorphism with inverse morphism_g
+  consequence
+    morphism_g is_isomorphism with inverse morphism_f
+
+  rule isomorphism_transitive under condition
+    morphism_f is_isomorphism from object_a to object_b and
+    morphism_g is_isomorphism from object_b to object_c
+  consequence
+    composition of morphism_g with morphism_f is_isomorphism from object_a to object_c
+
+  # Natural Transformation Laws
+  rule naturality_condition under condition
+    natural_transformation from functor_f to functor_g and
+    morphism with domain object_a and codomain object_b
+  consequence
+    composition of (functor_g applied to morphism) with (natural_transformation at object_a) equals
+    composition of (natural_transformation at object_b) with (functor_f applied to morphism)
+
+  # Adjunction Laws
+  rule adjunction_unit_counit under condition
+    functor_l left_adjoint_to functor_r with unit eta and counit epsilon
+  consequence
+    (composition of (functor_l applied to epsilon) with (eta applied to functor_l) equals identity of functor_l) and
+    (composition of (epsilon applied to functor_r) with (functor_r applied to eta) equals identity of functor_r)
+
+  # Limits and Colimits
+  rule universal_property_limit under condition
+    diagram in category and limit_object with limit_cone
+  consequence
+    for_all other_cone there_exists unique mediating_morphism such_that
+    composition with limit_cone equals other_cone
+
+  rule universal_property_colimit under condition
+    diagram in category and colimit_object with colimit_cocone
+  consequence
+    for_all other_cocone there_exists unique mediating_morphism such_that
+    composition of other_cocone with mediating_morphism equals colimit_cocone
+
+  # Equivalence of Categories
+  rule categorical_equivalence under condition
+    functor_f from category_c to category_d and
+    functor_g from category_d to category_c and
+    natural_isomorphism from (composition of functor_g with functor_f) to identity_functor_c and
+    natural_isomorphism from (composition of functor_f with functor_g) to identity_functor_d
+  consequence
+    category_c is_equivalent_to category_d
+
+  # Yoneda Lemma Foundation
+  rule yoneda_embedding under condition
+    category_c and object_a in category_c
+  consequence
+    hom_functor from object_a is_full_and_faithful
+
+/*
+These category theory laws establish the fundamental structure
+of categories and provide the foundation for abstract mathematics,
+algebraic topology, and type theory.
+*/
