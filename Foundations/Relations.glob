@@ -1,0 +1,704 @@
+DIGEST 0be9b199ffd295248f8e816d4fcb0f1f
+Fnlab.Foundations.Relations
+R202:218 nlab.Foundations.Logic <> <> lib
+R236:251 nlab.Foundations.Sets <> <> lib
+def 331:341 <> rel_compose
+binder 344:344 <> A:1
+binder 346:346 <> B:2
+binder 348:348 <> C:3
+R363:370 nlab.Foundations.Sets <> relation def
+R372:372 nlab.Foundations.Relations <> A:1 var
+R374:374 nlab.Foundations.Relations <> B:2 var
+binder 359:359 <> R:4
+R382:389 nlab.Foundations.Sets <> relation def
+R391:391 nlab.Foundations.Relations <> B:2 var
+R393:393 nlab.Foundations.Relations <> C:3 var
+binder 378:378 <> S:5
+R398:405 nlab.Foundations.Sets <> relation def
+R407:407 nlab.Foundations.Relations <> A:1 var
+R409:409 nlab.Foundations.Relations <> C:3 var
+binder 420:420 <> a:6
+binder 422:422 <> c:7
+R427:433 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R439:440 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R438:438 nlab.Foundations.Relations <> B:2 var
+binder 434:434 <> b:8
+R446:449 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R441:441 nlab.Foundations.Relations <> R:4 var
+R443:443 nlab.Foundations.Relations <> a:6 var
+R445:445 nlab.Foundations.Relations <> b:8 var
+R450:450 nlab.Foundations.Relations <> S:5 var
+R452:452 nlab.Foundations.Relations <> b:8 var
+R454:454 nlab.Foundations.Relations <> c:7 var
+R481:491 nlab.Foundations.Relations <> rel_compose def
+not 467:467 <> :::x_'◦'_x
+def 576:581 <> id_rel
+binder 584:584 <> A:9
+R596:603 nlab.Foundations.Sets <> relation def
+R605:605 nlab.Foundations.Relations <> A:9 var
+R607:607 nlab.Foundations.Relations <> A:9 var
+binder 618:618 <> x:10
+binder 620:620 <> y:11
+R626:628 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R625:625 nlab.Foundations.Relations <> x:10 var
+R629:629 nlab.Foundations.Relations <> y:11 var
+def 677:684 <> converse
+binder 687:687 <> A:12
+binder 689:689 <> B:13
+R704:711 nlab.Foundations.Sets <> relation def
+R713:713 nlab.Foundations.Relations <> A:12 var
+R715:715 nlab.Foundations.Relations <> B:13 var
+binder 700:700 <> R:14
+R720:727 nlab.Foundations.Sets <> relation def
+R729:729 nlab.Foundations.Relations <> B:13 var
+R731:731 nlab.Foundations.Relations <> A:12 var
+binder 742:742 <> b:15
+binder 744:744 <> a:16
+R749:749 nlab.Foundations.Relations <> R:14 var
+R751:751 nlab.Foundations.Relations <> a:16 var
+R753:753 nlab.Foundations.Relations <> b:15 var
+R778:785 nlab.Foundations.Relations <> converse def
+not 766:766 <> :::x_'^op'
+def 882:892 <> irreflexive
+binder 895:895 <> A:17
+R910:917 nlab.Foundations.Sets <> relation def
+R919:919 nlab.Foundations.Relations <> A:17 var
+R921:921 nlab.Foundations.Relations <> A:17 var
+binder 906:906 <> R:18
+R947:947 nlab.Foundations.Relations <> A:17 var
+binder 943:943 <> x:19
+R950:951 Coq.Init.Logic <> ::type_scope:'~'_x not
+R952:952 nlab.Foundations.Relations <> R:18 var
+R954:954 nlab.Foundations.Relations <> x:19 var
+R956:956 nlab.Foundations.Relations <> x:19 var
+def 993:997 <> total
+binder 1000:1000 <> A:20
+R1015:1022 nlab.Foundations.Sets <> relation def
+R1024:1024 nlab.Foundations.Relations <> A:20 var
+R1026:1026 nlab.Foundations.Relations <> A:20 var
+binder 1011:1011 <> R:21
+R1054:1054 nlab.Foundations.Relations <> A:20 var
+binder 1048:1048 <> x:22
+binder 1050:1050 <> y:23
+R1062:1065 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1058:1060 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1057:1057 nlab.Foundations.Relations <> x:22 var
+R1061:1061 nlab.Foundations.Relations <> y:23 var
+R1071:1074 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1066:1066 nlab.Foundations.Relations <> R:21 var
+R1068:1068 nlab.Foundations.Relations <> x:22 var
+R1070:1070 nlab.Foundations.Relations <> y:23 var
+R1075:1075 nlab.Foundations.Relations <> R:21 var
+R1077:1077 nlab.Foundations.Relations <> y:23 var
+R1079:1079 nlab.Foundations.Relations <> x:22 var
+def 1114:1125 <> trichotomous
+binder 1128:1128 <> A:24
+R1143:1150 nlab.Foundations.Sets <> relation def
+R1152:1152 nlab.Foundations.Relations <> A:24 var
+R1154:1154 nlab.Foundations.Relations <> A:24 var
+binder 1139:1139 <> R:25
+R1182:1182 nlab.Foundations.Relations <> A:24 var
+binder 1176:1176 <> x:26
+binder 1178:1178 <> y:27
+R1190:1193 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1185:1185 nlab.Foundations.Relations <> R:25 var
+R1187:1187 nlab.Foundations.Relations <> x:26 var
+R1189:1189 nlab.Foundations.Relations <> y:27 var
+R1199:1202 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1195:1197 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1194:1194 nlab.Foundations.Relations <> x:26 var
+R1198:1198 nlab.Foundations.Relations <> y:27 var
+R1203:1203 nlab.Foundations.Relations <> R:25 var
+R1205:1205 nlab.Foundations.Relations <> y:27 var
+R1207:1207 nlab.Foundations.Relations <> x:26 var
+def 1277:1293 <> reflexive_closure
+binder 1296:1296 <> A:28
+R1311:1318 nlab.Foundations.Sets <> relation def
+R1320:1320 nlab.Foundations.Relations <> A:28 var
+R1322:1322 nlab.Foundations.Relations <> A:28 var
+binder 1307:1307 <> R:29
+R1327:1334 nlab.Foundations.Sets <> relation def
+R1336:1336 nlab.Foundations.Relations <> A:28 var
+R1338:1338 nlab.Foundations.Relations <> A:28 var
+binder 1349:1349 <> x:30
+binder 1351:1351 <> y:31
+R1361:1364 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1357:1359 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1356:1356 nlab.Foundations.Relations <> x:30 var
+R1360:1360 nlab.Foundations.Relations <> y:31 var
+R1365:1365 nlab.Foundations.Relations <> R:29 var
+R1367:1367 nlab.Foundations.Relations <> x:30 var
+R1369:1369 nlab.Foundations.Relations <> y:31 var
+def 1409:1425 <> symmetric_closure
+binder 1428:1428 <> A:32
+R1443:1450 nlab.Foundations.Sets <> relation def
+R1452:1452 nlab.Foundations.Relations <> A:32 var
+R1454:1454 nlab.Foundations.Relations <> A:32 var
+binder 1439:1439 <> R:33
+R1459:1466 nlab.Foundations.Sets <> relation def
+R1468:1468 nlab.Foundations.Relations <> A:32 var
+R1470:1470 nlab.Foundations.Relations <> A:32 var
+binder 1481:1481 <> x:34
+binder 1483:1483 <> y:35
+R1493:1496 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1488:1488 nlab.Foundations.Relations <> R:33 var
+R1490:1490 nlab.Foundations.Relations <> x:34 var
+R1492:1492 nlab.Foundations.Relations <> y:35 var
+R1497:1497 nlab.Foundations.Relations <> R:33 var
+R1499:1499 nlab.Foundations.Relations <> y:35 var
+R1501:1501 nlab.Foundations.Relations <> x:34 var
+ind 1541:1558 <> transitive_closure
+constr 1610:1616 <> tc_base
+constr 1674:1681 <> tc_trans
+binder 1561:1561 <> A:36
+R1576:1583 nlab.Foundations.Sets <> relation def
+R1585:1585 nlab.Foundations.Relations <> A:36 var
+R1587:1587 nlab.Foundations.Relations <> A:36 var
+binder 1572:1572 <> R:37
+R1592:1599 nlab.Foundations.Sets <> relation def
+R1633:1633 nlab.Foundations.Relations <> A:36 var
+binder 1627:1627 <> x:40
+binder 1629:1629 <> y:41
+R1641:1644 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1636:1636 nlab.Foundations.Relations <> R:37 var
+R1638:1638 nlab.Foundations.Relations <> x:40 var
+R1640:1640 nlab.Foundations.Relations <> y:41 var
+R1645:1662 nlab.Foundations.Relations <> transitive_closure:38 ind
+R1670:1670 nlab.Foundations.Relations <> y:41 var
+R1668:1668 nlab.Foundations.Relations <> x:40 var
+R1666:1666 nlab.Foundations.Relations <> R:37 var
+R1664:1664 nlab.Foundations.Relations <> A:36 var
+R1700:1700 nlab.Foundations.Relations <> A:36 var
+binder 1692:1692 <> x:42
+binder 1694:1694 <> y:43
+binder 1696:1696 <> z:44
+R1734:1742 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1708:1725 nlab.Foundations.Relations <> transitive_closure:38 ind
+R1733:1733 nlab.Foundations.Relations <> y:43 var
+R1731:1731 nlab.Foundations.Relations <> x:42 var
+R1729:1729 nlab.Foundations.Relations <> R:37 var
+R1727:1727 nlab.Foundations.Relations <> A:36 var
+R1769:1777 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1743:1760 nlab.Foundations.Relations <> transitive_closure:38 ind
+R1768:1768 nlab.Foundations.Relations <> z:44 var
+R1766:1766 nlab.Foundations.Relations <> y:43 var
+R1764:1764 nlab.Foundations.Relations <> R:37 var
+R1762:1762 nlab.Foundations.Relations <> A:36 var
+R1778:1795 nlab.Foundations.Relations <> transitive_closure:38 ind
+R1803:1803 nlab.Foundations.Relations <> z:44 var
+R1801:1801 nlab.Foundations.Relations <> x:42 var
+R1799:1799 nlab.Foundations.Relations <> R:37 var
+R1797:1797 nlab.Foundations.Relations <> A:36 var
+scheme 1541:1558 <> transitive_closure_ind
+scheme 1541:1558 <> transitive_closure_sind
+ind 1853:1880 <> reflexive_transitive_closure
+constr 1932:1939 <> rtc_refl
+constr 1996:2003 <> rtc_step
+binder 1883:1883 <> A:45
+R1898:1905 nlab.Foundations.Sets <> relation def
+R1907:1907 nlab.Foundations.Relations <> A:45 var
+R1909:1909 nlab.Foundations.Relations <> A:45 var
+binder 1894:1894 <> R:46
+R1914:1921 nlab.Foundations.Sets <> relation def
+R1954:1954 nlab.Foundations.Relations <> A:45 var
+binder 1950:1950 <> x:49
+R1957:1984 nlab.Foundations.Relations <> reflexive_transitive_closure:47 ind
+R1992:1992 nlab.Foundations.Relations <> x:49 var
+R1990:1990 nlab.Foundations.Relations <> x:49 var
+R1988:1988 nlab.Foundations.Relations <> R:46 var
+R1986:1986 nlab.Foundations.Relations <> A:45 var
+R2022:2022 nlab.Foundations.Relations <> A:45 var
+binder 2014:2014 <> x:50
+binder 2016:2016 <> y:51
+binder 2018:2018 <> z:52
+R2035:2043 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2030:2030 nlab.Foundations.Relations <> R:46 var
+R2032:2032 nlab.Foundations.Relations <> x:50 var
+R2034:2034 nlab.Foundations.Relations <> y:51 var
+R2080:2088 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2044:2071 nlab.Foundations.Relations <> reflexive_transitive_closure:47 ind
+R2079:2079 nlab.Foundations.Relations <> z:52 var
+R2077:2077 nlab.Foundations.Relations <> y:51 var
+R2075:2075 nlab.Foundations.Relations <> R:46 var
+R2073:2073 nlab.Foundations.Relations <> A:45 var
+R2089:2116 nlab.Foundations.Relations <> reflexive_transitive_closure:47 ind
+R2124:2124 nlab.Foundations.Relations <> z:52 var
+R2122:2122 nlab.Foundations.Relations <> x:50 var
+R2120:2120 nlab.Foundations.Relations <> R:46 var
+R2118:2118 nlab.Foundations.Relations <> A:45 var
+scheme 1853:1880 <> reflexive_transitive_closure_ind
+scheme 1853:1880 <> reflexive_transitive_closure_sind
+def 2250:2265 <> well_founded_rel
+binder 2268:2268 <> A:53
+R2283:2290 nlab.Foundations.Sets <> relation def
+R2292:2292 nlab.Foundations.Relations <> A:53 var
+R2294:2294 nlab.Foundations.Relations <> A:53 var
+binder 2279:2279 <> R:54
+R2309:2320 nlab.Foundations.Logic <> well_founded def
+R2322:2322 nlab.Foundations.Relations <> A:53 var
+R2324:2324 nlab.Foundations.Relations <> R:54 var
+def 2370:2379 <> accessible
+binder 2382:2382 <> A:55
+R2397:2404 nlab.Foundations.Sets <> relation def
+R2406:2406 nlab.Foundations.Relations <> A:55 var
+R2408:2408 nlab.Foundations.Relations <> A:55 var
+binder 2393:2393 <> R:56
+R2416:2416 nlab.Foundations.Relations <> A:55 var
+binder 2412:2412 <> x:57
+R2431:2433 nlab.Foundations.Logic <> Acc ind
+R2435:2435 nlab.Foundations.Relations <> A:55 var
+R2437:2437 nlab.Foundations.Relations <> R:56 var
+R2439:2439 nlab.Foundations.Relations <> x:57 var
+def 2521:2531 <> equiv_class
+binder 2534:2534 <> A:58
+R2549:2556 nlab.Foundations.Sets <> relation def
+R2558:2558 nlab.Foundations.Relations <> A:58 var
+R2560:2560 nlab.Foundations.Relations <> A:58 var
+binder 2545:2545 <> R:59
+R2568:2568 nlab.Foundations.Relations <> A:58 var
+binder 2564:2564 <> x:60
+R2574:2577 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2573:2573 nlab.Foundations.Relations <> A:58 var
+binder 2592:2592 <> y:61
+R2597:2597 nlab.Foundations.Relations <> R:59 var
+R2599:2599 nlab.Foundations.Relations <> x:60 var
+R2601:2601 nlab.Foundations.Relations <> y:61 var
+def 2648:2655 <> quotient
+binder 2658:2658 <> A:62
+R2673:2680 nlab.Foundations.Sets <> relation def
+R2682:2682 nlab.Foundations.Relations <> A:62 var
+R2684:2684 nlab.Foundations.Relations <> A:62 var
+binder 2669:2669 <> R:63
+R2700:2703 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2699:2699 nlab.Foundations.Relations <> A:62 var
+def 2762:2774 <> quotient_proj
+binder 2777:2777 <> A:64
+R2792:2799 nlab.Foundations.Sets <> relation def
+R2801:2801 nlab.Foundations.Relations <> A:64 var
+R2803:2803 nlab.Foundations.Relations <> A:64 var
+binder 2788:2788 <> R:65
+R2809:2812 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2808:2808 nlab.Foundations.Relations <> A:64 var
+R2813:2820 nlab.Foundations.Relations <> quotient def
+R2822:2822 nlab.Foundations.Relations <> A:64 var
+R2824:2824 nlab.Foundations.Relations <> R:65 var
+R2831:2841 nlab.Foundations.Relations <> equiv_class def
+R2843:2843 nlab.Foundations.Relations <> A:64 var
+R2845:2845 nlab.Foundations.Relations <> R:65 var
+def 2915:2934 <> strict_partial_order
+binder 2937:2937 <> A:66
+R2952:2959 nlab.Foundations.Sets <> relation def
+R2961:2961 nlab.Foundations.Relations <> A:66 var
+R2963:2963 nlab.Foundations.Relations <> A:66 var
+binder 2948:2948 <> R:67
+R2993:2996 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2978:2988 nlab.Foundations.Relations <> irreflexive def
+R2990:2990 nlab.Foundations.Relations <> A:66 var
+R2992:2992 nlab.Foundations.Relations <> R:67 var
+R2997:3006 nlab.Foundations.Sets <> transitive def
+R3008:3008 nlab.Foundations.Relations <> A:66 var
+R3010:3010 nlab.Foundations.Relations <> R:67 var
+def 3044:3054 <> total_order
+binder 3057:3057 <> A:68
+R3072:3079 nlab.Foundations.Sets <> relation def
+R3081:3081 nlab.Foundations.Relations <> A:68 var
+R3083:3083 nlab.Foundations.Relations <> A:68 var
+binder 3068:3068 <> R:69
+R3115:3118 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3098:3110 nlab.Foundations.Sets <> partial_order def
+R3112:3112 nlab.Foundations.Relations <> A:68 var
+R3114:3114 nlab.Foundations.Relations <> R:69 var
+R3119:3123 nlab.Foundations.Relations <> total def
+R3125:3125 nlab.Foundations.Relations <> A:68 var
+R3127:3127 nlab.Foundations.Relations <> R:69 var
+def 3160:3169 <> well_order
+binder 3172:3172 <> A:70
+R3187:3194 nlab.Foundations.Sets <> relation def
+R3196:3196 nlab.Foundations.Relations <> A:70 var
+R3198:3198 nlab.Foundations.Relations <> A:70 var
+binder 3183:3183 <> R:71
+R3228:3231 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3213:3223 nlab.Foundations.Relations <> total_order def
+R3225:3225 nlab.Foundations.Relations <> A:70 var
+R3227:3227 nlab.Foundations.Relations <> R:71 var
+R3232:3247 nlab.Foundations.Relations <> well_founded_rel def
+R3249:3249 nlab.Foundations.Relations <> A:70 var
+R3251:3251 nlab.Foundations.Relations <> R:71 var
+def 3318:3321 <> join
+binder 3324:3324 <> A:72
+R3339:3346 nlab.Foundations.Sets <> relation def
+R3348:3348 nlab.Foundations.Relations <> A:72 var
+R3350:3350 nlab.Foundations.Relations <> A:72 var
+binder 3335:3335 <> R:73
+R3360:3360 nlab.Foundations.Relations <> A:72 var
+binder 3354:3354 <> x:74
+binder 3356:3356 <> y:75
+R3366:3369 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3365:3365 nlab.Foundations.Relations <> A:72 var
+binder 3384:3384 <> z:76
+R3394:3397 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3389:3389 nlab.Foundations.Relations <> R:73 var
+R3391:3391 nlab.Foundations.Relations <> x:74 var
+R3393:3393 nlab.Foundations.Relations <> z:76 var
+R3403:3406 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3398:3398 nlab.Foundations.Relations <> R:73 var
+R3400:3400 nlab.Foundations.Relations <> y:75 var
+R3402:3402 nlab.Foundations.Relations <> z:76 var
+R3418:3418 nlab.Foundations.Relations <> A:72 var
+binder 3414:3414 <> w:77
+R3426:3429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3421:3421 nlab.Foundations.Relations <> R:73 var
+R3423:3423 nlab.Foundations.Relations <> x:74 var
+R3425:3425 nlab.Foundations.Relations <> w:77 var
+R3435:3438 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3430:3430 nlab.Foundations.Relations <> R:73 var
+R3432:3432 nlab.Foundations.Relations <> y:75 var
+R3434:3434 nlab.Foundations.Relations <> w:77 var
+R3439:3439 nlab.Foundations.Relations <> R:73 var
+R3441:3441 nlab.Foundations.Relations <> z:76 var
+R3443:3443 nlab.Foundations.Relations <> w:77 var
+def 3480:3483 <> meet
+binder 3486:3486 <> A:78
+R3501:3508 nlab.Foundations.Sets <> relation def
+R3510:3510 nlab.Foundations.Relations <> A:78 var
+R3512:3512 nlab.Foundations.Relations <> A:78 var
+binder 3497:3497 <> R:79
+R3522:3522 nlab.Foundations.Relations <> A:78 var
+binder 3516:3516 <> x:80
+binder 3518:3518 <> y:81
+R3528:3531 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3527:3527 nlab.Foundations.Relations <> A:78 var
+binder 3546:3546 <> z:82
+R3556:3559 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3551:3551 nlab.Foundations.Relations <> R:79 var
+R3553:3553 nlab.Foundations.Relations <> z:82 var
+R3555:3555 nlab.Foundations.Relations <> x:80 var
+R3565:3568 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3560:3560 nlab.Foundations.Relations <> R:79 var
+R3562:3562 nlab.Foundations.Relations <> z:82 var
+R3564:3564 nlab.Foundations.Relations <> y:81 var
+R3580:3580 nlab.Foundations.Relations <> A:78 var
+binder 3576:3576 <> w:83
+R3588:3591 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3583:3583 nlab.Foundations.Relations <> R:79 var
+R3585:3585 nlab.Foundations.Relations <> w:83 var
+R3587:3587 nlab.Foundations.Relations <> x:80 var
+R3597:3600 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3592:3592 nlab.Foundations.Relations <> R:79 var
+R3594:3594 nlab.Foundations.Relations <> w:83 var
+R3596:3596 nlab.Foundations.Relations <> y:81 var
+R3601:3601 nlab.Foundations.Relations <> R:79 var
+R3603:3603 nlab.Foundations.Relations <> w:83 var
+R3605:3605 nlab.Foundations.Relations <> z:82 var
+def 3645:3651 <> lattice
+binder 3654:3654 <> A:84
+R3669:3676 nlab.Foundations.Sets <> relation def
+R3678:3678 nlab.Foundations.Relations <> A:84 var
+R3680:3680 nlab.Foundations.Relations <> A:84 var
+binder 3665:3665 <> R:85
+R3712:3717 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3695:3707 nlab.Foundations.Sets <> partial_order def
+R3709:3709 nlab.Foundations.Relations <> A:84 var
+R3711:3711 nlab.Foundations.Relations <> R:85 var
+R3718:3718 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3763:3770 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3815:3815 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3732:3732 nlab.Foundations.Relations <> A:84 var
+binder 3726:3726 <> x:86
+binder 3728:3728 <> y:87
+R3735:3741 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3747:3748 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3746:3746 nlab.Foundations.Relations <> A:84 var
+binder 3742:3742 <> z:88
+R3749:3752 nlab.Foundations.Relations <> join def
+R3754:3754 nlab.Foundations.Relations <> A:84 var
+R3756:3756 nlab.Foundations.Relations <> R:85 var
+R3758:3758 nlab.Foundations.Relations <> x:86 var
+R3760:3760 nlab.Foundations.Relations <> y:87 var
+R3762:3762 nlab.Foundations.Relations <> z:88 var
+R3784:3784 nlab.Foundations.Relations <> A:84 var
+binder 3778:3778 <> x:89
+binder 3780:3780 <> y:90
+R3787:3793 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3799:3800 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3798:3798 nlab.Foundations.Relations <> A:84 var
+binder 3794:3794 <> z:91
+R3801:3804 nlab.Foundations.Relations <> meet def
+R3806:3806 nlab.Foundations.Relations <> A:84 var
+R3808:3808 nlab.Foundations.Relations <> R:85 var
+R3810:3810 nlab.Foundations.Relations <> x:89 var
+R3812:3812 nlab.Foundations.Relations <> y:90 var
+R3814:3814 nlab.Foundations.Relations <> z:91 var
+def 3916:3932 <> galois_connection
+binder 3935:3935 <> A:92
+binder 3937:3937 <> B:93
+R3956:3963 nlab.Foundations.Sets <> relation def
+R3965:3965 nlab.Foundations.Relations <> A:92 var
+R3967:3967 nlab.Foundations.Relations <> A:92 var
+binder 3948:3952 <> leq_A:94
+R3979:3986 nlab.Foundations.Sets <> relation def
+R3988:3988 nlab.Foundations.Relations <> B:93 var
+R3990:3990 nlab.Foundations.Relations <> B:93 var
+binder 3971:3975 <> leq_B:95
+R4001:4004 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4000:4000 nlab.Foundations.Relations <> A:92 var
+R4005:4005 nlab.Foundations.Relations <> B:93 var
+binder 3996:3996 <> f:96
+R4014:4017 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4013:4013 nlab.Foundations.Relations <> B:93 var
+R4018:4018 nlab.Foundations.Relations <> A:92 var
+binder 4009:4009 <> g:97
+R4054:4059 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4033:4045 nlab.Foundations.Sets <> partial_order def
+R4047:4047 nlab.Foundations.Relations <> A:92 var
+R4049:4053 nlab.Foundations.Relations <> leq_A:94 var
+R4081:4086 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4060:4072 nlab.Foundations.Sets <> partial_order def
+R4074:4074 nlab.Foundations.Relations <> B:93 var
+R4076:4080 nlab.Foundations.Relations <> leq_B:95 var
+R4098:4098 nlab.Foundations.Relations <> A:92 var
+binder 4094:4094 <> a:98
+R4112:4112 nlab.Foundations.Relations <> B:93 var
+binder 4108:4108 <> b:99
+R4128:4132 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4115:4119 nlab.Foundations.Relations <> leq_B:95 var
+R4122:4122 nlab.Foundations.Relations <> f:96 var
+R4124:4124 nlab.Foundations.Relations <> a:98 var
+R4127:4127 nlab.Foundations.Relations <> b:99 var
+R4133:4137 nlab.Foundations.Relations <> leq_A:94 var
+R4139:4139 nlab.Foundations.Relations <> a:98 var
+R4142:4142 nlab.Foundations.Relations <> g:97 var
+R4144:4144 nlab.Foundations.Relations <> b:99 var
+def 4223:4238 <> modal_accessible
+binder 4241:4241 <> W:100
+R4256:4263 nlab.Foundations.Sets <> relation def
+R4265:4265 nlab.Foundations.Relations <> W:100 var
+R4267:4267 nlab.Foundations.Relations <> W:100 var
+binder 4252:4252 <> R:101
+R4279:4279 nlab.Foundations.Relations <> W:100 var
+binder 4271:4272 <> w1:102
+binder 4274:4275 <> w2:103
+R4294:4294 nlab.Foundations.Relations <> R:101 var
+R4296:4297 nlab.Foundations.Relations <> w1:102 var
+R4299:4300 nlab.Foundations.Relations <> w2:103 var
+def 4355:4360 <> serial
+binder 4363:4363 <> W:104
+R4378:4385 nlab.Foundations.Sets <> relation def
+R4387:4387 nlab.Foundations.Relations <> W:104 var
+R4389:4389 nlab.Foundations.Relations <> W:104 var
+binder 4374:4374 <> R:105
+R4415:4415 nlab.Foundations.Relations <> W:104 var
+binder 4411:4411 <> w:106
+R4418:4424 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4430:4431 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4429:4429 nlab.Foundations.Relations <> W:104 var
+binder 4425:4425 <> v:107
+R4432:4432 nlab.Foundations.Relations <> R:105 var
+R4434:4434 nlab.Foundations.Relations <> w:106 var
+R4436:4436 nlab.Foundations.Relations <> v:107 var
+def 4451:4459 <> euclidean
+binder 4462:4462 <> W:108
+R4477:4484 nlab.Foundations.Sets <> relation def
+R4486:4486 nlab.Foundations.Relations <> W:108 var
+R4488:4488 nlab.Foundations.Relations <> W:108 var
+binder 4473:4473 <> R:109
+R4518:4518 nlab.Foundations.Relations <> W:108 var
+binder 4510:4510 <> w:110
+binder 4512:4512 <> v:111
+binder 4514:4514 <> u:112
+R4526:4529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4521:4521 nlab.Foundations.Relations <> R:109 var
+R4523:4523 nlab.Foundations.Relations <> w:110 var
+R4525:4525 nlab.Foundations.Relations <> v:111 var
+R4535:4538 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4530:4530 nlab.Foundations.Relations <> R:109 var
+R4532:4532 nlab.Foundations.Relations <> w:110 var
+R4534:4534 nlab.Foundations.Relations <> u:112 var
+R4539:4539 nlab.Foundations.Relations <> R:109 var
+R4541:4541 nlab.Foundations.Relations <> v:111 var
+R4543:4543 nlab.Foundations.Relations <> u:112 var
+def 4558:4566 <> confluent
+binder 4569:4569 <> W:113
+R4584:4591 nlab.Foundations.Sets <> relation def
+R4593:4593 nlab.Foundations.Relations <> W:113 var
+R4595:4595 nlab.Foundations.Relations <> W:113 var
+binder 4580:4580 <> R:114
+R4625:4625 nlab.Foundations.Relations <> W:113 var
+binder 4617:4617 <> w:115
+binder 4619:4619 <> v:116
+binder 4621:4621 <> u:117
+R4633:4636 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4628:4628 nlab.Foundations.Relations <> R:114 var
+R4630:4630 nlab.Foundations.Relations <> w:115 var
+R4632:4632 nlab.Foundations.Relations <> v:116 var
+R4642:4645 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4637:4637 nlab.Foundations.Relations <> R:114 var
+R4639:4639 nlab.Foundations.Relations <> w:115 var
+R4641:4641 nlab.Foundations.Relations <> u:117 var
+R4646:4652 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4658:4659 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4657:4657 nlab.Foundations.Relations <> W:113 var
+binder 4653:4653 <> x:118
+R4665:4668 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4660:4660 nlab.Foundations.Relations <> R:114 var
+R4662:4662 nlab.Foundations.Relations <> v:116 var
+R4664:4664 nlab.Foundations.Relations <> x:118 var
+R4669:4669 nlab.Foundations.Relations <> R:114 var
+R4671:4671 nlab.Foundations.Relations <> u:117 var
+R4673:4673 nlab.Foundations.Relations <> x:118 var
+def 4755:4770 <> rel_homomorphism
+binder 4773:4773 <> A:119
+binder 4775:4775 <> B:120
+R4792:4799 nlab.Foundations.Sets <> relation def
+R4801:4801 nlab.Foundations.Relations <> A:119 var
+R4803:4803 nlab.Foundations.Relations <> A:119 var
+binder 4786:4788 <> R_A:121
+R4813:4820 nlab.Foundations.Sets <> relation def
+R4822:4822 nlab.Foundations.Relations <> B:120 var
+R4824:4824 nlab.Foundations.Relations <> B:120 var
+binder 4807:4809 <> R_B:122
+R4835:4838 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4834:4834 nlab.Foundations.Relations <> A:119 var
+R4839:4839 nlab.Foundations.Relations <> B:120 var
+binder 4830:4830 <> f:123
+R4867:4867 nlab.Foundations.Relations <> A:119 var
+binder 4861:4861 <> x:124
+binder 4863:4863 <> y:125
+R4877:4880 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4870:4872 nlab.Foundations.Relations <> R_A:121 var
+R4874:4874 nlab.Foundations.Relations <> x:124 var
+R4876:4876 nlab.Foundations.Relations <> y:125 var
+R4881:4883 nlab.Foundations.Relations <> R_B:122 var
+R4886:4886 nlab.Foundations.Relations <> f:123 var
+R4888:4888 nlab.Foundations.Relations <> x:124 var
+R4892:4892 nlab.Foundations.Relations <> f:123 var
+R4894:4894 nlab.Foundations.Relations <> y:125 var
+def 4966:4980 <> rel_isomorphism
+binder 4983:4983 <> A:126
+binder 4985:4985 <> B:127
+R5002:5009 nlab.Foundations.Sets <> relation def
+R5011:5011 nlab.Foundations.Relations <> A:126 var
+R5013:5013 nlab.Foundations.Relations <> A:126 var
+binder 4996:4998 <> R_A:128
+R5023:5030 nlab.Foundations.Sets <> relation def
+R5032:5032 nlab.Foundations.Relations <> B:127 var
+R5034:5034 nlab.Foundations.Relations <> B:127 var
+binder 5017:5019 <> R_B:129
+R5045:5048 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5044:5044 nlab.Foundations.Relations <> A:126 var
+R5049:5049 nlab.Foundations.Relations <> B:127 var
+binder 5040:5040 <> f:130
+R5079:5084 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5064:5072 nlab.Foundations.Sets <> bijective def
+R5074:5074 nlab.Foundations.Relations <> A:126 var
+R5076:5076 nlab.Foundations.Relations <> B:127 var
+R5078:5078 nlab.Foundations.Relations <> f:130 var
+R5115:5120 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5085:5100 nlab.Foundations.Relations <> rel_homomorphism def
+R5102:5102 nlab.Foundations.Relations <> A:126 var
+R5104:5104 nlab.Foundations.Relations <> B:127 var
+R5106:5108 nlab.Foundations.Relations <> R_A:128 var
+R5110:5112 nlab.Foundations.Relations <> R_B:129 var
+R5114:5114 nlab.Foundations.Relations <> f:130 var
+R5121:5127 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5138:5144 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5133:5136 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5132:5132 nlab.Foundations.Relations <> B:127 var
+R5137:5137 nlab.Foundations.Relations <> A:126 var
+binder 5128:5128 <> g:131
+R5175:5182 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5145:5160 nlab.Foundations.Relations <> rel_homomorphism def
+R5162:5162 nlab.Foundations.Relations <> B:127 var
+R5164:5164 nlab.Foundations.Relations <> A:126 var
+R5166:5168 nlab.Foundations.Relations <> R_B:129 var
+R5170:5172 nlab.Foundations.Relations <> R_A:128 var
+R5174:5174 nlab.Foundations.Relations <> g:131 var
+R5183:5183 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5209:5218 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5244:5244 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5195:5195 nlab.Foundations.Relations <> A:126 var
+binder 5191:5191 <> a:132
+R5205:5207 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5198:5198 nlab.Foundations.Relations <> g:131 var
+R5201:5201 nlab.Foundations.Relations <> f:130 var
+R5203:5203 nlab.Foundations.Relations <> a:132 var
+R5208:5208 nlab.Foundations.Relations <> a:132 var
+R5230:5230 nlab.Foundations.Relations <> B:127 var
+binder 5226:5226 <> b:133
+R5240:5242 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5233:5233 nlab.Foundations.Relations <> f:130 var
+R5236:5236 nlab.Foundations.Relations <> g:131 var
+R5238:5238 nlab.Foundations.Relations <> b:133 var
+R5243:5243 nlab.Foundations.Relations <> b:133 var
+def 5316:5326 <> fixed_point
+binder 5329:5329 <> A:134
+R5345:5348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5344:5344 nlab.Foundations.Relations <> A:134 var
+R5349:5349 nlab.Foundations.Relations <> A:134 var
+binder 5340:5340 <> f:135
+R5357:5357 nlab.Foundations.Relations <> A:134 var
+binder 5353:5353 <> x:136
+R5375:5377 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5372:5372 nlab.Foundations.Relations <> f:135 var
+R5374:5374 nlab.Foundations.Relations <> x:136 var
+R5378:5378 nlab.Foundations.Relations <> x:136 var
+def 5452:5468 <> least_fixed_point
+binder 5471:5471 <> A:137
+R5488:5495 nlab.Foundations.Sets <> relation def
+R5497:5497 nlab.Foundations.Relations <> A:137 var
+R5499:5499 nlab.Foundations.Relations <> A:137 var
+binder 5482:5484 <> leq:138
+R5508:5511 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5507:5507 nlab.Foundations.Relations <> A:137 var
+R5512:5512 nlab.Foundations.Relations <> A:137 var
+binder 5503:5503 <> f:139
+R5520:5520 nlab.Foundations.Relations <> A:137 var
+binder 5516:5516 <> x:140
+R5552:5557 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5535:5545 nlab.Foundations.Relations <> fixed_point def
+R5547:5547 nlab.Foundations.Relations <> A:137 var
+R5549:5549 nlab.Foundations.Relations <> f:139 var
+R5551:5551 nlab.Foundations.Relations <> x:140 var
+R5569:5569 nlab.Foundations.Relations <> A:137 var
+binder 5565:5565 <> y:141
+R5589:5592 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5572:5582 nlab.Foundations.Relations <> fixed_point def
+R5584:5584 nlab.Foundations.Relations <> A:137 var
+R5586:5586 nlab.Foundations.Relations <> f:139 var
+R5588:5588 nlab.Foundations.Relations <> y:141 var
+R5593:5595 nlab.Foundations.Relations <> leq:138 var
+R5597:5597 nlab.Foundations.Relations <> x:140 var
+R5599:5599 nlab.Foundations.Relations <> y:141 var
+ax 5677:5690 <> knaster_tarski
+binder 5702:5702 <> A:142
+R5719:5726 nlab.Foundations.Sets <> relation def
+R5728:5728 nlab.Foundations.Relations <> A:142 var
+R5730:5730 nlab.Foundations.Relations <> A:142 var
+binder 5713:5715 <> leq:143
+R5739:5742 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5738:5738 nlab.Foundations.Relations <> A:142 var
+R5743:5743 nlab.Foundations.Relations <> A:142 var
+binder 5734:5734 <> f:144
+R5799:5799 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5842:5868 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5813:5813 nlab.Foundations.Relations <> A:142 var
+binder 5807:5807 <> x:145
+binder 5809:5809 <> y:146
+R5823:5826 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5816:5818 nlab.Foundations.Relations <> leq:143 var
+R5820:5820 nlab.Foundations.Relations <> x:145 var
+R5822:5822 nlab.Foundations.Relations <> y:146 var
+R5827:5829 nlab.Foundations.Relations <> leq:143 var
+R5832:5832 nlab.Foundations.Relations <> f:144 var
+R5834:5834 nlab.Foundations.Relations <> x:145 var
+R5838:5838 nlab.Foundations.Relations <> f:144 var
+R5840:5840 nlab.Foundations.Relations <> y:146 var
+R5869:5875 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5881:5882 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5880:5880 nlab.Foundations.Relations <> A:142 var
+binder 5876:5876 <> x:147
+R5883:5899 nlab.Foundations.Relations <> least_fixed_point def
+R5901:5901 nlab.Foundations.Relations <> A:142 var
+R5903:5905 nlab.Foundations.Relations <> leq:143 var
+R5907:5907 nlab.Foundations.Relations <> f:144 var
+R5909:5909 nlab.Foundations.Relations <> x:147 var
