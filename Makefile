@@ -984,6 +984,12 @@ debug:
 # variables if necessary.
 -include Makefile.local-late
 
+# Proof verification target
+verify-proofs:
+	@echo "Running proof verification..."
+	@./verify_proofs.sh
+.PHONY: verify-proofs
+
 # Local Variables:
 # mode: makefile-gmake
 # End:

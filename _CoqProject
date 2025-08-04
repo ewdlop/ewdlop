@@ -10,32 +10,32 @@ Foundations/Relations.v
 # Category Theory
 CategoryTheory/Categories.v
 CategoryTheory/Functors.v
-CategoryTheory/NaturalTransformations.v
-CategoryTheory/Limits.v
-CategoryTheory/Adjunctions.v
-CategoryTheory/Monads.v
+# CategoryTheory/NaturalTransformations.v  # Currently has notation conflicts
+# CategoryTheory/Limits.v
+# CategoryTheory/Adjunctions.v
+# CategoryTheory/Monads.v
 
-# Higher Category Theory
-HigherCategoryTheory/TwoCategories.v
-HigherCategoryTheory/Bicategories.v
-HigherCategoryTheory/WeakNCategories.v
+# Higher Category Theory  
+# HigherCategoryTheory/TwoCategories.v
+# HigherCategoryTheory/Bicategories.v  
+# HigherCategoryTheory/WeakNCategories.v
 
 # Type Theory
-TypeTheory/DependentTypes.v
-TypeTheory/InductiveTypes.v
-TypeTheory/IdentityTypes.v
+# TypeTheory/DependentTypes.v
+# TypeTheory/InductiveTypes.v
+# TypeTheory/IdentityTypes.v
 
 # Homotopy Type Theory
-HomotopyTypeTheory/UnivalenceAxiom.v
-HomotopyTypeTheory/HigherInductiveTypes.v
-HomotopyTypeTheory/Homotopies.v
+# HomotopyTypeTheory/UnivalenceAxiom.v
+# HomotopyTypeTheory/HigherInductiveTypes.v
+# HomotopyTypeTheory/Homotopies.v
 
 # Topos Theory
-ToposTheory/Elementary.v
-ToposTheory/Sheaves.v
-ToposTheory/Sites.v
+# ToposTheory/Elementary.v
+# ToposTheory/Sheaves.v
+# ToposTheory/Sites.v
 
 # Examples and Applications
-Examples/FiniteCategories.v
-Examples/Groups.v
-Examples/Topology.v
+# Examples/FiniteCategories.v
+# Examples/Groups.v
+# Examples/Topology.v

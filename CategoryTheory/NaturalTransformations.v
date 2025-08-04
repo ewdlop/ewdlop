@@ -10,7 +10,7 @@ Require Import CategoryTheory.Functors.
 
 (** ** Natural Transformation Definition *)
 
-(** A natural transformation α : F ⟹ G between functors F, G : C → D *)
+(** A natural transformation α : F ⟹ᴺ G between functors F, G : C → D *)
 Record NaturalTransformation {C D : Category} (F G : Functor C D) : Type := {
   (** Component at each object *)
   component : forall A : Obj C, Hom D (F ⟨ A ⟩) (G ⟨ A ⟩);
@@ -21,12 +21,12 @@ Record NaturalTransformation {C D : Category} (F G : Functor C D) : Type := {
 }.
 
 Notation "α @ A" := (component _ _ _ _ α A) (at level 10).
-Notation "F ⟹ G" := (NaturalTransformation F G) (at level 99, right associativity).
+Notation "F ⟹ᴺ G" := (NaturalTransformation F G) (at level 99, right associativity).
 
 (** ** Identity Natural Transformation *)
 
 Definition identity_natural_transformation {C D : Category} (F : Functor C D) :
-  F ⟹ F := {|
+  F ⟹ᴺ F := {|
   component := fun A => id D (F ⟨ A ⟩);
   naturality := fun A B f => 
     eq_trans (left_id D (F ⟨ A ⟩) (F ⟨ B ⟩) (F ⟪ f ⟫))
@@ -38,7 +38,7 @@ Notation "id_{ F }" := (identity_natural_transformation F).
 (** ** Vertical Composition *)
 
 Definition vertical_composition {C D : Category} {F G H : Functor C D}
-  (α : F ⟹ G) (β : G ⟹ H) : F ⟹ H := {|
+  (α : F ⟹ᴺ G) (β : G ⟹ᴺ H) : F ⟹ᴺ H := {|
   component := fun A => β @ A ∘ α @ A;
   naturality := fun A B f =>
     eq_trans (assoc D (F ⟨ A ⟩) (G ⟨ A ⟩) (H ⟨ A ⟩) (F ⟨ B ⟩) 
@@ -58,7 +58,7 @@ Notation "β ∘v α" := (vertical_composition α β) (at level 40, left associa
 
 Definition horizontal_composition {C D E : Category} 
   {F G : Functor C D} {H K : Functor D E}
-  (α : F ⟹ G) (β : H ⟹ K) : (H ◦F F) ⟹ (K ◦F G) := {|
+  (α : F ⟹ᴺ G) (β : H ⟹ᴺ K) : (H ◦F F) ⟹ᴺ (K ◦F G) := {|
   component := fun A => β @ (G ⟨ A ⟩) ∘ H ⟪ α @ A ⟫;
   naturality := fun A B f =>
     eq_trans (assoc E (H ⟨ F ⟨ A ⟩ ⟩) (K ⟨ F ⟨ A ⟩ ⟩) (K ⟨ G ⟨ A ⟩ ⟩) (K ⟨ G ⟨ B ⟩ ⟩)
@@ -80,17 +80,17 @@ Notation "β ∘h α" := (horizontal_composition α β) (at level 40, left assoc
 
 (** ** Natural Isomorphism *)
 
-Definition natural_isomorphism {C D : Category} {F G : Functor C D} (α : F ⟹ G) : Prop :=
+Definition natural_isomorphism {C D : Category} {F G : Functor C D} (α : F ⟹ᴺ G) : Prop :=
   forall A : Obj C, isomorphism D (F ⟨ A ⟩) (G ⟨ A ⟩) (α @ A).
 
-Notation "F ≅ᴺ G" := (exists α : F ⟹ G, natural_isomorphism α) (at level 70).
+Notation "F ≅ᴺ G" := (exists α : F ⟹ᴺ G, natural_isomorphism α) (at level 70).
 
 (** ** Functor Category *)
 
 (** The category of functors from C to D *)
 Definition functor_category (C D : Category) : Category := {|
   Obj := Functor C D;
-  Hom := fun F G => F ⟹ G;
+  Hom := fun F G => F ⟹ᴺ G;
   id := identity_natural_transformation;
   compose := fun F G H β α => β ∘v α;
   left_id := fun F G α => 
@@ -110,7 +110,7 @@ Notation "[ C , D ]" := (functor_category C D).
 
 (** Left whiskering: composition with a functor on the left *)
 Definition left_whiskering {C D E : Category} (H : Functor D E)
-  {F G : Functor C D} (α : F ⟹ G) : (H ◦F F) ⟹ (H ◦F G) := {|
+  {F G : Functor C D} (α : F ⟹ᴺ G) : (H ◦F F) ⟹ᴺ (H ◦F G) := {|
   component := fun A => H ⟪ α @ A ⟫;
   naturality := fun A B f =>
     eq_trans (fcomp _ _ H (α @ A) (F ⟪ f ⟫))
@@ -120,7 +120,7 @@ Definition left_whiskering {C D E : Category} (H : Functor D E)
 
 (** Right whiskering: composition with a functor on the right *)
 Definition right_whiskering {C D E : Category} {H K : Functor D E}
-  (β : H ⟹ K) (F : Functor C D) : (H ◦F F) ⟹ (K ◦F F) := {|
+  (β : H ⟹ᴺ K) (F : Functor C D) : (H ◦F F) ⟹ᴺ (K ◦F F) := {|
   component := fun A => β @ (F ⟨ A ⟩);
   naturality := fun A B f => naturality _ _ _ _ β (F ⟨ A ⟩) (F ⟨ B ⟩) (F ⟪ f ⟫)
 |}.
@@ -161,7 +161,7 @@ Notation "Hom_C ( A , - )" := (corepresentable_functor A).
 
 (** Natural transformations between representable functors correspond to morphisms *)
 Definition morphism_to_nat_trans {C : Category} {A B : Obj C} (f : Hom C A B) :
-  (Hom_C(-, A)) ⟹ (Hom_C(-, B)) := {|
+  (Hom_C(-, A)) ⟹ᴺ (Hom_C(-, B)) := {|
   component := fun X g => f ∘ g;
   naturality := fun X Y h =>
     functional_extensionality _ _ _ _ (fun g => assoc C Y X A B g h f)
@@ -177,7 +177,7 @@ Definition morphism_to_nat_trans {C : Category} {A B : Obj C} (f : Hom C A B) :
 (** Interchange law for horizontal and vertical composition *)
 Theorem interchange_law {C D E : Category}
   {F G H : Functor C D} {K L M : Functor D E}
-  (α : F ⟹ G) (β : G ⟹ H) (γ : K ⟹ L) (δ : L ⟹ M) :
+  (α : F ⟹ᴺ G) (β : G ⟹ᴺ H) (γ : K ⟹ᴺ L) (δ : L ⟹ᴺ M) :
   (δ ∘v γ) ∘h (β ∘v α) = (δ ∘h β) ∘v (γ ∘h α).
 Proof.
   (* This requires careful manipulation of the definitions *)
@@ -188,14 +188,14 @@ Proof.
 Admitted.
 
 (** Functor laws for horizontal composition *)
-Theorem horizontal_id_left {C D E : Category} {F G : Functor C D} (α : F ⟹ G) :
+Theorem horizontal_id_left {C D E : Category} {F G : Functor C D} (α : F ⟹ᴺ G) :
   id_{Id_{E}} ∘h α = left_whiskering Id_{E} α.
 Proof.
   f_equal; apply functional_extensionality; intro A.
   reflexivity.
 Qed.
 
-Theorem horizontal_id_right {C D E : Category} {F G : Functor D E} (α : F ⟹ G) :
+Theorem horizontal_id_right {C D E : Category} {F G : Functor D E} (α : F ⟹ᴺ G) :
   α ∘h id_{Id_{C}} = right_whiskering α Id_{C}.
 Proof.
   f_equal; apply functional_extensionality; intro A.
