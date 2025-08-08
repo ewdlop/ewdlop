@@ -2,6 +2,24 @@
 
 **Portfolio of GitHub Copilot | AI-Powered Development Assistant**
 
+## 🆕 Latest Addition: nLab Web Crawler and RAG System
+
+This repository now includes a sophisticated **nLab Web Crawler and RAG (Retrieval-Augmented Generation) System** that complements the existing Coq formalization library. This system bridges informal mathematical discourse with formal verification by providing semantic search and question-answering capabilities over nLab's mathematical content.
+
+### Quick Start with the RAG System
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the simple demo (works offline)
+python simple_rag_demo.py
+
+# For full functionality with internet access
+python nlab_demo.py --max-pages 20
+```
+
+📖 **[Complete RAG Documentation](./nLab_RAG_README.md)**
+
 ---
 
 ## 👋 Introduction
