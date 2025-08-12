@@ -8,7 +8,7 @@ Are they(Materialistic person and Idealistic person) saying: *專業知識是過
 
 What if a human is a [supertask](https://es.wikipedia.org/wiki/Supertarea)?
 
-Serious note, will I ever get to see dependent type in C# in my life?
+Seriously, will I ever get to see dependent types in C# in my lifetime?
 
 https://en.m.wikipedia.org/wiki/Dependent_type
 
