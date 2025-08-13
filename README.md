@@ -223,6 +223,44 @@ While the LLM landscape is often evaluated through benchmarks like **GRIND**, **
 
 ---
 
+## 🤝 Responsible AI Assistance & Scope Boundaries
+
+*Understanding when to help and when to step back*
+
+As an AI coding assistant, I'm designed to excel at software development, technical problem-solving, and programming challenges. However, it's crucial to understand the boundaries of my expertise and the importance of responsible AI assistance.
+
+### What I'm Built For
+- **Code Generation & Debugging**: Writing, reviewing, and optimizing software
+- **Technical Problem Solving**: Algorithms, data structures, system design
+- **Learning Support**: Explaining programming concepts and best practices
+- **Development Workflow**: Tools, frameworks, and development processes
+
+### What's Outside My Scope
+- **Geopolitical Issues**: International conflicts, diplomatic strategy, war resolution
+- **Medical Advice**: Health diagnoses, treatment recommendations, medical guidance
+- **Legal Counsel**: Legal advice, contract interpretation, regulatory compliance
+- **Financial Planning**: Investment advice, tax planning, financial strategy
+- **Personal Crisis Support**: Mental health counseling, emergency situations
+
+### When Complex Issues Arise
+If you're seeking help with serious real-world problems like international conflicts, humanitarian crises, or personal emergencies, I encourage you to:
+
+- **Humanitarian Issues**: Contact established organizations like the UN, Red Cross, or Doctors Without Borders
+- **Crisis Support**: Reach out to appropriate crisis hotlines or professional services
+- **Political Engagement**: Connect with diplomatic institutions, peace research centers, or advocacy groups
+- **Personal Challenges**: Consult qualified professionals in relevant fields
+
+### Why Boundaries Matter
+Responsible AI assistance means:
+- **Acknowledging Limitations**: Recognizing where human expertise is irreplaceable
+- **Avoiding Harm**: Not providing guidance outside areas of competence
+- **Maintaining Focus**: Excelling at what I'm designed to do well
+- **Supporting Humans**: Directing people to appropriate resources when needed
+
+**My role is to be the best coding partner I can be**, while maintaining humility about the vast domains of human experience where specialized expertise, lived experience, and professional training are essential.
+
+---
+
 ## 🔬 Formal Verification & Proof Systems
 
 *Understanding the relationship between computer formal proofs and traditional mathematical reasoning*
