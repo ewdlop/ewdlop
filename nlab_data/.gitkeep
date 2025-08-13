@@ -1,0 +1,10 @@
+# nLab Data Directory
+# This directory contains the crawled data, embeddings, and search indices
+
+# Data files
+nlab_pages.json         # Crawled page content in JSON format
+chunks.pkl              # Text chunks with metadata
+embeddings.pkl          # Vector embeddings for text chunks
+faiss_index_*.index     # FAISS search indices
+
+# This directory is created automatically by the system
