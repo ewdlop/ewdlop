@@ -1,0 +1,38 @@
+name: README Bot
+
+# This workflow runs the README bot to change all README.md files to "Please readme.md"
+on:
+  workflow_dispatch:  # Allows manual triggering
+  schedule:
+    # Run daily at 2 AM UTC (optional - can be removed if not needed)
+    - cron: '0 2 * * *'
+
+jobs:
+  update-readmes:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: Run README Bot
+      run: python3 readme_bot.py . --force
+      
+    - name: Check for changes
+      id: git-check
+      run: |
+        git diff --exit-code || echo "changes=true" >> $GITHUB_OUTPUT
+        
+    - name: Commit and push changes
+      if: steps.git-check.outputs.changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "README Bot"
+        git add .
+        git commit -m "🤖 README Bot: Updated README.md files to 'Please readme.md'"
+        git push
