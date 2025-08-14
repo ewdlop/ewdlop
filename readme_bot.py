@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-GitHub Bot to change all README.md files to "Please readme.md"
+GitHub Bot to replace README.md files with "Please readme.md" files
 
-This script finds all README.md files in the repository and replaces their content
-with the text "Please readme.md".
+This script finds all README.md files in the repository, saves their content,
+deletes the README.md files, and creates new "Please readme.md" files with the original content.
 """
 
 import os
@@ -25,20 +25,33 @@ def find_readme_files(root_path: str) -> list[Path]:
     return readme_files
 
 
-def update_readme_content(readme_path: Path, new_content: str) -> bool:
-    """Update the content of a README.md file."""
+def replace_readme_with_please_readme(readme_path: Path) -> bool:
+    """Replace README.md with 'Please readme.md' containing the original content."""
     try:
-        with open(readme_path, 'w', encoding='utf-8') as f:
-            f.write(new_content)
-        print(f"✓ Updated: {readme_path}")
+        # Read the original content
+        with open(readme_path, 'r', encoding='utf-8') as f:
+            original_content = f.read()
+        
+        # Get the directory and create the new file path
+        directory = readme_path.parent
+        new_file_path = directory / "Please readme.md"
+        
+        # Write the original content to the new file
+        with open(new_file_path, 'w', encoding='utf-8') as f:
+            f.write(original_content)
+        
+        # Remove the original README.md file
+        readme_path.unlink()
+        
+        print(f"✓ Replaced: {readme_path} → {new_file_path}")
         return True
     except Exception as e:
-        print(f"✗ Error updating {readme_path}: {e}")
+        print(f"✗ Error replacing {readme_path}: {e}")
         return False
 
 
 def main():
-    """Main function to execute the README modification bot."""
+    """Main function to execute the README replacement bot."""
     # Default to current directory if no argument provided
     root_path = sys.argv[1] if len(sys.argv) > 1 else "."
     
@@ -60,23 +73,20 @@ def main():
     
     if not force_mode:
         # Ask for confirmation before proceeding
-        confirm = input("\nDo you want to replace the content of these files with 'Please readme.md'? (y/N): ")
+        confirm = input("\nDo you want to replace these README.md files with 'Please readme.md' files? (y/N): ")
         if confirm.lower() != 'y':
             print("Operation cancelled.")
             return
     else:
         print("\n🚀 Force mode enabled, proceeding without confirmation...")
     
-    # Content to replace with
-    new_content = "Please readme.md\n"
-    
-    # Update each README file
+    # Replace each README.md file with "Please readme.md"
     success_count = 0
     for readme_path in readme_files:
-        if update_readme_content(readme_path, new_content):
+        if replace_readme_with_please_readme(readme_path):
             success_count += 1
     
-    print(f"\n🎉 Bot completed! Successfully updated {success_count}/{len(readme_files)} files.")
+    print(f"\n🎉 Bot completed! Successfully replaced {success_count}/{len(readme_files)} README.md files with 'Please readme.md' files.")
 
 
 if __name__ == "__main__":

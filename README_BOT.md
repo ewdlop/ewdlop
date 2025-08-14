@@ -1,11 +1,11 @@
 # README Bot
 
-A GitHub bot that automatically changes all README.md files in the repository to contain "Please readme.md".
+A GitHub bot that automatically replaces all README.md files with "Please readme.md" files containing the original content.
 
 ## Features
 
 - 🔍 Automatically finds all README.md files in the repository (recursively)
-- 📝 Replaces their content with "Please readme.md"
+- 📝 Deletes README.md files and creates "Please readme.md" files with the original content
 - 🤖 Can be run manually or via GitHub Actions
 - ⚡ Force mode for automated execution
 - 🚫 Skips files in .git directory
@@ -31,6 +31,13 @@ The bot can also run automatically via GitHub Actions:
 
 - **Manual trigger**: Go to Actions tab and run "README Bot" workflow
 - **Scheduled**: Runs daily at 2 AM UTC (can be modified in `.github/workflows/readme-bot.yml`)
+
+## How It Works
+
+1. **Finds** all README.md files in the repository
+2. **Reads** the original content from each README.md file
+3. **Creates** a new "Please readme.md" file with the original content
+4. **Deletes** the original README.md file
 
 ## Files
 

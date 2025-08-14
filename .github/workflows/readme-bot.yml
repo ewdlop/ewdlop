@@ -1,6 +1,6 @@
 name: README Bot
 
-# This workflow runs the README bot to change all README.md files to "Please readme.md"
+# This workflow runs the README bot to replace README.md files with "Please readme.md" files
 on:
   workflow_dispatch:  # Allows manual triggering
   schedule:
@@ -34,5 +34,5 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "README Bot"
         git add .
-        git commit -m "🤖 README Bot: Updated README.md files to 'Please readme.md'"
+        git commit -m "🤖 README Bot: Replaced README.md files with 'Please readme.md' files"
         git push
