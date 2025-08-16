@@ -15,6 +15,9 @@ https://en.m.wikipedia.org/wiki/Dependent_type
 
 ## ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fewdlop&countColor=%23263759) % max. <---- includes my own visits.
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/114a6b00-66c6-4681-b9ec-f80bcf30a093" />
+
+
 [Merry Christmas](https://www.youtube.com/watch?v=3CWJNqyub3o)
 
 ![image](https://github.com/user-attachments/assets/0a6e38cb-1d43-43ca-a498-f150ff531846)
