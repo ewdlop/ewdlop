@@ -6,7 +6,11 @@
 
 Are they(Materialistic person and Idealistic person) saying: *專業知識是過早的優化。* | *Expertise is premature optimization.*
 
-What if a human is a [supertask](https://es.wikipedia.org/wiki/Supertarea)? Paranoia? Humans are calculators for quenching quantum gravity for aliens? They don't need the energy of this solar system. It is relatively tiny. Star Wars!? This is a Universe war! 
+Ｉwas told:
+
+> Quantum gravity (QG) is a field of theoretical physics that seeks to describe gravity according to the principles of quantum mechanics. It deals with environments in which neither gravitational nor quantum effects can be ignored,[1] such as in the vicinity of black holes or similar compact astrophysical objects, as well as in the early stages of the universe moments after the Big Bang
+
+What if a human is a [supertask](https://es.wikipedia.org/wiki/Supertarea)? Paranoia? Humans are calculators for quenching quantum gravity for aliens? They don't need the energy of this solar system. It is relatively tiny. Star Wars!? This is a Universe war! If they want an 阿庫別瑞引擎, I hopee they did not get a sign wrong.
 
 
 Seriously, will I ever get to see dependent types in C# in my lifetime?
