@@ -6,7 +6,8 @@
 
 Are they(Materialistic person and Idealistic person) saying: *專業知識是過早的優化。* | *Expertise is premature optimization.*
 
-What if a human is a [supertask](https://es.wikipedia.org/wiki/Supertarea)? Paranoia? Humans are calculators for quenching quantum gravity for aliens? They don't need the energy of this solar system. It is relatively tiny.
+What if a human is a [supertask](https://es.wikipedia.org/wiki/Supertarea)? Paranoia? Humans are calculators for quenching quantum gravity for aliens? They don't need the energy of this solar system. It is relatively tiny. Star Wars!? This is a Universe war! 
+
 
 Seriously, will I ever get to see dependent types in C# in my lifetime?
 
