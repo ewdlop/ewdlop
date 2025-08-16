@@ -12,7 +12,7 @@ Are they(Materialistic person and Idealistic person) saying: *專業知識是過
 
 What if a human is a [supertask](https://es.wikipedia.org/wiki/Supertarea)? Paranoia? Humans are calculators for quenching quantum gravity for aliens? They don't need the energy of this solar system. It is relatively tiny. Star Wars!? This is a Universe war! If they want an 阿庫別瑞引擎, I wish they did not get a sign wrong :smiling_imp:. What to think for the FIB...advicing them to trade string theory with aliens?
 
-Are we the boundary value condtion for AdS/CFT?
+Are we the boundary value condition for AdS/CFT?
 
 Seriously, will I ever get to see dependent types in C# in my lifetime?
 
