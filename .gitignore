@@ -1,0 +1,36 @@
+# C# Language Crawler Generated Reports
+csharp_proposals_*.md
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coq build artifacts
+*.vo
+*.vok
+*.vos
+*.glob
+*.aux
+.coq-native/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
