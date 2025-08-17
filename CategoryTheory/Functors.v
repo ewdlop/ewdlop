@@ -124,7 +124,7 @@ Definition product_category (C D : Category) : Category := {|
   Hom := fun AB XY => prod (Hom C (fst AB) (fst XY)) (Hom D (snd AB) (snd XY));
   id := fun AB => pair (id C (fst AB)) (id D (snd AB));
   compose := fun AB XY ZW hk fg => 
-    pair (compose C (fst fg) (fst hk)) (compose D (snd fg) (snd hk));
+    pair (compose C (fst hk) (fst fg)) (compose D (snd hk) (snd fg));
   left_id := fun AB XY fg => 
     f_equal2 pair (left_id C (fst AB) (fst XY) (fst fg))
                   (left_id D (snd AB) (snd XY) (snd fg));
