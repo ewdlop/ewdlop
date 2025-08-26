@@ -171,8 +171,9 @@ NPD → pretends to be someone else(a female) on different platforms
 → the flying monkeys, by “helping,” actually assist the NPD in **sucking resources from the victim** (attention, credibility, reputation, energy)
 → eventually, even the flying monkeys get victimized by the NPD
 → it gets worse when the flying monkeys are also NPD — the cycle multiplies, turning into a network of mutual victim-playing and blame-shifting
-→ same pattern in politics: one narcissist recruits others, they all play victims, accuse opponents (often whistleblowers or women), **exploit resources through their supporters**, and eventually turn on each other too
-I am a whistleblower and dumb flying monkey.
+→ same pattern in politics: one narcissist recruits others, they all play victims, accuse opponents (often whistleblowers or women), **exploit resources through their supporters**, and eventually turn on each other too.
+
+I am a whistleblower victim, and retarded(slow) flying monkey.
 ---
 
 Would you like me to now **split this into two versions** —
