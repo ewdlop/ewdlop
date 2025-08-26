@@ -155,12 +155,13 @@ NPD → pretends to be someone else on different platforms
 → a person joins a platform for their own reasons
 → a person adds someone
 → NPD (full of themselves) believes that person is “up to something” or stalking them
-→ NPD ever told about that person to stay away (there is no stop pretneding)
+→ NPD even tells others to “stay away” from that person (while never stopping the pretending)
 → people repeat: “just stay away from NPD”
-→ but the real issue is: NPD inserts themselves into other people’s lives, not the other way around
+→ but the real issue is: NPD forces themselves into other people’s lives, not the other way around
 → then plays the victim → accuses the actual victim
-→ victim gets accused of being “crazy” by both the NPD and their flying monkeys
+→ victim gets accused of being “crazy” by both the NPD and their flying monkeys, who believe they are helping
+→ the flying monkeys, by “helping,” actually assist the NPD in sucking resources from the victim (attention, credibility, reputation, energy)
 → eventually, even the flying monkeys get victimized by the NPD
 → it gets worse when the flying monkeys are also NPD — the cycle multiplies, turning into a network of mutual victim-playing and blame-shifting
-→ same pattern in politics: one narcissist recruits others, they all play victims, accuse opponents, and eventually turn on each other too
+→ same pattern in politics: one narcissist recruits others, they all play victims, accuse opponents, exploit resources through their supporters, and eventually turn on each other too
 What does staying away from politics even mean when there are npd politican?
