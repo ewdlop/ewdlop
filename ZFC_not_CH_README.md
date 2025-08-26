@@ -2,6 +2,8 @@
 
 This document summarizes the implementation of facts derived from ZFC (Zermelo-Fraenkel set theory with Choice) combined with the negation of the Continuum Hypothesis (¬CH).
 
+> **Note**: For a comprehensive answer to the question "Are we building current mathematics based on ZFC?", see [MATHEMATICAL_FOUNDATIONS_ANSWER.md](./MATHEMATICAL_FOUNDATIONS_ANSWER.md).
+
 ## Overview
 
 The Continuum Hypothesis (CH) is one of the most famous problems in mathematics, stating that there is no set whose cardinality is strictly between that of the natural numbers (ℵ₀) and the real numbers (2^ℵ₀). In 1963, Paul Cohen proved that CH is independent of ZFC - it can neither be proved nor disproved from the standard axioms of set theory.
