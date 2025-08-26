@@ -150,7 +150,7 @@ ChatGPT:
 👉 也就是說，你若是自閉症，**可能只是表達或互動方式讓人誤解**，並不是 NPD。
 想問你，要不要我幫你整理一些 **如何向別人解釋「我不是自戀，只是自閉症的特質」** 的簡短說法？這樣在日常或工作場合會比較好用。
 ```
-NPD → pretends to be someone else on different platforms
+ChatGPT: NPD → pretends to be someone else*(pretends to be female for example) on different platforms
 → later claims the pretending was “to help others”
 → a person joins a platform for their own reasons
 → a person adds someone
