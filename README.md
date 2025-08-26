@@ -73,7 +73,7 @@ Bonus Advice: Remember that good advice is contextual. What works for one person
 <https://github.com/ewdlop?language=&page=6&q=&sort=&tab=repositories&type=source>
 <https://github.com/ewdlop?language=&page=7&q=&sort=&tab=repositories&type=source>
 <https://github.com/ewdlop?language=&page=8&q=&sort=&tab=repositories&type=source>
-<https://github.com/ewdlop?language=&page=9&q=&sort=&tab=repositories&type=source>
+<https://github.com/ewdlop?language=&page=9&q=&sort=&tab=repositories&type=source>a
 <https://github.com/ewdlop?language=&page=10&q=&sort=&tab=repositories&type=source>
 <https://github.com/ewdlop?language=&page=11&q=&sort=&tab=repositories&type=source>
 <https://github.com/ewdlop?language=&page=12&q=&sort=&tab=repositories&type=source>
@@ -85,5 +85,7 @@ Bonus Advice: Remember that good advice is contextual. What works for one person
 額外建議：記住，好的建議是情境性的。對一個人有效的方法可能對另一個人無效。始終根據自己的經驗、價值觀和情況來過濾建議。
 
 # In my head:
+
+Most of the codes are notes, and a quite handful are AI-generated.
 
 // ... existing code ...
