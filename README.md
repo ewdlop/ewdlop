@@ -16,6 +16,8 @@ Are we the boundary value condtion for AdS/CFT?
 
 Seriously, will I ever get to see dependent types in C# in my lifetime? 宇宙是一個傳說的科技？ 量子理論的疊加態？
 
+Obviously, thoughts/codes are not accurate; who said I am not allowed to have fun in thought experiments?
+
 https://en.m.wikipedia.org/wiki/Dependent_type
 
 ## ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fewdlop&countColor=%23263759) % max. <---- includes my own visits.
