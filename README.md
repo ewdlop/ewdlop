@@ -163,5 +163,6 @@ NPD → pretends to be someone else on different platforms
 → the flying monkeys, by “helping,” actually assist the NPD in sucking resources from the victim (attention, credibility, reputation, energy)
 → eventually, even the flying monkeys get victimized by the NPD
 → it gets worse when the flying monkeys are also NPD — the cycle multiplies, turning into a network of mutual victim-playing and blame-shifting
-→ same pattern in politics: one narcissist recruits others, they all play victims, accuse opponents, exploit resources through their supporters, and eventually turn on each other too
-What does staying away from politics even mean when there are npd politican?
+→ same pattern in politics: one narcissist recruits others, they all play victims, accuse opponents, exploit resources through their supporters, and eventually turn on each other too.
+
+What does staying away from politics even mean when there are NPD politican?
