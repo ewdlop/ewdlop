@@ -172,7 +172,7 @@ NPD → pretends to be someone else(a female) on different platforms
 → eventually, even the flying monkeys get victimized by the NPD
 → it gets worse when the flying monkeys are also NPD — the cycle multiplies, turning into a network of mutual victim-playing and blame-shifting
 → same pattern in politics: one narcissist recruits others, they all play victims, accuse opponents (often whistleblowers or women), **exploit resources through their supporters**, and eventually turn on each other too
-
+I am a whistleblower and dumb flying monkey.
 ---
 
 Would you like me to now **split this into two versions** —
