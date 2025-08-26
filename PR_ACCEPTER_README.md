@@ -129,6 +129,40 @@ This bot embraces the playful and experimental nature of the repository while ma
 
 The "out-of-here" concept represents contributions that go beyond the ordinary - whether through timing, creativity, mathematical depth, or pure serendipity. It's not just about code quality, but about the magic of the moment when a contribution is made.
 
+## Demo Examples
+
+Here are some example evaluations:
+
+### 🌟 High-Scoring PR (18/20 points - ACCEPTED)
+```
+PR #42: "Add categorical quantum holomorphic functor theorem"
+- 🍀 Lucky PR number: #42 is divisible by 7 (+2)
+- ✨ Creative titles: quantum, holomorphic, categorical, functor (+4)
+- 👤 Perfect author name length: 7 characters (+2)
+- 🎨 Diverse file types: md, py, v (+2)
+- 📐 Mathematical content: theorem, proof, category, coq (+6)
+- 📏 Perfect change size: 260 lines (+2)
+Total: 18/20 → AUTO-MERGED! ✨
+```
+
+### 🎲 Medium-Scoring PR (8/20 points - ACCEPTED)
+```
+PR #77: "Please fix magic recursive topology bug"  
+- 🍀 Lucky PR number: #77 is divisible by 7 (+2)
+- ✨ Creative titles: magic, recursive, topology, please (+4)
+- 👤 Perfect author name length: 7 characters (+2)
+- 💀 Chaos curse: Rolled natural 1 (-2)
+- 📏 Perfect change size: 150 lines (+2)
+Total: 8/20 → AUTO-MERGED! ✨
+```
+
+### 📝 Low-Scoring PR (0/20 points - REJECTED)
+```
+PR #13: "Update documentation"
+- 🎲 Chaos roll: 9 (neutral) (+0)
+Total: 0/20 → Manual review needed
+```
+
 ## Limitations
 
 - Requires manual intervention for merge conflicts
