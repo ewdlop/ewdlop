@@ -18,6 +18,8 @@ Seriously, will I ever get to see dependent types in C# in my lifetime? 宇宙�
 
 Obviously, thoughts/codes are not accurate; who said I am not allowed to have fun in thought experiments?
 
+Are sentences essentially programmed, and are programs or codes correspondingly based on the theory of automata?
+
 https://en.m.wikipedia.org/wiki/Dependent_type
 
 ## ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fewdlop&countColor=%23263759) % max. <---- includes my own visits.
