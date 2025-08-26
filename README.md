@@ -88,7 +88,7 @@ Bonus Advice: Remember that good advice is contextual. What works for one person
 
 ## In my head:
 
-Most of the codes are/were notes, and a quite handful were AI-generated.
+Most of the codes are/were notes, and a quite handful were AI-generated. They can be mouthful.
 
 // ... existing code ...
 
