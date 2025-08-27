@@ -14,7 +14,7 @@ What if a human is a [supertask](https://es.wikipedia.org/wiki/Supertarea)? Para
 
 Are we the boundary value condtion for AdS/CFT?
 
-Seriously, will I ever get to see dependent types in C# in my lifetime? 宇宙是一個傳說的科技？ 量子理論的疊加態？
+Seriously, will I ever get to see dependent types in C# in my lifetime? 宇宙是一個傳說的科技？ 量子理論們的疊加態？
 
 Obviously, thoughts/codes are not accurate; who said I am not allowed to have fun in thought experiments?
 
