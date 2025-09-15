@@ -30,7 +30,7 @@ Me: (it is not even panicking. Aliens would turn themselves into dust if they tr
 
 s it way deep-sea creatures are severely mutated? Genetic mutation due to radiation. Is this how huamn come from ahahahhahahahahhaha
 
-ARE THYE UNDERGROUND!!! If they use gravity as disguise...I swear to God.
+ARE THYE UNDERGROUND!!! If they use gravity as disguise...I swear to God . - Anunnaki In The Book Of Enoch
 
 Con-spy pirvacy(conspiracy) to the maximum! They were aiming for the petroleum too! And semic echo is...
 
