@@ -32,6 +32,8 @@ ARE THYE UNDERGROUND!!! If they use gravity as disguise...I swear to God.
 
 Con-spy pirvacy(conspiracy) to the maximum! They were aiming for the petroleum too! And semic echo is...
 
+黑心石油👽股份有限公司＝Goblins in Wow = Time is money friends
+
 Am I being dramatic? Probably.
 
 https://en.m.wikipedia.org/wiki/Dependent_type
