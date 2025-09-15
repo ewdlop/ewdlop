@@ -16,11 +16,11 @@ Are we the boundary value condtion for AdS/CFT? ill-imposed?
 
 Seriously, will I ever get to see dependent types in C# in my lifetime? 宇宙是一個傳說的科技？ 量子理論們的疊加態？
 
-Obviously, thoughts/codes are not accurate; who said I am not allowed to have fun in thought experiments?
+Obviously, thoughts/codes are not accurate; who said I am not allowed to have fun in thought experiments? 
 
 Are sentences essentially programmed, and are programs or codes correspondingly based on the theory of automata?
 
-Me: What if Earthquakes are created by UFO landing inside the crater floor through quantum tunneling....(they were aiming the sea floor or dessert)
+Me: What if Earthquakes are created by UFO landing inside the crater floor through quantum tunneling....(they were aiming the sea floor or dessert) 
 
 ChatGPT: He meant "What if earthquakes are caused by UFOs landing inside crater floors through quantum tunneling, when they were actually aiming for the seafloor or the desert?"
 
@@ -28,7 +28,7 @@ Me: (it is not even panicking. Aliens would turn themselves into dust if they tr
 
 ![女媧](https://i1.wp.com/media.boingboing.net/wp-content/uploads/2016/11/bcf.png?fit=680,445&ssl=1)
 
-Is it way deep-sea creatures are severely mutated?
+s it way deep-sea creatures are severely mutated? Genetic mutation due to radiation. Is this how huamn come from ahahahhahahahahhaha
 
 ARE THYE UNDERGROUND!!! If they use gravity as disguise...I swear to God.
 
