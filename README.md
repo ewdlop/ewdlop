@@ -24,7 +24,7 @@ Me: What if Earthquakes are created by UFO landing inside the crater floor throu
 
 ChatGPT: He meant "What if earthquakes are caused by UFOs landing inside crater floors through quantum tunneling, when they were actually aiming for the seafloor or the desert?"
 
-Me: (it is not even panicking. Aliens would turn themselves into dust if they traveled at superhigh speed, though. I guess that is why UFO we see are the left overs...3I-ATLAS
+Me: (it is not even panicking. Aliens would turn themselves into dust if they traveled at superhigh speed, though. I guess that is why UFO we see are the left overs rocket fuels...3I-ATLAS...It was aimming at...
 
 ![](https://i1.wp.com/media.boingboing.net/wp-content/uploads/2016/11/bcf.png?fit=680,445&ssl=1)
 
