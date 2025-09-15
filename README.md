@@ -30,6 +30,8 @@ Me: (it is not even panicking. Aliens would turn themselves into dust if they tr
 
 ARE THYE UNDERGROUND!!! If they use gravity as disguise...I swear to God.
 
+Con-spy pirvacy(conspiracy) to the maximum! They were aiming for the petroleum too! And semic echo is...
+
 Am I being dramatic? Probably.
 
 https://en.m.wikipedia.org/wiki/Dependent_type
