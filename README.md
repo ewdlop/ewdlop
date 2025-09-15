@@ -20,6 +20,12 @@ Obviously, thoughts/codes are not accurate; who said I am not allowed to have fu
 
 Are sentences essentially programmed, and are programs or codes correspondingly based on the theory of automata?
 
+Me: What if Earthquakes are created by UFO landing inside the crater floor through quantum tunneling....(they were aiming the sea floor or dessert)
+
+ChatGPT: He meant "What if earthquakes are caused by UFOs landing inside crater floors through quantum tunneling, when they were actually aiming for the seafloor or the desert?"
+
+Me: (it is not even panicking)
+
 Am I being dramatic? Probably.
 
 https://en.m.wikipedia.org/wiki/Dependent_type
