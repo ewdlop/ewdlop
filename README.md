@@ -30,7 +30,7 @@ Me: (it is not even panicking. Aliens would turn themselves into dust if they tr
 
 s it way deep-sea creatures are severely mutated? Genetic mutation due to radiation. Is this how huamn come from ahahahhahahahahhaha...
 
-Alien looks like seafood.
+Alien looks like seafood. Why do they look like seafood? They must have mutated in the interstellar trip and relay less on gas over. (gas radiates under acceleration, something I learn in College Physics)
 
 ARE THYE UNDERGROUND!!! If they use gravity as disguise...I swear to God . - Anunnaki In The Book Of Enoch
 
