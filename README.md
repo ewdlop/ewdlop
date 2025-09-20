@@ -40,7 +40,7 @@ Con-spy pirvacy(conspiracy) to the maximum! They were aiming for the petroleum t
 
 The War Within Patch 11.1: Undermine（低估）.
 
-Am I being dramatic? Probably.
+Am I being dramatic? Probably.Hahahahaha.
 
 https://en.m.wikipedia.org/wiki/Dependent_type
 
