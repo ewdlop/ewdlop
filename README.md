@@ -45,6 +45,7 @@ The War Within Patch 11.1: Undermine（低估）.
 Am I being dramatic? Probably.Hahahahaha.
 
 > 家回迎歡
+> They escpaed from an extinction
 
 https://en.m.wikipedia.org/wiki/Dependent_type
 
