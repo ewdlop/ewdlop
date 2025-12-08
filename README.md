@@ -46,6 +46,8 @@ Am I being dramatic? Probably.Hahahahaha.
 
 > 家回迎歡
 
+> They escaped from a big [RIP], aka extinction, and landed here...
+
 https://en.m.wikipedia.org/wiki/Dependent_type
 
 ## ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fewdlop&countColor=%23263759) % max. <---- includes my own visits.
