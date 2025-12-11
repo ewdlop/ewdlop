@@ -2,7 +2,7 @@
 
 *物質主義者對理想主義者說：「你活在自己的世界裡！」* | *Materialistic person says to idealist: "You are living in your own head!"*
 
-*理想主義者回應物質主義者：「我們都是全息影像。」* | *Idealistic person responds to materialist: "We are holograms."*
+*理想主義者回應物質主義者：「我們都是全息影像。」* | *Idealistic person responds to materialist: "We are holo-[morphic]-grams."*
 
 Are they(Materialistic person and Idealistic person) saying: *專業知識是過早的優化。* | *Expertise is premature optimization.*
 
