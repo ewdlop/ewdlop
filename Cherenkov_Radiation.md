@@ -84,9 +84,10 @@ The Cherenkov effect remains fundamental to modern physics, enabling:
 
 ## References
 
-- [Wikipedia: Pavel Cherenkov](https://ru.wikipedia.org/wiki/Черенков,_Павел_Алексеевич)
+- [Wikipedia: Pavel Cherenkov (Russian)](https://ru.wikipedia.org/wiki/Черенков,_Павел_Алексеевич)
+- [Wikipedia: Pavel Cherenkov (English)](https://en.wikipedia.org/wiki/Pavel_Cherenkov)
 - [Wikipedia: Cherenkov Radiation](https://en.wikipedia.org/wiki/Cherenkov_radiation)
-- [Nobel Prize Biography](https://www.nobelprize.org/prizes/physics/1958/cerenkov/biographical/)
+- [Nobel Prize Biography](https://www.nobelprize.org/prizes/physics/1958/cerenkov/biographical/) *(Note: Nobel Prize uses the transliteration "Cerenkov")*
 
 ---
 
