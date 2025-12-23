@@ -1,0 +1,49 @@
+name: Out-of-Here PR Accepter
+
+# Random and creative pull request acceptance bot
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  workflow_dispatch:  # Allows manual triggering
+    inputs:
+      pr_number:
+        description: 'PR number to evaluate (optional)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  evaluate-pr:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: Install dependencies
+      run: |
+        pip install requests
+        
+    - name: Run PR Accepter Bot
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PR_NUMBER: ${{ github.event.pull_request.number || github.event.inputs.pr_number }}
+      run: |
+        python3 pr_accepter_bot.py
+        
+    - name: Comment on PR (if needed)
+      if: always()
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PR_NUMBER: ${{ github.event.pull_request.number || github.event.inputs.pr_number }}
+      run: |
+        echo "PR evaluation completed by Out-of-Here PR Accepter Bot"
