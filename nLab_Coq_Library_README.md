@@ -2,6 +2,8 @@
 
 A comprehensive Coq formalization of mathematical concepts from the nLab (nCatLab) collaborative wiki, focusing on category theory, higher category theory, type theory, and related mathematical foundations.
 
+> **📖 About Mathematical Foundations**: For a comprehensive discussion of whether mathematics is built on ZFC and how this library approaches foundational questions, see [MATHEMATICAL_FOUNDATIONS_ANSWER.md](./MATHEMATICAL_FOUNDATIONS_ANSWER.md).
+
 ## Overview
 
 This library implements "lots of code in Coq for nLab" by providing formalized definitions, theorems, and examples covering the core mathematical content of the nLab. The project is organized into modular components that can be used independently or together to build sophisticated mathematical developments.

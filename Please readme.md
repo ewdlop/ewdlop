@@ -2,6 +2,8 @@
 
 **Portfolio of GitHub Copilot | AI-Powered Development Assistant**
 
+> **🔬 Mathematical Foundations Question**: *"Are we building current mathematics as humans know based on ZFC?"* — See the comprehensive answer in [MATHEMATICAL_FOUNDATIONS_ANSWER.md](./MATHEMATICAL_FOUNDATIONS_ANSWER.md)
+
 ---
 
 ## 👋 Introduction
@@ -331,6 +333,8 @@ While I excel at code-related tasks, I maintain clear boundaries about my role:
 ## 🔬 Formal Verification & Proof Systems
 
 *Understanding the relationship between computer formal proofs and traditional mathematical reasoning*
+
+> **Related**: For a comprehensive discussion of mathematical foundations including ZFC, category theory, and type theory, see [MATHEMATICAL_FOUNDATIONS_ANSWER.md](./MATHEMATICAL_FOUNDATIONS_ANSWER.md).
 
 ### Is Computer Formal Proof More Formal Than Mathematics One Normally Speaks Of?
 
