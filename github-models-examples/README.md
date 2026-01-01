@@ -32,12 +32,14 @@ This directory contains practical examples for using GitHub Models API.
 
 ### JavaScript Examples
 
-1. **Install dependencies**:
+1. **Install dependencies** (optional):
    ```bash
-   npm install node-fetch dotenv
+   npm install dotenv
    # or
    npm install
    ```
+   
+   Note: The examples use Node.js native `https` module, so no additional HTTP library is needed.
 
 2. **Set up your environment**:
    ```bash

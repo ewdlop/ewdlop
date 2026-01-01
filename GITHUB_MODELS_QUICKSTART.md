@@ -68,14 +68,12 @@ else:
 #### Option 2: Using JavaScript/Node.js
 
 ```javascript
-const fetch = require('node-fetch');
+const https = require('https');
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
-async function queryGitHubModel() {
-  const url = 'https://models.github.ai/inference/chat/completions';
-  
-  const payload = {
+function queryGitHubModel() {
+  const payload = JSON.stringify({
     model: 'openai/gpt-4o',
     messages: [
       {
@@ -83,29 +81,50 @@ async function queryGitHubModel() {
         content: 'What is GitHub Models?'
       }
     ]
-  };
+  });
   
-  const response = await fetch(url, {
+  const options = {
+    hostname: 'models.github.ai',
+    port: 443,
+    path: '/inference/chat/completions',
     method: 'POST',
     headers: {
       'Accept': 'application/vnd.github+json',
       'Authorization': `Bearer ${GITHUB_TOKEN}`,
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(payload)
+      'Content-Type': 'application/json',
+      'Content-Length': Buffer.byteLength(payload)
+    }
+  };
+  
+  const req = https.request(options, (res) => {
+    let data = '';
+    
+    res.on('data', (chunk) => {
+      data += chunk;
+    });
+    
+    res.on('end', () => {
+      if (res.statusCode === 200) {
+        const result = JSON.parse(data);
+        console.log(result.choices[0].message.content);
+      } else {
+        console.error(`Error: ${res.statusCode}`);
+        console.error(data);
+      }
+    });
   });
   
-  if (response.ok) {
-    const result = await response.json();
-    console.log(result.choices[0].message.content);
-  } else {
-    console.error(`Error: ${response.status}`);
-    console.error(await response.text());
-  }
+  req.on('error', (error) => {
+    console.error('Request error:', error);
+  });
+  
+  req.write(payload);
+  req.end();
 }
 
 queryGitHubModel();
 ```
+
 
 #### Option 3: Using cURL
 
