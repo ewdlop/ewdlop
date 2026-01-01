@@ -49,8 +49,11 @@ def stream_chat_response(messages: list, model: str = "openai/gpt-4o"):
         for line in response.iter_lines():
             if line:
                 line_text = line.decode('utf-8')
-                # Skip lines that are just "data: [DONE]"
-                if line_text.startswith('data: ') and not line_text.endswith('[DONE]'):
+                # Skip the termination message "data: [DONE]"
+                if line_text == 'data: [DONE]':
+                    continue
+                # Process data lines
+                if line_text.startswith('data: '):
                     try:
                         # Remove "data: " prefix and parse JSON
                         json_str = line_text[6:]
