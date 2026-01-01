@@ -29,8 +29,10 @@ def query_for_code(prompt: str, language: str = "python") -> Optional[str]:
     
     url = "https://models.github.ai/inference/chat/completions"
     
-    system_message = f"""You are an expert {language} developer. Generate clean, 
-    well-documented, production-quality code. Include comments explaining key parts."""
+    system_message = (
+        f"You are an expert {language} developer. Generate clean, "
+        "well-documented, production-quality code. Include comments explaining key parts."
+    )
     
     payload = {
         "model": "openai/gpt-4o",

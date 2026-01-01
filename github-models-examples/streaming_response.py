@@ -48,7 +48,7 @@ def stream_chat_response(messages: list, model: str = "openai/gpt-4o"):
         
         for line in response.iter_lines():
             if line:
-                line_text = line.decode('utf-8')
+                line_text = line.decode('utf-8').strip()
                 # Skip the termination message "data: [DONE]"
                 if line_text == 'data: [DONE]':
                     continue
