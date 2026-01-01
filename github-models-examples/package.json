@@ -1,0 +1,20 @@
+{
+  "name": "github-models-examples",
+  "version": "1.0.0",
+  "description": "Examples for using GitHub Models API",
+  "main": "basic_chat.js",
+  "scripts": {
+    "basic": "node basic_chat.js"
+  },
+  "keywords": [
+    "github",
+    "models",
+    "ai",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
