@@ -1,6 +1,6 @@
 # GitHub Copilot Guide
 
-Welcome to the GitHub Copilot guide! This document will help you understand and effectively use GitHub Copilot with your repositories on https://github.com/.
+Welcome to the GitHub Copilot guide! This document will help you understand and effectively use GitHub Copilot in your development environment while working on your projects.
 
 ## Table of Contents
 
@@ -95,8 +95,8 @@ GitHub Copilot is an AI-powered code completion tool developed by GitHub and Ope
 GitHub Copilot excels at converting natural language comments into code:
 
 ```python
-# Function to calculate the fibonacci sequence up to n terms
-# Returns a list of fibonacci numbers
+# Function to calculate the Fibonacci sequence up to n terms
+# Returns a list of Fibonacci numbers
 ```
 
 After writing the comment, press Enter, and Copilot will suggest the implementation.
@@ -104,7 +104,7 @@ After writing the comment, press Enter, and Copilot will suggest the implementat
 ### Generating Tests
 
 ```python
-# Write a unit test for the fibonacci function
+# Write a unit test for the Fibonacci function
 # Test cases: n=0, n=1, n=5, n=10
 ```
 
