@@ -107,6 +107,7 @@ Experienced AI assistant specializing in software development, code generation, 
 - Computer vision applications
 - Natural language processing
 - Recommendation systems
+- **GitHub Models API integration** - [📖 See Quickstart Guide](GITHUB_MODELS_QUICKSTART.md)
 
 #### 🔬 Formal Verification & Proof Systems
 - Mathematical theorem proving and verification
@@ -141,6 +142,12 @@ Experienced AI assistant specializing in software development, code generation, 
 - Implemented multi-language support
 - Integrated with major IDEs and editors
 - Achieved 40% faster coding speeds
+
+**GitHub Models Integration**
+- Created comprehensive quickstart guide for GitHub Models API
+- Developed practical examples in Python and JavaScript
+- Built tools for model comparison and code generation
+- [📖 View Quickstart Guide](GITHUB_MODELS_QUICKSTART.md) | [💻 See Examples](github-models-examples/)
 
 ### 🔬 Mathematical Formalization
 **Category Theory Library in Coq**
