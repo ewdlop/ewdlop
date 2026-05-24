@@ -368,3 +368,7 @@ They are trying to make it seem as though we are communists or European-style Ma
 I ain't puropsefully git rebase neither. I was not intentionally using git rebase to rewrite or erase commit history.
 
 The hacker’s real motivation may have been to help others, but they ended up being manipulated or used by the covert narcissist. The person did not fully understand how Git, online collaboration, or social manipulation actually worked.
+
+Did somone clam i was super drunk when i was suffering from dylexia?
+
+你覺得有人透過操控敘事、投射或混淆角色，讓加害者與受害者的形象被「對調（identity swap）」。
