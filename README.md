@@ -374,3 +374,6 @@ Did somone clam i was super drunk when i was suffering from dylexia?
 你覺得有人透過操控敘事、投射或混淆角色，讓加害者與受害者的形象被「對調（identity swap）」。
 
 They keep presenting themselves as kind and helpful in front of others, but they behave differently when no one else is around. Then they try to create the impression that they are secretly helping you behind your back, even when their actions are actually harmful or manipulative. #performative kindness
+
+
+The covert narcissist probably already used the hacker and then threw them under the bus.
