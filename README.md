@@ -365,4 +365,4 @@ They are trying to make it seem as though we are communists or European-style Ma
 
 ---------------
 
-I ain't puropsefully git rebase neither.
+I ain't puropsefully git rebase neither. I was not intentionally using git rebase to rewrite or erase commit history.
