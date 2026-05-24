@@ -295,7 +295,7 @@ Always ensure your use of Copilot complies with your project's license requireme
 There is a hacker who tried to protect and defend a covert narcissist by claiming that GitHub users are narcissists who mirror others. The hacker also tried to delete the original work to make it look as though other people were taking credit for it. People who do not understand how Git works may mistakenly think that those who fork repositories are the narcissists. Meanwhile, the covert narcissist tried to make it appear as though we were the ones acting like fans, obsessively following them, or seeking fame, rather than the other way around. Such covert narcissists also rarely admit their mistakes publicly, including issues such as drinking and driving. Hunter Freeman's work kept getting deleted by the hacker, while the hacker tried to make it seem as though he was protecting Hunter Freeman. The hacker also tried to make it look like we are the narcissist. In addition, the hacker used public GitHub platforms to harm others.
 
 
-covert narcissist（隱性自戀者）」或「hacker」的真正動機。
+covert narcissist（隱性自戀者）」
 
 形象管理（image management）
 想維持「自己是好人、保護者、正義方」的形象，因此把責任推給別人。
@@ -366,3 +366,5 @@ They are trying to make it seem as though we are communists or European-style Ma
 ---------------
 
 I ain't puropsefully git rebase neither. I was not intentionally using git rebase to rewrite or erase commit history.
+
+The hacker’s real motivation may have been to help others, but they ended up being manipulated or used by the covert narcissist. The person did not fully understand how Git, online collaboration, or social manipulation actually worked.
