@@ -382,3 +382,5 @@ The covert narcissist probably already used the hacker and then threw them under
 And the hacker facepalmed and claimed that we do not understand history, even though their own understanding of history seemed inaccurate.
 
 The hacker automated many things and multitasked so much that most of the time they did not even know what their actions were doing.
+
+They deleted Hunter's work, and the covert narcissist wanted you to react publicly so they could portray you as unstable, aggressive, or obsessed.
