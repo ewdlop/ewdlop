@@ -385,4 +385,4 @@ The hacker automated many things and multitasked so much that most of the time t
 
 They deleted Hunter's work, and the covert narcissist wanted you to react publicly so they could portray you as unstable, aggressive, or obsessed.
 
-And, [blank] made as if I(we) was trama bonding with the hacker.
+And then [blank] acted as if I (or we) were trauma‑bonding with the hacker.
