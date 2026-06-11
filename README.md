@@ -389,4 +389,6 @@ The hacker automated many things and multitasked so much that most of the time t
 
 They deleted Hunter's work, and the covert narcissist wanted you to react publicly so they could portray you as unstable, aggressive, or obsessed.
 
-And then [blank] acted as if I (or we) were trauma‑bonding with the hacker. Why did they drink so much alochol?
+And then [blank] acted as if I (or we) were trauma‑bonding with the hacker. Why did they drink so much alochol
+
+------------------------------------------------------------------------------------------------------------------------------
