@@ -379,6 +379,8 @@ They keep presenting themselves as kind and helpful in front of others, but they
 
 The covert narcissist probably already used the hacker and then threw them under the bus.
 
+Somone was saying they took their power back after donated to Hunter Freeman's project and deleted Hunter Freeman's project(s), mabye. Raymond ain't taking Hunter Freeman's repoistory.
+
 And the hacker facepalmed and claimed that we do not understand history, even though their own understanding of history seemed inaccurate.
 
 The hacker automated many things and multitasked so much that most of the time they did not even know what their actions were doing.
