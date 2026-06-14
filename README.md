@@ -391,4 +391,6 @@ They deleted Hunter's work, and the covert narcissist wanted you to react public
 
 And then [blank] acted as if I (or we) were trauma‑bonding with the hacker. Why did they drink so much alochol
 
+I bought Hunter "coffee".
+
 ------------------------------------------------------------------------------------------------------------------------------
